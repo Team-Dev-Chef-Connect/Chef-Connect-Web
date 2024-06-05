@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(32,0,36,1) 100%);
+  color: white;
+  border-bottom: 1px solid #7e7d7d47;
+}
+
+.navbar-logo img {
+  margin-left: 50px;
+  width: auto;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height:auto;
+  object-fit: cover;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #a5a5a5;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #fff;
+}
+
+.hireNowParent {
+  margin-right: 20px;
+  width: 80px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #320063, #5e328a 51.9%, #d324e3);
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hireNowParent:hover {
+  background: white;
+}
+
+.hireNowParent:hover .hireNow {
+  background: linear-gradient(90deg, #320063, #5e328a 51.9%, #d324e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hireNow {
+
+  color: white;
+  font-family: Inter, sans-serif;
+  transition: color 0.3s, background 0.3s;
+}

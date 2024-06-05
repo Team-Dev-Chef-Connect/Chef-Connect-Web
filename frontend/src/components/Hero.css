@@ -1,0 +1,67 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(32,0,36,1) 100%);
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    margin-bottom: 1.5rem;
+  }
+  
+  .highlight {
+    color: #f1c40f;
+  }
+  
+  .hireNowParent1 {
+    margin-right: 20px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(90deg, #320063, #5e328a 51.9%, #d324e3);
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .hireNowParent1.hireNowParent {
+    background: #fff;
+  }
+  
+  .hireNowParent1:hover .hireNow1 {
+    background: linear-gradient(90deg, #320063, #5e328a 51.9%, #d324e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hireNow1 {
+    color: white;
+    font-family: Inter, sans-serif;
+    transition: color 0.3s, background 0.3s;
+  }
+  
+  
+  .hero-image img {
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
