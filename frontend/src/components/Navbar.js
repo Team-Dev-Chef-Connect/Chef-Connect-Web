@@ -1,7 +1,6 @@
 import React, { Component } from 'react'; 
 import './Navbar.css';
 import logoImage from '../assests/image 3.png';
-import Signup from '../Signup'; // Import your Signup component
 
 class Navbar extends Component {
   state = { clicked: false };

@@ -6,6 +6,7 @@ function Login() {
 
     const handleClose = () => {
         setIsVisible(false);
+        window.location.href='/';
     };
 
     return (

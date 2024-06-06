@@ -7,6 +7,7 @@ function Signup() {
 
     const handleClose = () => {
         setIsVisible(false);
+        window.location.href='/';
     };
 
     return (

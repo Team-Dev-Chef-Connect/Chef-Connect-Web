@@ -1,7 +1,5 @@
 import React from 'react';
-import chefImage from '../assests/chef1.png'
-import vector5 from '../assests/Vector 5.png';
-import vector6 from '../assests/Vector 6.png'
+import chefImage from '../assests/chef.png'
 import './Hero.css';
 
 const Hero = () => {
@@ -12,8 +10,6 @@ const Hero = () => {
       <button>Book a Chef</button>
       <div className="hero-image-container">
         <img src={chefImage} alt="Chef" className="hero-image chef" />
-        <img src={vector6} alt="Vector6" className="hero-image vector6" />
-        <img src={vector5} alt="Vector5" className="hero-image vector5" />
       </div>
     </div>
   );
