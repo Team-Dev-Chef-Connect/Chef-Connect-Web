@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
       <div>
-      {/* <Navbar />
-      <Hero /> */}
+      <Navbar />
+      <Hero />
       <Services/>
         <Routes>
           <Route path="/signup" element={<Signup />} />
