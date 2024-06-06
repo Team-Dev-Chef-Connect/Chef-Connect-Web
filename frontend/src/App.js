@@ -4,13 +4,15 @@ import Signup from './Signup';
 import Login from './Login';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Services from './components/services';
 
 function App() {
   return (
     <Router>
       <div>
-      <Navbar />
-      <Hero />
+      {/* <Navbar />
+      <Hero /> */}
+      <Services/>
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />

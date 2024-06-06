@@ -1,0 +1,112 @@
+body {
+    background-color: #1c1c1e;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .services {
+    margin: 40px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  
+  .service-card {
+    background-color:#EAEAEA;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 210px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+    width: 250px;
+  }
+  
+  .service-card.highlighted {
+    background-color: #320063;
+    color: white;
+  }
+  
+  .service-card h3 {
+    margin-top: 0;
+    color: #461A71;
+    font-size: 18px;
+  }
+  .service-card.highlighted h3 {
+    margin-top: 0;
+    color: #F4DE6C;
+  }
+  .service-card p{
+    font-weight: 600;
+  }
+  .service-card.highlighted hr {
+    border: none;
+    border-top: 1px solid #EADC5F;
+    margin: 1rem 0;
+  }
+  .service-card hr {
+    border: none;
+    border-top: 1px solid #767676;
+    margin: 1rem 0;
+  }
+  
+  .service-card ul {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  
+  .service-card li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-card button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service-card .book-now {
+    background-color: #EAEAEA;
+    color: #461A71;
+    border: 2px solid #461A71;
+    font-weight: 600;
+  }
+  .service-card.highlighted .book-now {
+    background-color: #320063;
+    color: #EAEAEA;
+    border: 2px solid #eaeaea;
+    font-weight: 600;
+  }
+  .service-card .know-more {
+    color: #EAEAEA;
+    border: 1px solid #4a148c;
+    background: #46206C;
+    font-weight: 600;
+  }
+  .service-card.highlighted .know-more {
+    color:  #320063;
+    border: 1px solid #320063;
+    background: #f6f6f6;
+    font-weight: 600;
+  }
+  
+h2{
+    color: #F4DE6C;
+    letter-spacing: 5px;
+}
