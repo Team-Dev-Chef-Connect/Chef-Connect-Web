@@ -1,7 +1,8 @@
 import React, { Component } from 'react'; 
 import './Navbar.css';
 import logoImage from '../assests/image 3.png';
-import Signup from '../Signup'; // Import your Signup component
+import Signup from '../Signup'; 
+import Services from './services';
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -16,7 +17,7 @@ class Navbar extends Component {
       </div>
       <div className="navbar-links">
         <a href="#home" className="navbar-link">Home</a>
-        <a href="#services" className="navbar-link">Our Services</a>
+        <a href="/services" className="navbar-link">Our Services</a>
         <a href="#about" className="navbar-link">About us</a>
         <a href="#contact" className="navbar-link">Contact us</a>
       </div>

@@ -5,6 +5,9 @@ import Login from './Login';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/services';
+import Testimonial from './components/Testimonial';
+import Contact from './components/Contact';
+import NewHero from './components/NewHero';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Navbar />
       <Hero />
       <Services/>
+      <Testimonial/>
+      <Contact />
+      <NewHero />
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
