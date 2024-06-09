@@ -1,8 +1,11 @@
 import React, { Component } from 'react'; 
 import './Navbar.css';
 import logoImage from '../assests/image 3.png';
+<<<<<<< HEAD
 import Signup from '../Signup'; 
 import Services from './services';
+=======
+>>>>>>> 89bd59fa2065d2dda5ae89f5260822f3456321c3
 
 class Navbar extends Component {
   state = { clicked: false };
