@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import NewHero from './components/NewHero';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <Router>
