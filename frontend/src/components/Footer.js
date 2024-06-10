@@ -6,6 +6,7 @@ import facebook from '../assests/facebook.png';
 import instagram from '../assests/instagram.png';
 import twitter from '../assests/twitter.png';
 import linkedin from '../assests/linkedin.png';
+import youtube from '../assests/youtube.png';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -44,6 +45,9 @@ const Footer = () => {
               </a>
               <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin} alt="LinkedIn" className="social-icon"/>
+              </a>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                <img src={youtube} alt="Youtube" className="social-icon"/>
               </a>
             </div>
           </ul>
