@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './OTPVerification.css';
 
 const OTPVerification = ({ onClose }) => {
-  const [phoneNumber, setPhoneNumber] =     useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
 
   const handlePhoneNumberChange = (e) => {
     setPhoneNumber(e.target.value);

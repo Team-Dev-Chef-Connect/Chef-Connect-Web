@@ -1,61 +1,67 @@
 .otp-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .otp-modal-content {
-    background-color: #1f1f1f;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-  }
-  
-  .otp-modal-close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  
-  .otp-modal-content h2 {
-    color: #d4b44b;
-    margin-bottom: 1.5rem;
-  }
-  
-  .otp-modal-content input {
-    width: 80%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #d4b44b;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .otp-button {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #d4b44b;
-    color: #1f1f1f;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .otp-button:hover {
-    background-color: #c9a13b;
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.otp-modal-content {
+  background-color: #1f1f1f;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+.otp-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #111111;
+  border: 1px solid #111111;
+  border-radius: 50%;
+  color: #F4DE6C;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.otp-modal-content h2 {
+  color: #A09275;
+  margin-bottom: 1.5rem;
+}
+
+.otp-modal-content input {
+  width: 80%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #F6DE00;
+  border-radius: 5px;
+  background-color: #333;
+  color: #F1DBADA3;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  box-sizing: border-box;
+}
+
+.otp-button {
+  width: 80%;
+  padding: 0.2rem 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #F4DE6C;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.otp-button:hover {
+  background-color: #c9a13b;
+}

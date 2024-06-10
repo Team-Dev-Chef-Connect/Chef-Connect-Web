@@ -9,19 +9,22 @@ import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import NewHero from './components/NewHero';
 import Footer from './components/Footer';
+import OTPVerification from './OTP/OTPVerification';
 
 
 function App() {
   return (
     <Router>
       <div>
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <Services/>
       <Testimonial/>
       <Contact />
       <NewHero />
-      <Footer/>
+      <Footer/> */}
+      <OTPVerification />
+
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
