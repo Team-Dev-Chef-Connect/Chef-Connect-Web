@@ -1,0 +1,120 @@
+.otpcard {
+    width: 623px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    background: #11111182;
+    box-shadow: 0px 0px 31.13px 0px #00000015;
+    border-radius: 10px;
+    position: relative;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.otp-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.otpcard h1 {
+    width: 124px;
+    height: 32px;
+    font-family: Roboto, sans-serif;
+    font-size: 27.39px;
+    font-weight: 600;
+    line-height: 32.1px;
+    text-align: left;
+    color: #d4b44b;
+    margin-bottom: 1.5rem;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.otpcard p {
+    width: 248.87px;
+    height: 53px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.46px;
+    text-align: center;
+    color: #d4b44b;
+    margin-bottom: 1.5rem;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.otp-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.otp-inputs input {
+    width: 46.7px;
+    height: 46.7px;
+    border: 1px solid #F6DE00;
+    background-color: #E4E4E4;
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.verify-button {
+    width: 265px;
+    height: 48px;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #d4b44b;
+    color: #1f1f1f;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.verify-button:hover {
+    background-color: #c9a13b;
+}
+
+.otpcard .resend-text {
+    width: 191.76px;
+    height: 20.23px;
+    font-family: Roboto, sans-serif;
+    font-size: 17.43px;
+    font-weight: 400;
+    line-height: 20.43px;
+    text-align: left;
+    color: #d4b44b;
+    margin-bottom: 1.5rem;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.otpcard .resend-code {
+    width: 113.66px;
+    height: 21.79px;
+    font-family: Roboto, sans-serif;
+    font-size: 19.15px;
+    font-weight: 600;
+    line-height: 22.44px;
+    text-align: center;
+    color: #d4b44b;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 0px;
+    opacity: 0px;
+}
