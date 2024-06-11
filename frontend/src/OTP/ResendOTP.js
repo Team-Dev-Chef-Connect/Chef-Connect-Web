@@ -23,11 +23,11 @@ function ResendOTP({ onClose }) {
     };
 
     return (
-        <div className='otpCard'>
-            <button className="otpCloseButton" onClick={onClose}>×</button>
+        <div className='resend-otp-card'>
+            <button className="resend-otp-close-button" onClick={onClose}>×</button>
             <h1>Resend OTP</h1>
             <p>We have sent another code to your mobile number</p>
-            <div className='otpInputs'>
+            <div className='resend-otp-inputs'>
                 {otp.map((data, index) => (
                     <input
                         key={index}
@@ -40,9 +40,7 @@ function ResendOTP({ onClose }) {
                     />
                 ))}
             </div>
-            <button className='verifyButton'>Verify</button>
-            <p className='resendText'>Didn't receive the code?</p>
-            <h3 className='resendCode'>Resend Code</h3>
+            <button className='resend-verify-button'>Verify</button>
         </div>
     );
 }

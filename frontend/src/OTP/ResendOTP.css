@@ -1,4 +1,4 @@
-.otpcard {
+.resend-otp-card {
     width: 623px;
     height: 391px;
     display: flex;
@@ -7,15 +7,13 @@
     justify-content: center;
     padding: 2rem;
     box-sizing: border-box;
-    background: #11111182;
-    box-shadow: 0px 0px 31.13px 0px #00000015;
+    background: #111111;
     border-radius: 10px;
     position: relative;
-    gap: 0px;
-    opacity: 0px;
+    font-family: "Inter";
 }
 
-.otp-close-button {
+.resend-otp-close-button {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -26,41 +24,35 @@
     cursor: pointer;
 }
 
-.otpcard h1 {
-    width: 154px;
+.resend-otp-card h1 {
+    width: 200px;
     height: 32px;
-    font-family: Roboto, sans-serif;
     font-size: 27.39px;
     font-weight: 600;
     line-height: 32.1px;
     text-align: left;
-    color: #d4b44b;
+    color: #A09275;
     margin-bottom: 1.5rem;
-    gap: 0px;
-    opacity: 0px;
 }
 
-.otpcard p {
+.resend-otp-card p {
     width: 248.87px;
     height: 53px;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26.46px;
     text-align: center;
-    color: #d4b44b;
+    color: #A09275;
     margin-bottom: 1.5rem;
-    gap: 0px;
-    opacity: 0px;
 }
 
-.otp-inputs {
+.resend-otp-inputs {
     display: flex;
     gap: 10px;
     margin-bottom: 1.5rem;
 }
 
-.otp-inputs input {
+.resend-otp-inputs input {
     width: 46.7px;
     height: 46.7px;
     border: 1px solid #F6DE00;
@@ -73,48 +65,20 @@
     opacity: 0px;
 }
 
-.verify-button {
+.resend-verify-button {
     width: 265px;
     height: 48px;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 20px;
-    background-color: #d4b44b;
-    color: #1f1f1f;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-bottom: 1.5rem;
-}
-
-.verify-button:hover {
-    background-color: #c9a13b;
-}
-
-.otpcard .resend-text {
-    width: 191.76px;
-    height: 20.23px;
-    font-family: Roboto, sans-serif;
-    font-size: 17.43px;
-    font-weight: 400;
-    line-height: 20.43px;
-    text-align: left;
-    color: #d4b44b;
-    margin-bottom: 1.5rem;
-    gap: 0px;
-    opacity: 0px;
-}
-
-.otpcard .resend-code {
-    width: 113.66px;
-    height: 21.79px;
-    font-family: Roboto, sans-serif;
-    font-size: 19.15px;
+    background-color: #F4DE6C;
+    color: #fff;
     font-weight: 600;
-    line-height: 22.44px;
-    text-align: center;
-    color: #d4b44b;
-    border-radius: 5px;
+    font-size: 20.7px;
     cursor: pointer;
-    gap: 0px;
-    opacity: 0px;
+    margin-bottom: 1.5rem;
+}
+
+.resend-verify-button:hover {
+    background-color: #c9a13b;
 }

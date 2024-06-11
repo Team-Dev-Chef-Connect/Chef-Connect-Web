@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import OTPVerification from './OTP/OTPVerification';
 import EnterOTP from './OTP/EnterOTP';
 import ResendOTP from './OTP/ResendOTP';
+import OTPThanku from './OTP/OTPThanku';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='/otpverify' element={<OTPVerification/>} />
           <Route path='/enterotp' element={<EnterOTP/>} />
           <Route path='resendotp' element={<ResendOTP/>} />
+          <Route path='/thanks' element={<OTPThanku />}/>
         </Routes>
       </div>
     </Router>
