@@ -34,6 +34,7 @@
   
   .email-input {
     background-color: transparent;
+    color:  #F4DE6C;
     border: none;
     outline: none;
     font-size: 1em;
@@ -51,9 +52,17 @@
   }
   
   .contact-phone {
+    margin-top: 70px;
+    position: absolute;
+    left: 25px;
     font-size: 1.2em;
     color: rgba(234, 220, 95, 1);
     letter-spacing: 4px;
-    margin-right: 80px;
-  }
-  
+}
+
+.error-message {
+  color: #F4DE6C;
+  margin-top: 0px;
+  margin-right: 180px;
+  font-size: 1.3em;
+}

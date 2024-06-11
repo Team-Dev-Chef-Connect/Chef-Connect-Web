@@ -10,6 +10,8 @@ import Contact from './components/Contact';
 import NewHero from './components/NewHero';
 import Footer from './components/Footer';
 import OTPVerification from './OTP/OTPVerification';
+import EnterOTP from './OTP/EnterOTP';
+import ResendOTP from './OTP/ResendOTP';
 
 function App() {
   return (
@@ -22,10 +24,12 @@ function App() {
         <Contact />
         <NewHero />
         <Footer/>
-        {/* <OTPVerification /> */}
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path='/otpverify' element={<OTPVerification/>} />
+          <Route path='/enterotp' element={<EnterOTP/>} />
+          <Route path='resendotp' element={<ResendOTP/>} />
         </Routes>
       </div>
     </Router>
