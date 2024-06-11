@@ -26,13 +26,11 @@
   text-align: left;
   width: 100%;
   word-wrap: break-word;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+  overflow: hidden;}
 
 .hero-description {
   width: 591px;
-  margin-left: 100px;
+  margin-left: 3px;
   font-family: "Inter", sans-serif;
   font-size: 19px;
   font-weight: 500;
@@ -45,7 +43,7 @@
 }
 
 .booknowparent {
-  margin-left: 100px;
+  margin-left: 3px;
   width: 210px;
   height: 45px;
   gap: 10px;
