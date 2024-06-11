@@ -19,17 +19,17 @@ function App() {
       <div>
         <Navbar />
         <Hero />
-        <Services />
-        <Testimonial />
+        <Services/>
+        <Testimonial/>
         <Contact />
         <NewHero />
-        <Footer />
+        <Footer/>
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/otpverify" element={<OTPVerification />} />
-          <Route path="/enterotp" element={<EnterOTP />} />
-          <Route path="/resendotp" element={<ResendOTP />} />
+          <Route path='/otpverify' element={<OTPVerification/>} />
+          <Route path='/enterotp' element={<EnterOTP/>} />
+          <Route path='resendotp' element={<ResendOTP/>} />
         </Routes>
       </div>
     </Router>

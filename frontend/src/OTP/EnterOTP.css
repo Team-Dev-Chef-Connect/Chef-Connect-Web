@@ -1,46 +1,42 @@
-.otpcard {
-    width: 623px;
-    height: 391px;
+.otpCard {
+    width: 650px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     box-sizing: border-box;
-    background: #11111182;
-    box-shadow: 0px 0px 31.13px 0px #00000015;
+    background: #1f1f1f;
     border-radius: 10px;
     position: relative;
-    gap: 0px;
-    opacity: 0px;
+    font-family: "Inter";
+    margin: 40px;
 }
 
-.otp-close-button {
+.otpCloseButton {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: none;
+    background:black;
     border: none;
+    border-radius: 50%;
     color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.otpcard h1 {
-    width: 124px;
+.otpCard h1 {
+    width: 150px;
     height: 32px;
-    font-family: Roboto, sans-serif;
     font-size: 27.39px;
     font-weight: 600;
     line-height: 32.1px;
     text-align: left;
-    color: #d4b44b;
-    margin-bottom: 1.5rem;
-    gap: 0px;
-    opacity: 0px;
+    color: #A09275;
 }
 
-.otpcard p {
+.otpCard p {
     width: 248.87px;
     height: 53px;
     font-family: Roboto, sans-serif;
@@ -48,19 +44,17 @@
     font-weight: 400;
     line-height: 26.46px;
     text-align: center;
-    color: #d4b44b;
+    color: #A09275;
     margin-bottom: 1.5rem;
-    gap: 0px;
-    opacity: 0px;
 }
 
-.otp-inputs {
+.otpInputs {
     display: flex;
     gap: 10px;
     margin-bottom: 1.5rem;
 }
 
-.otp-inputs input {
+.otpInputs input {
     width: 46.7px;
     height: 46.7px;
     border: 1px solid #F6DE00;
@@ -69,52 +63,45 @@
     text-align: center;
     font-size: 20px;
     border-radius: 5px;
-    gap: 0px;
-    opacity: 0px;
 }
 
-.verify-button {
+.verifyButton {
     width: 265px;
     height: 48px;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 20px;
-    background-color: #d4b44b;
-    color: #1f1f1f;
-    font-size: 1rem;
+    background-color: #F4DE6C;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20.7px;
     cursor: pointer;
     margin-bottom: 1.5rem;
 }
 
-.verify-button:hover {
+.verifyButton:hover {
     background-color: #c9a13b;
 }
 
-.otpcard .resend-text {
+.otpCard .resendText {
     width: 191.76px;
     height: 20.23px;
-    font-family: Roboto, sans-serif;
     font-size: 17.43px;
     font-weight: 400;
     line-height: 20.43px;
     text-align: left;
-    color: #d4b44b;
+    color: #A09275;
     margin-bottom: 1.5rem;
-    gap: 0px;
-    opacity: 0px;
 }
 
-.otpcard .resend-code {
-    width: 113.66px;
+.otpCard .resendCode {
+    width: 150px;
     height: 21.79px;
-    font-family: Roboto, sans-serif;
-    font-size: 19.15px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 22.44px;
     text-align: center;
-    color: #d4b44b;
+    color: #F4DE6C;
     border-radius: 5px;
     cursor: pointer;
-    gap: 0px;
-    opacity: 0px;
 }

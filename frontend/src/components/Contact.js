@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="contact-form">
           <input 
             type="text" 
-            placeholder="Your Contact Number..." 
+            placeholder="Your Contact Number...." 
             className="email-input" 
             value={phoneNumber} 
             onChange={handlePhoneNumberChange} 

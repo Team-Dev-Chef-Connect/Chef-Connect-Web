@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
 .footer {
   background-color: #111;
   color: #fff;
   padding: 20px 0;
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;  /* Decreased font size */
+  font-family: "Inter";
+  font-size: 18px;  
   font-weight: 300;
-  line-height: 22px;  /* Adjusted line height accordingly */
+  line-height: 22px; 
   text-align: justify;
 }
 
@@ -16,37 +14,52 @@
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 250px;
 }
 
 .logo-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100px;
 }
 
 .logo, .secondary-logo {
   max-width: 100px;
-  margin-bottom: 10px;
 }
-
+.logo{
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
 .company-name {
   font-size: 20px;
   font-weight: bold;
+  width: 146.96px;
 }
 
 .footer-links {
   display: flex;
   flex-direction: row;
+  gap: 7rem;
+  margin-top: 50px;
+
 }
 
 .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0 20px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Inter";
+  
 }
 
 .footer-links li {
   margin-bottom: 10px;
+  line-height: 18.87px;
 }
 
 .footer-links a {
@@ -85,18 +98,21 @@
   padding: 10px 20px;
   border-top: 1px solid #444;
   margin-top: 20px;
+  
 }
 
 .footer-bottom-left {
   padding: 0px 30px;
   text-align: left;
   flex: 1;
+  margin-left: 100px;
 }
 
 .footer-bottom-right {
   padding: 0px 30px 0px 0px;
   text-align: right;
   flex: 1;
+  margin-right: 100px;
 }
 
 .footer-bottom a {

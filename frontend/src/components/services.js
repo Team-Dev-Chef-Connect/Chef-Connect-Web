@@ -1,9 +1,15 @@
 import React from 'react';
 import './services.css';
+import Left from '../assests/left.png';
+import Right from '../assests/right.png';
 
 const Services = () => (
   <div className="services">
-    <h2>OUR SERVICES</h2>
+    <div className="heading-container">
+    <img src={Left} alt="line" className="line-image" />
+      <h2>OUR SERVICES</h2>
+      <img src={Right} alt="line" className="line-image" />
+    </div>
     <div className="service-cards">
       <div className="service-card">
         <h3>Chef for Party</h3>

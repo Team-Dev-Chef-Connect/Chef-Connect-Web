@@ -5,62 +5,86 @@
   justify-content: center;
   align-items: flex-start;
   padding: 2rem 2rem;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(32, 0, 36, 1) 100%);
+  background: url('../assests/herobackvector.png');
+  /* background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(32, 0, 36, 1) 100%); */
   color: white;
   position: relative;
 }
 
 .hero h1 {
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 50px;
   font-weight: 800;
   line-height: 60.51px;
   text-align: left;
   width: 666px;
-  margin: 0 0 0.5rem 0;
+  margin-left: 100px;
+  margin-top: -90px;
   padding: auto;
+  margin-bottom: 00;
 }
 
 .hero-description {
   width: 591px;
-  font-family: Inter, sans-serif;
+  margin-left: 100px;
+  font-family: "Inter", sans-serif;
   font-size: 19px;
   font-weight: 500;
   line-height: 23px;
   text-align: left;
-  margin-bottom: 1rem;
 }
 
 .highlight {
-  color: #f1c40f;
+  color: #F4DE6C;
 }
 
-.hero button {
-  width: 150px;
-  height: 50px;
-  padding: 10px;
+
+.booknowparent {
+  margin-left: 100px;
+  width: 210px;
+  height: 45px;
   gap: 10px;
-  border-radius: 82px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 82px;
   opacity: 1;
-  background: linear-gradient(90deg, #b927cf 0%, #5e1469 100%);
+  background: linear-gradient(90deg, #320063, #5e328a 51.9%, #d324e3);
   border: none;
-  border-radius: 50px;
   color: white;
-  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
   cursor: pointer;
-  transition: background 0.3s, opacity 0.3s;
+  transition: background 0.3s, color 0.3s;
 }
 
-.hero button:hover {
-  opacity: 0.7;
+.booknowparent:hover {
+  background: white;
 }
+
+.booknowparent:hover .booknow {
+  background: linear-gradient(90deg, #320063, #5e328a 51.9%, #d324e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.booknow {
+  color: white;
+  font-family: "Inter", sans-serif;
+  transition: color 0.3s, background 0.3s;
+}
+
 
 .hero-image-container {
   position: absolute; 
   top: 10px;
   right: 2rem;
-  width: auto;
-  height: 505px;
+  width: 510px ;
+  height: 550px;
+  margin-right: 120px;
 }
 
 .hero-image {

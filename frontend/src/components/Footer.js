@@ -7,13 +7,14 @@ import instagram from '../assests/instagram.png';
 import twitter from '../assests/twitter.png';
 import linkedin from '../assests/linkedin.png';
 import youtube from '../assests/youtube.png';
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="logo-section">
           <img src={chefconnectlogo} alt="Chef Connect Logo" className="logo" />
-          <img src={checfconnect} alt='Chef Connect' className="secondary-logo"/>
+          <img src={checfconnect} alt='Chef Connect' className="secondary-logo" />
         </div>
         <div className="footer-links">
           <ul>
@@ -34,20 +35,20 @@ const Footer = () => {
             <li><a href="/waiters">Waiters</a></li>
             <li className="follow-us">Follow Us</li>
             <div className="social-icons">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                <img src={facebook} alt="Facebook" className="social-icon"/>
+              <a href="https://www.facebook.com/people/Chef-Connect/100064049360566/" target="_blank" rel="noopener noreferrer">
+                <img src={facebook} alt="Facebook" className="social-icon" />
               </a>
               <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                <img src={twitter} alt="Twitter" className="social-icon"/>
+                <img src={twitter} alt="Twitter" className="social-icon" />
               </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src={instagram} alt="Instagram" className="social-icon"/>
+              <a href="https://www.instagram.com/chefconnectindia/?hl=en" target="_blank" rel="noopener noreferrer">
+                <img src={instagram} alt="Instagram" className="social-icon" />
               </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                <img src={linkedin} alt="LinkedIn" className="social-icon"/>
+              <a href="https://in.linkedin.com/company/rida-rahil-a76540203" target="_blank" rel="noopener noreferrer">
+                <img src={linkedin} alt="LinkedIn" className="social-icon" />
               </a>
-              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                <img src={youtube} alt="Youtube" className="social-icon"/>
+              <a href="https://www.youtube.com/channel/UCaVoAAozf_KFj5qcvXhQ3sA" target="_blank" rel="noopener noreferrer">
+                <img src={youtube} alt="Youtube" className="social-icon" />
               </a>
             </div>
           </ul>

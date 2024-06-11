@@ -7,10 +7,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter";
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: add a semi-transparent background */
+  z-index: 9999; /* Ensure the modal is above other content */
 }
 
 .otp-modal-content {
+  width: 400px;
   background-color: #1f1f1f;
   padding: 3rem;
   border-radius: 10px;
@@ -34,34 +37,45 @@
 .otp-modal-content h2 {
   color: #A09275;
   margin-bottom: 1.5rem;
+  font-size: 29px;
+  line-height: 33.98px;
+  font-weight: 400;
+  letter-spacing: normal;
 }
 
 .otp-modal-content input {
-  width: 80%;
+  width: 288px;
+  height: 48px;
   padding: 0.5rem;
   margin-bottom: 1rem;
   border: 1px solid #F6DE00;
   border-radius: 5px;
   background-color: #333;
   color: #F1DBADA3;
-  font-size: 10px;
-  letter-spacing: 1.5px;
+  font-size: 14px;
+  letter-spacing: 0.17rem;
   box-sizing: border-box;
 }
 
 .otp-button {
-  width: 80%;
-  padding: 0.3rem 0;
+  width: 288px;
+  height: 48px;
+  padding: 12px 105px;
   border: none;
   border-radius: 5px;
   background-color: #F4DE6C;
   color: #FFFFFF;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 19px;
   cursor: pointer;
   box-sizing: border-box;
 }
 
 .otp-button:hover {
   background-color: #c9a13b;
+}
+
+.error-message-2{
+  font-size: 20px;
+  font-family: "Inter";
 }

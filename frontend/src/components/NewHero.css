@@ -18,15 +18,20 @@
 }
 
 .text-overlay p {
-    font-size: 1.2rem;
-    margin: 0;
+    font-size: 23.7px;
     letter-spacing: 5px;
     font-weight: 500;
+    font-family: "Inter";
+    line-height: 28.7px;
 }
 
 .text-overlay h1 {
-    font-size: 2.8rem;
-    margin: 0;
+    font-size: 53.5px;
+    font-family: "Inter";
+    font-weight: 700;
+    line-height: 54.18px;
+    width: 656.25px;
+    height: 109px;
     color: #FF9B05; 
-    letter-spacing: 6px;
+    letter-spacing: 7px;
 }

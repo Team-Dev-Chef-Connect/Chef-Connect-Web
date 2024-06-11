@@ -1,4 +1,3 @@
-/* Testimonial.css */
 
 .testimonial-container {
     background-color: #1a1a1a;
@@ -7,47 +6,56 @@
     padding: 50px;
     border-radius: 10px;
     position: relative;
-    max-width: 500px;
+    width: 627.81px;
+    height: 320px;
     margin: auto;
     margin-top: 100px;
   }
   
   .quote-symbol {
     position: absolute;
-    font-size: 230px;
-  color: #EADC5F;
-  font-family: 'Times New Roman', Times, serif;
+    font-size: 252.72px;
+    color: #EADC5F;
+    font-family: "Playfair Display";
   }
   
   .quote-left {
-    top: -75px;
+    top: -120px;
     left: 15px;
   }
   
   .quote-right {
-    bottom: -170px;
+    bottom: -210px;
     right: 10px;
   }
   
   .testimonial-content h3 {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight:700;
+    letter-spacing: 0.54rem;
     color:#F4DE6C;
+    font-family: "Poppins";
+    line-height: 15.93px;
   }
   
   .testimonial-content h2 {
-    font-size: 28px;
+    font-size: 42px;
     font-weight: 700;
-    margin: 10px 0;
-    letter-spacing: normal;
+    font-family: "Playfair Display";
+    color: #F6DE00;
+    letter-spacing: 0.09rem;
   }
   
   .testimonial-content p {
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
-    margin: 20px 0;
     color: white;
+    font-family: "Playfair Display";
+    line-height: 1.6x;
+    font-weight: 600;
+    align-content: center;
+    letter-spacing: 2%;
+    margin: 20px;
   }
   
   .testimonial-footer {
@@ -60,12 +68,16 @@
   .stars {
     font-size: 10px;
     color: #F9A400;
+    width: 74.75px;
+    height: 12px;
   }
   
   .author {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 10px;
+    font-weight: 500;
     color: white;
-    margin-top: 10px;
+    margin-top: 50px;
+    width: 200px;
+    font-family: "Poppins";
   }
   

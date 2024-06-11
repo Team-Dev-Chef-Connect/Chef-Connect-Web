@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ResendOTP.css';
 
-function ResendOTP() {
+function ResendOTP({ onClose }) {
     const [otp, setOtp] = useState(['', '', '', '']);
 
     const handleChange = (element, index) => {
@@ -11,30 +11,23 @@ function ResendOTP() {
         newOtp[index] = element.value;
         setOtp(newOtp);
 
-        // Automatically focus the next input box if a value is entered
         if (element.nextSibling && element.value) {
             element.nextSibling.focus();
         }
     };
 
     const handleKeyUp = (event, index) => {
-        // Move to the previous input box when Backspace is pressed and the current box is empty
         if (event.key === 'Backspace' && !otp[index] && event.target.previousSibling) {
             event.target.previousSibling.focus();
         }
     };
 
-    const handleClose = () => {
-        // Logic to handle close action
-        console.log('OTP card closed');
-    };
-
     return (
-        <div className='otpcard'>
-            <button className="otp-close-button" onClick={handleClose}>×</button>
+        <div className='otpCard'>
+            <button className="otpCloseButton" onClick={onClose}>×</button>
             <h1>Resend OTP</h1>
             <p>We have sent another code to your mobile number</p>
-            <div className='otp-inputs'>
+            <div className='otpInputs'>
                 {otp.map((data, index) => (
                     <input
                         key={index}
@@ -47,9 +40,9 @@ function ResendOTP() {
                     />
                 ))}
             </div>
-            <button className='verify-button'>Verify</button>
-            <p className='resend-text'>Didn't receive the code?</p>
-            <h3 className='resend-code'>Resend Code</h3>
+            <button className='verifyButton'>Verify</button>
+            <p className='resendText'>Didn't receive the code?</p>
+            <h3 className='resendCode'>Resend Code</h3>
         </div>
     );
 }

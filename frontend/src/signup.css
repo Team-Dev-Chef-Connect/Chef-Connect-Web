@@ -1,8 +1,8 @@
 .signup {
     width: 537px;
-    height: auto;
+    height: 537px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     gap: 0px;
@@ -11,11 +11,16 @@
     box-shadow: 0px 5px 15px 0px #00000059;
     border-radius: 10px;
     padding: 20px;
+    font-family: "Inter";
 }
 
 .signup h1 {
     color: white;
     text-align: center;
+    font-size: 32px;
+    font-family: "Inter";
+    font-weight: 700;line-height: 37.5px;
+
 }
 
 .signup form {
@@ -27,7 +32,7 @@
 }
 
 .signup input {
-    width: 331px;
+    width: 340px;
     height: 41px;
     padding: 13px 16px;
     gap: 0px;

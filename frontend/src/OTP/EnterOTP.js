@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './EnterOTP.css';
+import ResendOTP from './ResendOTP';
 
-function EnterOTP() {
+function EnterOTP({ onClose }) {
+    const [showResendOTP, setShowResendOTP] = useState(false);
     const [otp, setOtp] = useState(['', '', '', '']);
 
     const handleChange = (element, index) => {
@@ -22,17 +24,22 @@ function EnterOTP() {
         }
     };
 
-    const handleClose = () => {
-        // Logic to handle close action
-        console.log('OTP card closed');
+    const handleGetOtp = () => {
+        setShowResendOTP(true);
+    };
+
+    const handleCloseOtp = () => {
+        console.log("Close OTP button clicked");
+        setShowResendOTP(false);
+        onClose();
     };
 
     return (
-        <div className='otpcard'>
-            <button className="otp-close-button" onClick={handleClose}>×</button>
+        <div className='otpCard'>
+            <button className="otpCloseButton" onClick={handleCloseOtp}>×</button>
             <h1>Enter OTP</h1>
             <p>We have sent a verification code to your mobile number</p>
-            <div className='otp-inputs'>
+            <div className='otpInputs'>
                 {otp.map((data, index) => (
                     <input
                         key={index}
@@ -45,9 +52,10 @@ function EnterOTP() {
                     />
                 ))}
             </div>
-            <button className='verify-button'>Verify</button>
-            <p className='resend-text'>Didn't receive the code?</p>
-            <h3 className='resend-code'>Resend Code</h3>
+            <button className='verifyButton'>Verify</button>
+            <p className='resendText'>Didn't receive the code?</p>
+            <h3 className='resendCode' onClick={handleGetOtp}>Resend Code</h3>
+            {showResendOTP && <ResendOTP onClose={() => setShowResendOTP(false)} />}
         </div>
     );
 }
