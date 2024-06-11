@@ -12,7 +12,7 @@
   width: 217px;
   position: relative;
   overflow: hidden;
-  height:28px;
+  height: 28px;
   object-fit: cover;
   margin-top: 20px;
   margin-left: 100px;
@@ -69,4 +69,74 @@
   color: white;
   font-family: "Inter", sans-serif;
   transition: color 0.3s, background 0.3s;
+}
+
+.navbar-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+@media (max-width: 512px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-logo img {
+    margin-left: 20px;
+  }
+
+  .hireNowParent {
+    margin-right: 20px;
+  }
+
+  /* New styles for toggle content */
+  .navbar-links.active::before {
+    content: '';
+    display: block;
+    width: 219.14px;
+    height: 216.06px;
+    top: 30.72px;
+    left: 256px;
+    gap: 0px;
+    border-radius: 4.1px 0px 0px 0px;
+    opacity: 1;
+    background: #FFFFFF;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .navbar-links.active .navbar-link {
+    width: 58px;
+    height: 25px;
+    margin-top: 65.54px;
+    margin-left: 270.34px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Inter;
+    font-size: 20.48px;
+    font-weight: 400;
+    line-height: 24.79px;
+    text-align: left;
+    color: #320063;
+    padding: 5px;
+    display: block;
+  }
 }
