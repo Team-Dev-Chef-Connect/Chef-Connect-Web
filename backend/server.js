@@ -5,16 +5,20 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 5000;
+const port = 5000; // You can change this if needed
 
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://martandmahajan:3ANlxPH6BRAvdENV@userdetails.xwdinvo.mongodb.net/?retryWrites=true&w=majority&appName=UserDetails', {
+const mongoURI = 'mongodb+srv://martandmahajan:3ANlxPH6BRAvdENV@userdetails.xwdinvo.mongodb.net/?retryWrites=true&w=majority&appName=UserDetails';
+
+mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 30000, // Increase timeout to 30 seconds
+    socketTimeoutMS: 45000, // Increase timeout to 45 seconds
 })
 .then(() => console.log('MongoDB connected'))
 .catch((err) => console.error('MongoDB connection error:', err));

@@ -33,25 +33,29 @@ const Footer = () => {
             <li><a href="/chefs-cooks">Chefs & Cooks</a></li>
             <li><a href="/bartenders">Bartenders</a></li>
             <li><a href="/waiters">Waiters</a></li>
-            <li className="follow-us">Follow Us</li>
-            <div className="social-icons">
-              <a href="https://www.facebook.com/people/Chef-Connect/100064049360566/" target="_blank" rel="noopener noreferrer">
-                <img src={facebook} alt="Facebook" className="social-icon" />
-              </a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                <img src={twitter} alt="Twitter" className="social-icon" />
-              </a>
-              <a href="https://www.instagram.com/chefconnectindia/?hl=en" target="_blank" rel="noopener noreferrer">
-                <img src={instagram} alt="Instagram" className="social-icon" />
-              </a>
-              <a href="https://in.linkedin.com/company/rida-rahil-a76540203" target="_blank" rel="noopener noreferrer">
-                <img src={linkedin} alt="LinkedIn" className="social-icon" />
-              </a>
-              <a href="https://www.youtube.com/channel/UCaVoAAozf_KFj5qcvXhQ3sA" target="_blank" rel="noopener noreferrer">
-                <img src={youtube} alt="Youtube" className="social-icon" />
-              </a>
-            </div>
           </ul>
+        </div>
+      </div>
+      <div className="follow-us-container"> 
+        <div className="follow-us">
+          <p>Follow Us</p>
+          <div className="social-icons">
+            <a href="https://www.facebook.com/people/Chef-Connect/100064049360566/" target="_blank" rel="noopener noreferrer">
+              <img src={facebook} alt="Facebook" className="social-icon" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+              <img src={twitter} alt="Twitter" className="social-icon" />
+            </a>
+            <a href="https://www.instagram.com/chefconnectindia/?hl=en" target="_blank" rel="noopener noreferrer">
+              <img src={instagram} alt="Instagram" className="social-icon" />
+            </a>
+            <a href="https://in.linkedin.com/company/rida-rahil-a76540203" target="_blank" rel="noopener noreferrer">
+              <img src={linkedin} alt="LinkedIn" className="social-icon" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCaVoAAozf_KFj5qcvXhQ3sA" target="_blank" rel="noopener noreferrer">
+              <img src={youtube} alt="Youtube" className="social-icon" />
+            </a>
+          </div>
         </div>
       </div>
       <div className="footer-bottom">

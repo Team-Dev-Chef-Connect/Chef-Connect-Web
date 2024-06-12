@@ -81,3 +81,64 @@
     font-family: "Poppins";
   }
   
+  @media (max-width: 512px) {
+    .testimonial-container {
+        width: 380.93px;
+        height: 499.72px;
+        margin-top: 0;
+        padding: 20px;
+    }
+
+    .quote-symbol {
+        font-size: 180px;
+    }
+
+    .quote-left {
+        top: -90px;
+        left: 10px;
+    }
+
+    .quote-right {
+        bottom: -150px;
+        right: 5px;
+    }
+
+    .testimonial-content h3 {
+        font-size: 12px;
+        letter-spacing: 0.3rem;
+    }
+
+    .testimonial-content h2 {
+        font-size: 35px;
+    }
+
+    .testimonial-content p {
+        width: 288.16px;
+        font-size: 20.71px;
+        font-weight: 600;
+        line-height: 27.6px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin: 0 auto 20px auto;
+    }
+
+    .testimonial-footer {
+        margin-top: 0;
+    }
+
+    .stars {
+        width: 70.69px;
+        height: 11.78px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .author {
+        width: 223px;
+        font-size: 13.74px;
+        line-height: 16.63px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin: 10px 0;
+    }
+}

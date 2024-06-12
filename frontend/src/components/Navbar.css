@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 512px) {
+  .hireNowParent{
+    width: 98px;
+  }
   .navbar-links {
     display: none;
     flex-direction: column;
@@ -93,7 +96,6 @@
     /* Center it within the screen */
     gap: 0px;
     border: 1.02px solid transparent;
-    opacity: 0;
     background: white;
     padding: 1rem 0;
     text-align: center;
@@ -109,6 +111,14 @@
 
   .navbar-toggle {
     display: block;
+    cursor: pointer;
+    font-size: 1.5rem; /* Adjust font size */
+    color: #BDBDBD;
+    ; /* Make the color of the toggle button black */
+    position: absolute;
+    top: 30px; /* Adjust top position */
+    right: 5px; /* Adjust right position */
+    z-index: 1000; /* Ensure it is above other elements */
   }
 
   .navbar-logo img {
@@ -123,13 +133,13 @@
   .navbar-links.active::before {
     content: '';
     display: block;
-    width: 100%;
-    max-width: 219.14px;
+    width: calc(100% - 40px);
+    max-width: 190.14px;
     height: 100%;
     top: 0;
     left: 0;
     border-radius: 4.1px 0 0 0;
-    opacity: 1;
+    opacity: 1; /* Ensure full opacity */
     background: #FFFFFF;
     position: absolute;
     z-index: -1;

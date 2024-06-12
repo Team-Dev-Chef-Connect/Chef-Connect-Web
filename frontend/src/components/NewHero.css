@@ -35,3 +35,43 @@
     color: #FF9B05; 
     letter-spacing: 7px;
 }
+
+@media (max-width: 512px) {
+    .background-container {
+        width: 511.69px;
+        height: 342.02px;
+        
+    }
+
+    .text-overlay p {
+        width: 402.43px;
+        height: auto;
+        top: 3305.47px;
+        left: 55.3px;
+        gap: 0px;
+        opacity: 1; /* Changed opacity to 1 to keep it visible */
+        font-family: Inter;
+        font-size: 23.78px;
+        font-weight: 500;
+        line-height: 28.8px;
+        letter-spacing: 0.17em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .text-overlay h1 {
+        width: 443.39px;
+        height: auto;
+        top: 3380.22px;
+        left: 33.79px;
+        gap: 0px;
+        opacity: 1; /* Changed opacity to 1 to keep it visible */
+        font-family: Inter;
+        font-size: 51.2px;
+        font-weight: 700;
+        line-height: 54.36px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #FF9B05;
+    }
+}

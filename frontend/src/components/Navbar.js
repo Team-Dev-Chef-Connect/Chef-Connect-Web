@@ -29,7 +29,7 @@ class Navbar extends Component {
           <div className='hireNow'>Log In</div>
         </div>
         <div className="navbar-toggle" onClick={this.handleClick}>
-          ☰
+          {this.state.clicked ? '✕' : '☰'}
         </div>
       </nav>
     );
