@@ -82,17 +82,23 @@
   .navbar-links {
     display: none;
     flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 80px;
-    left: 0;
+    width: 90%; /* Adjust width to fit within the screen */
+    max-width: 219.14px; /* Ensure it doesn't exceed its intended width */
+    height: auto; /* Adjust height as needed */
+    top: 30.72px;
+    left: 5%; /* Center it within the screen */
+    gap: 0px;
+    border: 1.02px solid transparent;
+    opacity: 0;
     background: white;
     padding: 1rem 0;
     text-align: center;
+    position: absolute; /* Ensure positioning is relative to parent */
   }
 
   .navbar-links.active {
     display: flex;
+    opacity: 1; /* Make sure the box is visible */
   }
 
   .navbar-toggle {
@@ -111,12 +117,12 @@
   .navbar-links.active::before {
     content: '';
     display: block;
-    width: 219.14px;
-    height: 216.06px;
-    top: 30.72px;
-    left: 256px;
-    gap: 0px;
-    border-radius: 4.1px 0px 0px 0px;
+    width: 100%;
+    max-width: 219.14px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4.1px 0 0 0;
     opacity: 1;
     background: #FFFFFF;
     position: absolute;
@@ -124,17 +130,14 @@
   }
 
   .navbar-links.active .navbar-link {
-    width: 58px;
-    height: 25px;
-    margin-top: 65.54px;
-    margin-left: 270.34px;
-    gap: 0px;
+    width: 100%;
+    margin: 0.5rem 0;
     opacity: 1;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 20.48px;
     font-weight: 400;
     line-height: 24.79px;
-    text-align: left;
+    text-align: center;
     color: #320063;
     padding: 5px;
     display: block;
