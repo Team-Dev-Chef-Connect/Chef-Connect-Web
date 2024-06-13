@@ -4,11 +4,11 @@ import ChefLogo from '../assests/newlogo.png';
 import Whatsapp from '../assests/whatsapp.png';
 import Call from '../assests/call.png';
 
-const Chat = () => {
+const Chat = ({ onClose }) => {
   return (
     <div className="contact-card">
       <div className="contact-card-content">
-        <button className="contact-card-close">&times;</button>
+        <button className="contact-card-close" onClick={onClose}>&times;</button>
         <img src={ChefLogo} alt="Chef Connect Logo" className="contact-card-logo" />
         <h2>Chef Connect India Private Limited.</h2>
         <div className="contact-card-buttons">
