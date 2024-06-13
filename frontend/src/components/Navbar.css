@@ -81,74 +81,54 @@
 @media (max-width: 512px) {
   .hireNowParent{
     width: 98px;
+    height: 29px;
+    margin: 10px;
   }
   .navbar-links {
     display: none;
     flex-direction: column;
     width: 90%;
-    /* Adjust width to fit within the screen */
-    max-width: 219.14px;
-    /* Ensure it doesn't exceed its intended width */
+    max-width: 185px;
     height: auto;
-    /* Adjust height as needed */
     top: 30.72px;
     left: 5%;
-    /* Center it within the screen */
     gap: 0px;
-    border: 1.02px solid transparent;
-    background: white;
+    background: white; /* Ensure the background is solid white */
+    border: none; /* Remove any border if present */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
     padding: 1rem 0;
     text-align: center;
     position: absolute;
-    /* Ensure positioning is relative to parent */
+    z-index: 1000; /* Ensure it is above other elements */
   }
 
   .navbar-links.active {
     display: flex;
     opacity: 1;
-    /* Make sure the box is visible */
   }
 
   .navbar-toggle {
     display: block;
     cursor: pointer;
-    font-size: 1.5rem; /* Adjust font size */
+    font-size: 1.8rem;
     color: #BDBDBD;
-    ; /* Make the color of the toggle button black */
     position: absolute;
-    top: 30px; /* Adjust top position */
-    right: 5px; /* Adjust right position */
-    z-index: 1000; /* Ensure it is above other elements */
+    top: 30px;
+    right: 10px;
+    z-index: 1000;
   }
 
   .navbar-logo img {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 
   .hireNowParent {
-    margin-right: 20px;
-  }
-
-  /* New styles for toggle content */
-  .navbar-links.active::before {
-    content: '';
-    display: block;
-    width: calc(100% - 40px);
-    max-width: 190.14px;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 4.1px 0 0 0;
-    opacity: 1; /* Ensure full opacity */
-    background: #FFFFFF;
-    position: absolute;
-    z-index: -1;
+    margin-right: 40px;
   }
 
   .navbar-links.active .navbar-link {
     width: 100%;
     margin: 0.5rem 0;
-    opacity: 1;
     font-family: Inter, sans-serif;
     font-size: 20.48px;
     font-weight: 400;
@@ -159,6 +139,7 @@
     display: block;
   }
 }
+
 
 
 
@@ -299,7 +280,7 @@
 }
 
 /* Medium devices (small laptops, 963px to 1022px) */
-@media (max-width: 887px) and (min-width: 600px) {
+@media (max-width: 887px) and (min-width: 823px) {
   .navbar{
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(32, 0, 36, 1) 100%);
     display: flex;
@@ -324,4 +305,378 @@
     margin-right: 25px;
     font-size: 19px;
   } 
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 823px) and (min-width: 781px) {
+  .navbar{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(32, 0, 36, 1) 100%);
+    display: flex;
+    width: auto;
+  }
+  .navbar-logo img {
+    width: 170px;
+    height: 20px;
+    margin-left: 25px;
+  }
+  .navbar-links {
+    gap: 0.8rem;
+    margin-left: 60px;
+  }
+  .navbar-link{
+    font-size: 18px;
+  }
+  .hireNowParent {
+    width: 80px;
+    height: 35px;
+    padding: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 19px;
+  } 
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 782px) and (min-width: 709px) {
+
+  .hireNowParent {
+    width: 98px;
+    height: 29px;
+    margin: 10px;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    max-width: 185px;
+    height: auto;
+    top: 30.72px;
+    left: 5%;
+    gap: 0px;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+    margin-left: 490px;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #BDBDBD;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .navbar-logo img {
+    margin-left: 30px;
+  }
+
+  .hireNowParent {
+    margin-right: 60px;
+  }
+
+  .navbar-links.active .navbar-link {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20.48px;
+    font-weight: 400;
+    line-height: 24.79px;
+    text-align: center;
+    color: #320063;
+    padding: 5px;
+    display: block;
+  }
+
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 709px) and (min-width: 682px) {
+
+  .hireNowParent {
+    width: 98px;
+    height: 29px;
+    margin: 10px;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    max-width: 185px;
+    height: auto;
+    top: 30.72px;
+    left: 5%;
+    gap: 0px;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+    margin-left: 460px;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #BDBDBD;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .navbar-logo img {
+    margin-left: 30px;
+  }
+
+  .hireNowParent {
+    margin-right: 60px;
+  }
+
+  .navbar-links.active .navbar-link {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20.48px;
+    font-weight: 400;
+    line-height: 24.79px;
+    text-align: center;
+    color: #320063;
+    padding: 5px;
+    display: block;
+  }
+
+}
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 682px) and (min-width: 650px) {
+
+  .hireNowParent {
+    width: 98px;
+    height: 29px;
+    margin: 10px;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    max-width: 185px;
+    height: auto;
+    top: 30.72px;
+    left: 5%;
+    gap: 0px;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+    margin-left: 430px;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #BDBDBD;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .navbar-logo img {
+    margin-left: 30px;
+  }
+
+  .hireNowParent {
+    margin-right: 60px;
+  }
+
+  .navbar-links.active .navbar-link {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20.48px;
+    font-weight: 400;
+    line-height: 24.79px;
+    text-align: center;
+    color: #320063;
+    padding: 5px;
+    display: block;
+  }
+
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 650px) and (min-width: 624px) {
+
+  .hireNowParent {
+    width: 98px;
+    height: 29px;
+    margin: 10px;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    max-width: 185px;
+    height: auto;
+    top: 30.72px;
+    left: 5%;
+    gap: 0px;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+    margin-left: 405px;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #BDBDBD;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .navbar-logo img {
+    margin-left: 30px;
+  }
+
+  .hireNowParent {
+    margin-right: 60px;
+  }
+
+  .navbar-links.active .navbar-link {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20.48px;
+    font-weight: 400;
+    line-height: 24.79px;
+    text-align: center;
+    color: #320063;
+    padding: 5px;
+    display: block;
+  }
+
+}
+
+
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 426px) and (min-width: 390px) {
+
+  .hireNowParent {
+    width: 70px;
+    height: 25px;
+    margin: 5px;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    max-width: 185px;
+    height: auto;
+    top: 30.72px;
+    left: 5%;
+    gap: 0px;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 190px;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #BDBDBD;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .navbar-logo img {
+    margin-left: 10px;
+    width: 150px;
+    height: 18px;
+  }
+
+  .hireNowParent {
+    margin-right: 40px;
+    font-size: 15px;
+  }
+
+  .navbar-links.active .navbar-link {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20.48px;
+    font-weight: 400;
+    line-height: 24.79px;
+    text-align: center;
+    color: #320063;
+    padding: 5px;
+    display: block;
+  }
+
 }

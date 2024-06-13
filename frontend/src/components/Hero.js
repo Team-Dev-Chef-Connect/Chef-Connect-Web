@@ -1,6 +1,7 @@
 import React from 'react';
 import chefImage from '../assests/newchef.png'
 import './Hero.css';
+import ChatLogo from '../assests/chat.png'
 
 const Hero = () => {
   return (
@@ -14,6 +15,9 @@ const Hero = () => {
       </div>
       <div className="hero-image-container">
         <img src={chefImage} alt="Chef" className="hero-image chef" />
+      </div>
+      <div className='chatwithuslogo'>
+        <img src={ChatLogo} alt="CHAT" className='chat-with-us'/>
       </div>
     </div>
   );
