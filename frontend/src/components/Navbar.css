@@ -542,7 +542,7 @@
 
 
 /* Medium devices (small laptops, 963px to 1022px) */
-@media (max-width: 650px) and (min-width: 624px) {
+@media (max-width: 650px) and (min-width: 513px) {
 
   .hireNowParent {
     width: 98px;

@@ -162,3 +162,146 @@ h2 {
   line-height: 36.02px;
   margin: 0;
 }
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1406px) and (min-width: 1336px) {
+  
+  .service-cards {
+    gap: 4rem;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  .service-card {
+    width: 310px;
+    height: 480px;
+  }
+  
+  .service-card:hover {
+    width: 320px;
+    height: 500px;
+  }
+  
+  .service-card ul {
+    margin-top: 30px;
+    margin-left: 11px;
+  }
+  
+  .service-card li {
+    margin-bottom: 1.4rem;
+  }
+  
+  .service-card button {
+    width: 290px;
+    height: 55px;
+  }
+  
+}
+
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1336px) and (min-width: 1290px) {
+  
+  .service-cards {
+    gap: 3.5rem;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  .service-card {
+    width: 300px;
+    height: 450px;
+  }
+  
+  .service-card:hover {
+    width: 310px;
+    height: 470px;
+  }
+  
+  .service-card ul {
+    margin-top: 30px;
+    margin-left: 5px;
+    line-height: 17px;
+  }
+  
+  .service-card li {
+    margin-bottom: 1.6rem;
+  }
+  
+  .service-card button {
+    width: 270px;
+    height: 50px;
+  }
+  
+}
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1290px) and (min-width: 1225px) {
+  
+  .service-cards {
+    gap: 3rem;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .service-card {
+    padding: 0.9rem;
+    width: 290px;
+    height: 460px;
+  }
+  
+  .service-card:hover {
+    width: 310px;
+    height: 470px;
+  }
+ 
+  
+  .service-card h3 {
+    font-size: 25px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .service-card.highlighted h3 {
+    font-size: 25px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+  
+  .service-card p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .service-card ul {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 9px;
+    font-size: 17px;
+    line-height: 18px;
+  }
+  
+  .service-card li {
+    margin-bottom: 1.4rem;
+  }
+  
+  .service-card button {
+    width: 270px;
+    height: 56px;
+    margin: 16px;
+  }
+  
+  .service-card .book-now {
+    font-size: 23px;
+    line-height: 29px;
+  }
+
+  .service-card .know-more {
+    font-size: 23px;
+    line-height: 39px;
+  }
+}
