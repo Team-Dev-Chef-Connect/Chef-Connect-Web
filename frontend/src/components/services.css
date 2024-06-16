@@ -108,7 +108,7 @@
 
 .service-card button {
   display: block;
-  width: 304.31px;
+  width: 295px;
   padding: 0.5rem;
   margin-top: 1rem;
   border-radius: 5.17px;
@@ -304,4 +304,300 @@ h2 {
     font-size: 23px;
     line-height: 39px;
   }
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1225px) and (min-width: 1168px) {
+  
+  .service-cards {
+    gap: 2.8rem;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  
+  .service-card {
+    padding: 0.9rem;
+    width: 280px;
+    height: 440px;
+  }
+  
+  .service-card:hover {
+    width: 290px;
+    height: 450px;
+  }
+ 
+  
+  .service-card h3 {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-left: 11px;
+    margin-bottom: 4px;
+  }
+  
+  .service-card.highlighted h3 {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-left: 11px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .service-card ul {
+    margin-top: 25px;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+  .service-card li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-card button {
+    width: 250px;
+    height: 54px;
+    margin: 15px;
+  }
+  
+  .service-card .book-now {
+    font-size: 23px;
+    line-height: 29px;
+  }
+
+  .service-card .know-more {
+    font-size: 23px;
+    line-height: 39px;
+  }
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1168px) and (min-width: 1138px) {
+  
+  .service-cards {
+    gap: 2.8rem;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  
+  .service-card {
+    padding: 0.9rem;
+    width: 270px;
+    height: 420px;
+  }
+  
+  .service-card:hover {
+    width: 280px;
+    height: 440px;
+  }
+ 
+  
+  .service-card h3 {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-left: 11px;
+    margin-bottom: 4px;
+  }
+  
+  .service-card.highlighted h3 {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-left: 11px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .service-card ul {
+    margin-top: 25px;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+  .service-card li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-card button {
+    width: 240px;
+    height: 54px;
+    margin: 15px;
+  }
+  
+  .service-card .book-now {
+    font-size: 23px;
+    line-height: 29px;
+  }
+
+  .service-card .know-more {
+    font-size: 23px;
+    line-height: 39px;
+  }
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1138px) and (min-width: 1109px) {
+  
+  .service-cards {
+    gap: 2.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .service-card {
+    padding: 0.9rem;
+    width: 270px;
+    height: 400px;
+  }
+  
+  .service-card:hover {
+    width: 270px;
+    height: 420px;
+  }
+ 
+  
+  .service-card h3 {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-left: 11px;
+    margin-bottom: 4px;
+  }
+  
+  .service-card.highlighted h3 {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-left: 11px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .service-card ul {
+    margin-top: 25px;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 16px;
+    line-height: 15px;
+  }
+  
+  .service-card li {
+    margin-bottom: 1.3rem;
+  }
+  
+  .service-card button {
+    width: 235px;
+    height: 50px;
+    margin: 15px;
+  }
+  
+  .service-card .book-now {
+    font-size: 23px;
+    line-height: 29px;
+  }
+
+  .service-card .know-more {
+    font-size: 23px;
+    line-height: 29px;
+  }
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1109px) and (min-width: 1078px) {
+  
+  .service-cards {
+    gap: 2.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .service-card {
+    padding: 0.9rem;
+    width: 260px;
+    height: 390px;
+  }
+  
+  .service-card:hover {
+    width: 260px;
+    height: 400px;
+  }
+ 
+  
+  .service-card h3 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 8px;
+    margin-left: 11px;
+    margin-bottom: 4px;
+  }
+  
+  .service-card.highlighted h3 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 8px;
+    margin-left: 11px;
+  }
+  
+  .service-card p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .service-card ul {
+    margin-top: 23px;
+    margin-left: 4px;
+    margin-right: 6px;
+    font-size: 16px;
+    line-height: 14px;
+  }
+  
+  .service-card li {
+    margin-bottom: 1.25rem;
+  }
+  
+  .service-card button {
+    width: 230px;
+    height: 48px;
+    margin: 15px;
+  }
+  
+  .service-card .book-now {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .service-card .know-more {
+    font-size: 22px;
+    line-height: 29px;
+  }
+}
+
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 1078px) {
+  .services {
+    padding: 5rem;
+  }
+  
+  .heading-container {
+    margin-bottom: 6rem;
+  }
+  .service-cards {
+    gap: 5rem;
+  }
+  
 }

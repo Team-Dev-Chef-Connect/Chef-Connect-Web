@@ -111,9 +111,7 @@
 }
 
 
-
-
-@media (max-width: 512px) {
+@media (max-width: 503px) and (min-width:440px) {
   .hero {
     flex-direction: column;
     align-items: center;
@@ -132,11 +130,12 @@
     opacity: 1;
     margin: 0;
     padding: 1rem;
+    margin-top: 290px;
   }
 
   .herohead h1 {
     margin-top: -250px;
-    font-size: 27px;
+    font-size: 26px;
     line-height: 32.36px;
     width: 100%;
     word-wrap: break-word;
@@ -155,6 +154,7 @@
     opacity: 0px;
     font-size: 12px;
     line-height: 13.42px;
+    margin-bottom: 50px;
   }
 
   .booknowparent {
@@ -183,23 +183,121 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
 
   .hero-image {
-    width: 290.26px;
-    height: 330.39px;
-    top: 310px;
-    left: 121.86px;
+    width: 250px;
+    height: 290px;
+    top: 350px;
+    left: 110px;
     gap: 0px;
     opacity: 0px;
     margin: -20px 0px 0px -200px;
-
+  }
+  .chatwithuslogo{
+    display: flex; 
+    width: 100%;
+    margin-top: 250px;
+  }
+  .chat-with-us{
+    display: flex;
   }
 }
 
+@media (max-width: 440px) and (min-width:300px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
 
+  .herohead {
+    width: 350px;
+    height: 96px;
+    top: 148.48px;
+    left: 75.78px;
+    gap: 0px;
+    opacity: 0px;
+    gap: 0px;
+    opacity: 1;
+    margin: 0;
+    padding: 1rem;
+    margin-top: 290px;
+  }
 
+  .herohead h1 {
+    margin-top: -250px;
+    font-size: 22px;
+    line-height: 32.36px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+
+  .hero-description {
+    width: 410px;
+    height: 13px;
+    top: 258.05px;
+    left: 48.13px;
+    margin-left: 5px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 11px;
+    line-height: 13.42px;
+    margin-bottom: 50px;
+  }
+
+  .booknowparent {
+    width: 180px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: 23px;
+    margin-left: 80px;
+    border-radius: 10px;
+  }
+
+  .booknow {
+    width: Fixed (161.79px)px;
+    height: Fixed (39.58px)px;
+    top: 292.86px;
+    left: 175.1px;
+    padding: 6.94px;
+    gap: 6.94px;
+    border-radius: 7.98px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .hero-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .hero-image {
+    width: 240px;
+    height: 270px;
+    top: 340px;
+    left: 110px;
+    gap: 0px;
+    opacity: 0px;
+    margin: -20px 0px 0px -200px;
+  }
+  .chatwithuslogo{
+    display: flex; 
+    width:100%;
+    margin-top: 250px;
+  }
+  .chat-with-us{
+    display: flex;
+  }
+}
 
 /* Large devices (large laptops and desktops, 1367px and up) */
 @media (min-width: 1367px) and (max-width: 1500px) {
@@ -315,7 +413,7 @@
   .herohead {
     margin-left: 45px;
     max-width: 600px;
-    margin-top: -160px;
+    margin-top: -120px;
   }
   .hero-image-container {
     top: 110px;
@@ -348,7 +446,7 @@
     margin-top: -160px;
   }
   .hero-image-container {
-    top: 110px;
+    top: 100px;
     right: 9rem;
     width: 180px;
     height: 320px;
@@ -361,7 +459,7 @@
   .hero-description {
     width: 540px;
     margin-left: 3px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .booknowparent {
     margin-left: 8px;
@@ -377,10 +475,10 @@
   .herohead {
     margin-left: 40px;
     max-width: 520px;
-    margin-top: -160px;
+    margin-top: -140px;
   }
   .hero-image-container {
-    top: 140px;
+    top: 120px;
     right: 9rem;
     width: 170px;
     height: 300px;
@@ -415,18 +513,18 @@
   .herohead {
     margin-left: 10px;
     max-width:600px;
-    margin-top: -300px;
+    margin-top: -160px;
   }
   .hero-image-container {
-    top: 420px;
+    top: 400px;
     right: 9rem;
-    width: 190px;
+    width: 200px;
     height: 300px;
     margin-right: 220px;
     justify-content: center;
   } 
   .herohead h1 {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     }
   
@@ -443,6 +541,14 @@
     height: 30px;
     border-radius: 10px;
   } 
+  .chatwithuslogo{
+    display: flex; 
+    width: 100%;
+  }
+  .chat-with-us{
+    display: flex;
+    margin-top: 100px;
+  }
 }
 
 
@@ -457,18 +563,18 @@
   .herohead {
     margin-left: 10px;
     max-width:600px;
-    margin-top: -300px;
+    margin-top: 50px;
   }
   .hero-image-container {
-    top: 420px;
+    top: 410px;
     right: 9rem;
     width: 200px;
-    height: 300px;
+    height: 310px;
     margin-right: 190px;
     text-align: center;
   } 
   .herohead h1 {
-    font-size: 45px;
+    font-size: 43px;
     text-align: center;
     }
   
@@ -486,7 +592,14 @@
     border-radius: 10px;
     text-align: center;
     } 
-  
+    .chatwithuslogo{
+      display: flex; 
+      width: 100%;
+      margin-top: 250px;
+    }
+    .chat-with-us{
+      display: flex;
+    }
 }
 
 
@@ -501,7 +614,7 @@
   .herohead {
     margin-left: 10px;
     max-width:600px;
-    margin-top: -300px;
+    margin-top: 50px;
   }
   .hero-image-container {
     top: 420px;
@@ -511,7 +624,7 @@
     margin-right: 150px;
   } 
   .herohead h1 {
-    font-size: 45px;
+    font-size: 43px;
     text-align: center;
     }
   
@@ -529,7 +642,14 @@
     border-radius: 10px;
     text-align: center;
     } 
-
+    .chatwithuslogo{
+      display: flex; 
+      width: 100%;
+      margin-top: 280px;
+    }
+    .chat-with-us{
+      display: flex;
+    }
 }
 
 /* Medium devices (small laptops, 963px to 1022px) */
@@ -545,13 +665,14 @@
     gap: 0px;
     opacity: 1;
     margin: 0;
+    margin-top: 290px;
     padding: 1rem;
   }
 
   .herohead h1 {
     margin-top: -250px;
-    font-size: 35px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 45px;
     width: 100%;
     word-wrap: break-word;
     overflow: hidden;
@@ -611,7 +732,14 @@
     opacity: 0px;
     margin: -20px 0px 0px -200px;
   }
-
+  .chatwithuslogo{
+    display: flex; 
+    width: 100%;
+    margin-top: 250px;
+  }
+  .chat-with-us{
+    display: flex;
+  }
 
 }
 
@@ -641,12 +769,13 @@
     opacity: 1;
     margin: 0;
     padding: 1rem;
+    margin-top: 300px;
   }
 
   .herohead h1 {
     margin-top: -250px;
     font-size: 35px;
-    line-height: 36px;
+    line-height: 45px;
     width: 100%;
     word-wrap: break-word;
     overflow: hidden;
@@ -675,9 +804,15 @@
     border-radius: 10px;
     text-align: center;
     } 
+    .chatwithuslogo{
+      display: flex; 
+      width: 100%;
+      margin-top: 250px;
+    }
+    .chat-with-us{
+      display: flex;
+    }
 }
-
-
 
 /* Medium devices (small laptops, 963px to 1022px) */
 @media (max-width: 600px) and (min-width: 561px) {
@@ -692,12 +827,13 @@
     opacity: 1;
     margin: 0;
     padding: 1rem;
+    margin-top: 300px;
   }
 
   .herohead h1 {
     margin-top: -250px;
     font-size: 35px;
-    line-height: 36px;
+    line-height: 48px;
     width: 100%;
     word-wrap: break-word;
     overflow: hidden;
@@ -723,7 +859,7 @@
     right: 8rem;
     width: 200px;
     height: 300px;
-    margin-right: 125px;
+    margin-right: 110px;
   }
   .booknowparent {
     margin-left: 140px;
@@ -733,10 +869,18 @@
     border-radius: 10px;
     text-align: center;
     } 
+    .chatwithuslogo{
+      display: flex; 
+      width: 100%;
+      margin-top: 300px;
+    }
+    .chat-with-us{
+      display: flex;
+    }
 }
 
 /* Medium devices (small laptops, 963px to 1022px) */
-@media (max-width: 561px) and (min-width: 513px) {
+@media (max-width: 561px) and (min-width: 540px) {
   .herohead {
     width: 450px;
     height: 96px;
@@ -748,6 +892,7 @@
     opacity: 1;
     margin: 0;
     padding: 1rem;
+    margin-top: 280px;
   }
 
   .herohead h1 {
@@ -759,8 +904,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
-    margin-left: -10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 12px;
   }
 
   .hero-description {
@@ -768,7 +913,72 @@
     height: 13px;
     top: 258.05px;
     left: 48.13px;
-    margin-left: 15px;
+    margin-left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 13px;
+    line-height: 13.42px;
+  }
+  .hero-image-container {
+    top: 360px;
+    right: 8rem;
+    width: 200px;
+    height: 320px;
+    margin-right: 110px;
+  }
+  .booknowparent {
+    margin-left: 120px;
+    width: 180px;
+    font-size: 23px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    } 
+    .chatwithuslogo{
+      display: flex; 
+      width: 100%;
+      margin-top: 300px;
+    }
+    .chat-with-us{
+      display: flex;
+    }
+}
+
+/* Medium devices (small laptops, 963px to 1022px) */
+@media (max-width: 540px) and (min-width: 503px) {
+  .herohead {
+    width: 450px;
+    height: 96px;
+    top: 148.48px;
+    left: 75.78px;
+    gap: 0px;
+    opacity: 0px;
+    gap: 0px;
+    opacity: 1;
+    margin: 0;
+    padding: 1rem;
+    margin-top: 280px;
+  }
+
+  .herohead h1 {
+    margin-top: -250px;
+    font-size: 30px;
+    line-height: 36px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 12px;
+  }
+
+  .hero-description {
+    width: 480px;
+    height: 13px;
+    top: 258.05px;
+    left: 48.13px;
+    margin-left: 24px;
     gap: 0px;
     opacity: 0px;
     font-size: 13px;
@@ -782,11 +992,19 @@
     margin-right: 90px;
   }
   .booknowparent {
-    margin-left: 110px;
+    margin-left: 120px;
     width: 180px;
     font-size: 23px;
     height: 25px;
     border-radius: 10px;
     text-align: center;
     } 
+    .chatwithuslogo{
+      display: flex; 
+      width: 100%;
+      margin-top: 300px;
+    }
+    .chat-with-us{
+      display: flex;
+    }
 }

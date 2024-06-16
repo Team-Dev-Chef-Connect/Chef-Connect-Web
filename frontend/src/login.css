@@ -105,3 +105,143 @@
 .login .login-link a:hover {
     text-decoration: none;
 }
+
+
+@media (max-width: 630px) and (min-width:530px) {
+    .login {
+        width: 450px;
+        height: 400px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        padding: 10px;
+    }
+    
+    .login form {
+        gap: 15px;
+        opacity: 90%;
+    }
+    
+    .login input {
+        width: 330px;
+        height: 36px;
+        padding: 10px 14px;
+    }
+    
+    .login button,
+    .login .google-button {
+        width: 330px;
+        height: 36px;
+    }
+    
+    .login .close-icon {
+        right: 11px;
+    }
+}
+
+
+@media (max-width: 530px) and (min-width:500px) {
+    .login {
+        width: 410px;
+        height: 400px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        padding: 10px;
+    }
+    
+    .login form {
+        gap: 15px;
+        opacity: 90%;
+    }
+    
+    .login input {
+        width: 320px;
+        height: 36px;
+        padding: 10px 14px;
+    }
+    
+    .login button,
+    .login .google-button {
+        width: 320px;
+        height: 36px;
+    }
+    
+    .login .close-icon {
+        right: 11px;
+    }
+    
+}
+@media (max-width: 500px) and (min-width:452px) {
+    .login {
+        width: 400px;
+        height: 390px;
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        padding: 8px;
+    }
+    
+    .login form {
+        gap: 15px;
+        opacity: 90%;
+    }
+    
+    .login input {
+        width: 300px;
+        height: 36px;
+        padding: 10px 14px;
+    }
+    
+    .login button,
+    .login .google-button {
+        width: 300px;
+        height: 36px;
+    }
+    
+    .login .close-icon {
+        right: 11px;
+    }
+    .login .google-button {
+        margin-top: -12px;
+    }
+}
+
+@media (max-width: 452px)  {
+    .login {
+        width: 370px;
+        height: 390px;
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        padding: 8px;
+    }
+    
+    .login form {
+        gap: 13px;
+        opacity: 90%;
+    }
+    
+    .login input {
+        width: 300px;
+        height: 36px;
+        padding: 10px 14px;
+    }
+    
+    .login button,
+    .login .google-button {
+        width: 300px;
+        height: 36px;
+    }
+    
+    .login .close-icon {
+        right: 11px;
+    }
+    .login .google-button {
+        margin-top: -12px;
+    }
+}
+
+@media (max-width: 405px) {
+    
+}

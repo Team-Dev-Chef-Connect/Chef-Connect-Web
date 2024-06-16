@@ -112,3 +112,89 @@
 .signup .login-link {
     color: rgb(239, 185, 239);
 }
+
+
+@media (max-width: 630px) and (min-width:530px) {
+    .signup {
+        width: 450px;
+        height: 500px;
+        top: 50%;
+    }
+    
+    .signup input {
+        width: 330px;
+        height: 37px;
+    }
+    
+}
+
+
+@media (max-width: 530px) and (min-width:500px) {
+    .signup {
+        width: 410px;
+        height: 470px;
+        top: 45%;
+    }
+    
+    .signup input {
+        width: 320px;
+        height: 37px;
+    }
+    
+}
+@media (max-width: 500px) and (min-width:430px) {
+    .signup {
+        width: 370px;
+        height: 440px;
+        top: 46%;
+    }
+    
+    .signup input {
+        width: 310px;
+        height: 37px;
+    }
+    .signup h1 {
+        margin-top: 5px;
+    }
+    .signup button ,.signup .google-button {
+    width: 300px;
+}
+}
+
+@media (max-width: 430px) and (min-width:405px) {
+    .signup {
+        width: 350px;
+        height: 440px;
+        top: 46%;
+    }
+    
+    .signup input {
+        width: 310px;
+        height: 37px;
+    }
+    .signup h1 {
+        margin-top: 5px;
+    }
+    .signup button ,.signup .google-button {
+    width: 300px;
+}
+}
+
+@media (max-width: 405px) {
+    .signup {
+        width: 320px;
+        height: 430px;
+        top: 46%;
+    }
+    
+    .signup input {
+        width: 290px;
+        height: 37px;
+    }
+    .signup h1 {
+        margin-top: 5px;
+    }
+    .signup button ,.signup .google-button {
+    width: 290px;
+}
+}

@@ -1,54 +1,56 @@
 import React, { useState } from 'react';
-import OTPVerification from '../OTP/OTPVerification';
+import OTPThanku from '../OTP/OTPThanku';
 import './Contact.css';
 
 const Contact = () => {
-  const [showOtpVerification, setShowOtpVerification] = useState(false);
-  const [phoneNumber, setPhoneNumber] = useState('');
+  const [query, setQuery] = useState('');
   const [error, setError] = useState('');
+  const [showOTPThanku, setShowOTPThanku] = useState(false);
 
-  const handlePhoneNumberChange = (e) => {
-    setPhoneNumber(e.target.value);
+  const handleQueryChange = (e) => {
+    setQuery(e.target.value);
     if (error) setError('');  // Clear error message if any
   };
 
-  const handleGetOtp = () => {
-    if (phoneNumber.trim() === '') {
-      setError('Please enter your contact number');
+  const handleQuerySubmit = () => {
+    if (query.trim() === '') {
+      setError('Please enter your query');
       return;
     }
 
-    console.log("Get OTP button clicked");
-    setShowOtpVerification(true);
+    console.log("Query submitted");
+    setShowOTPThanku(true);  // Show OTPThanku component
   };
 
-  const handleCloseOtp = () => {
-    console.log("Close OTP button clicked");
-    setShowOtpVerification(false);
+  const handleCloseOtpThanku = () => {
+    setShowOTPThanku(false);
   };
 
   return (
     <div className="contact-container">
-      <div className="contact-text">
-        CONTACT US
-      </div>
-      <div className="contact-input-container">
-        <div className="contact-form">
-          <input 
-            type="text" 
-            placeholder="Your Contact Number...." 
-            className="email-input" 
-            value={phoneNumber} 
-            onChange={handlePhoneNumberChange} 
-          />
-          <button className="submit-button" onClick={handleGetOtp}>➤</button>
-        </div>
-        {error && <div className="error-message">{error}</div>}
-        <div className="contact-phone">
-          Telephone No.: +91-8107302002
-        </div>
-      </div>
-      {showOtpVerification && <OTPVerification onClose={handleCloseOtp} />}
+      {!showOTPThanku ? (
+        <>
+          <div className="contact-left">
+            <div className="contact-text">CONTACT US</div>
+            <div className="contact-phone">Telephone No.: +91 8107302002</div>
+          </div>
+          <div className="contact-right">
+            <div className="contact-form">
+              <input 
+                type="text" 
+                placeholder="Any queries" 
+                className="query-input" 
+                value={query} 
+                onChange={handleQueryChange} 
+              />
+              <button className="submit-button" onClick={handleQuerySubmit}>➤</button>
+            </div>
+            {error && <div className="error-message">{error}</div>}
+          </div>
+        </>
+      ) : (
+        <OTPThanku onClose={handleCloseOtpThanku} />
+      )}
     </div>
   );
 };

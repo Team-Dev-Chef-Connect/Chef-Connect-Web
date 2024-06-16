@@ -84,6 +84,9 @@
   font-weight: bold;
 }
 
+.follow-us-container p{
+  margin-left: -10px;
+}
 .social-icons {
   display: flex;
   gap: 10px;
@@ -135,7 +138,7 @@
 
 
 
-@media (max-width: 512px) {
+@media (max-width: 514px) and (min-width:488px) {
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -207,7 +210,7 @@
 
   .follow-us {
     display: inline-block;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 30.72px;
     font-weight: 600;
     line-height: 37.2px;
@@ -268,3 +271,767 @@
   
 
 }
+
+@media (max-width: 488px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: auto;
+  }
+
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .logo{
+    width: 119.8px;
+    height: 81.46px;
+    top: 3653.63px;
+    left: 195.58px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+  .secondary-logo{
+    width: 148.55px;
+    height: 19.17px;
+    top: 3747.84px;
+    left: 181.25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .company-name {
+    font-size: 16px;
+    width: auto;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: justified;
+  }
+
+  .follow-us-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 60px;
+  }
+
+  .follow-us {
+    display: inline-block;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.2px;
+    letter-spacing: 0.09em;
+    text-align: center;
+
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .social-icon {
+    width: 48px;
+    height: 48px;
+
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    border-top: 1px solid #444;
+  }
+
+  .footer-bottom-left, .footer-bottom-right {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+  }
+  
+  .footer-bottom-right {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 12.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .footer-bottom-left {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 300;
+  }
+  
+}
+
+
+@media (max-width: 1080px) and (min-width:840px) {
+  .footer-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+  }
+
+  .logo-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .logo{
+    width: 119.8px;
+    height: 81.46px;
+    top: 3653.63px;
+    left: 195.58px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .secondary-logo{
+    width: 148.55px;
+    height: 19.17px;
+    top: 3747.84px;
+    left: 181.25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .company-name {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 90px;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    font-size: 17.66px;
+    font-weight: 300;
+    line-height: 21.39px;
+    text-align: justified;
+  }
+
+  .follow-us-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 190px;
+  }
+
+  .follow-us {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37.2px;
+    letter-spacing: 0.09em;
+    text-align: center;
+
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .social-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    border-top: 1px solid #444;
+  }
+
+  .footer-bottom-left, .footer-bottom-right {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 130px;
+  }
+  
+  .footer-bottom-right {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 12.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .footer-bottom-left {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 840px) and (min-width:739px) {
+  .footer-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+  }
+
+  .logo-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .logo{
+    width: 119.8px;
+    height: 81.46px;
+    top: 3653.63px;
+    left: 195.58px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .secondary-logo{
+    width: 148.55px;
+    height: 19.17px;
+    top: 3747.84px;
+    left: 181.25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .company-name {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    font-size: 17.66px;
+    font-weight: 300;
+    line-height: 21.39px;
+    text-align: justified;
+  }
+
+  .follow-us-container {
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 150px;
+  }
+
+  .follow-us {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.2px;
+    letter-spacing: 0.09em;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+  }
+
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .social-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    border-top: 1px solid #444;
+  }
+
+  .footer-bottom-left, .footer-bottom-right {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 90px;
+  }
+  
+  .footer-bottom-right {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 12.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .footer-bottom-left {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 739px) and (min-width:611px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+  }
+
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .logo{
+    width: 119.8px;
+    height: 81.46px;
+    top: 3653.63px;
+    left: 195.58px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .secondary-logo{
+    width: 148.55px;
+    height: 19.17px;
+    top: 3747.84px;
+    left: 181.25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .company-name {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 80px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    font-size: 17.66px;
+    font-weight: 300;
+    line-height: 21.39px;
+    text-align: justified;
+  }
+
+  .follow-us-container {
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 120px;
+  }
+
+  .follow-us {
+    display: inline-block;
+    font-family: "Inter";
+    font-size: 30.72px;
+    font-weight: 600;
+    line-height: 37.2px;
+    letter-spacing: 0.09em;
+    text-align: center;
+
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .social-icon {
+    width: 52.22px;
+    height: 52.22px;
+
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    border-top: 1px solid #444;
+  }
+
+  .footer-bottom-left, .footer-bottom-right {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 90px;
+  }
+  
+  .footer-bottom-right {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .footer-bottom-left {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 561px) and (min-width:514px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: auto;
+  }
+
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .logo{
+    width: 119.8px;
+    height: 81.46px;
+    top: 3653.63px;
+    left: 195.58px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .secondary-logo{
+    width: 148.55px;
+    height: 19.17px;
+    top: 3747.84px;
+    left: 181.25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .company-name {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 35px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: justified;
+  }
+
+  .follow-us-container {
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 140px;
+  }
+
+  .follow-us {
+    display: inline-block;
+    font-family: "Inter";
+    font-size: 30.72px;
+    font-weight: 600;
+    line-height: 37.2px;
+    letter-spacing: 0.09em;
+    text-align: center;
+
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .social-icon {
+    width: 49px;
+    height:49px;
+
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    border-top: 1px solid #444;
+  }
+
+  .footer-bottom-left, .footer-bottom-right {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+  }
+  
+  .footer-bottom-right {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .footer-bottom-left {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 611px) and (min-width:561px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: auto;
+  }
+
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .logo{
+    width: 119.8px;
+    height: 81.46px;
+    top: 3653.63px;
+    left: 195.58px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .secondary-logo{
+    width: 148.55px;
+    height: 19.17px;
+    top: 3747.84px;
+    left: 181.25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .company-name {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 55px;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    font-size: 17.66px;
+    font-weight: 300;
+    line-height: 21.39px;
+    text-align: justified;
+  }
+
+  .follow-us-container {
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 140px;
+  }
+
+  .follow-us {
+    display: inline-block;
+    font-family: "Inter";
+    font-size: 30.72px;
+    font-weight: 600;
+    line-height: 37.2px;
+    letter-spacing: 0.09em;
+    text-align: center;
+
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .social-icon {
+    width: 52.22px;
+    height: 52.22px;
+
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    border-top: 1px solid #444;
+  }
+
+  .footer-bottom-left, .footer-bottom-right {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+  }
+  
+  .footer-bottom-right {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .footer-bottom-left {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
