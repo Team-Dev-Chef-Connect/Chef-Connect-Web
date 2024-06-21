@@ -23,7 +23,8 @@
   width: 666px;
   height: 183px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1;
+  position: relative;
   text-align: left;
   margin: 0 auto;
 }
@@ -32,7 +33,7 @@
   width: 666px;
   height: 23px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1;
   font-size: 19px;
   font-weight: 500;
   line-height: 22.99px;
