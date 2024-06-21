@@ -1,6 +1,6 @@
 .login {
-    width: 537px;
-    height: 445px;
+    width: 460px;
+    height: 340px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -110,7 +110,7 @@
 @media (max-width: 630px) and (min-width:530px) {
     .login {
         width: 450px;
-        height: 400px;
+        height: 320px;
         position: absolute;
         top: 45%;
         left: 50%;
@@ -143,7 +143,7 @@
 @media (max-width: 530px) and (min-width:500px) {
     .login {
         width: 410px;
-        height: 400px;
+        height: 300px;
         position: absolute;
         top: 45%;
         left: 50%;
@@ -175,7 +175,7 @@
 @media (max-width: 500px) and (min-width:452px) {
     .login {
         width: 400px;
-        height: 390px;
+        height: 295px;
         position: absolute;
         top: 42%;
         left: 50%;
@@ -209,8 +209,8 @@
 
 @media (max-width: 452px)  {
     .login {
-        width: 370px;
-        height: 390px;
+        width: 320px;
+        height: 290px;
         position: absolute;
         top: 42%;
         left: 50%;
@@ -223,15 +223,15 @@
     }
     
     .login input {
-        width: 300px;
-        height: 36px;
+        width: 250px;
+        height: 30px;
         padding: 10px 14px;
     }
     
     .login button,
     .login .google-button {
-        width: 300px;
-        height: 36px;
+        width: 250px;
+        height: 30px;
     }
     
     .login .close-icon {
@@ -240,8 +240,4 @@
     .login .google-button {
         margin-top: -12px;
     }
-}
-
-@media (max-width: 405px) {
-    
 }

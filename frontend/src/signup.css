@@ -1,6 +1,6 @@
 .signup {
-    width: 537px;
-    height: 537px;
+    width: 460px;
+    height: 380px;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -20,7 +20,6 @@
     font-size: 32px;
     font-family: "Inter";
     font-weight: 700;line-height: 37.5px;
-
 }
 
 .signup form {
@@ -116,8 +115,8 @@
 
 @media (max-width: 630px) and (min-width:530px) {
     .signup {
-        width: 450px;
-        height: 500px;
+        width: 440px;
+        height: 350px;
         top: 50%;
     }
     
@@ -131,8 +130,8 @@
 
 @media (max-width: 530px) and (min-width:500px) {
     .signup {
-        width: 410px;
-        height: 470px;
+        width: 400px;
+        height: 340px;
         top: 45%;
     }
     
@@ -145,7 +144,7 @@
 @media (max-width: 500px) and (min-width:430px) {
     .signup {
         width: 370px;
-        height: 440px;
+        height: 320px;
         top: 46%;
     }
     
@@ -164,7 +163,7 @@
 @media (max-width: 430px) and (min-width:405px) {
     .signup {
         width: 350px;
-        height: 440px;
+        height: 310px;
         top: 46%;
     }
     
@@ -183,7 +182,7 @@
 @media (max-width: 405px) {
     .signup {
         width: 320px;
-        height: 430px;
+        height: 320px;
         top: 46%;
     }
     
