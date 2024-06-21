@@ -14,7 +14,7 @@ const OTPThanku = ({ onClose }) => {
           &times;
         </div>
         <div className="image-container">
-          <img src={imageSrc} alt="Image" />
+          <img src={imageSrc} alt="otpimage" />
         </div>
         <div className="message-container">
           <h3>Thank you</h3>

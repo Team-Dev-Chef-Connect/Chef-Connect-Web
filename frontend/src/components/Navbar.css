@@ -742,7 +742,7 @@
 @media (max-width: 467px) and (min-width: 390px) {
 
   .hireNowParent {
-    width: 70px;
+    width: 60px;
     height: 25px;
     margin: 5px;
   }
@@ -807,3 +807,74 @@
   }
 
 }
+
+@media (max-width: 390px) and (min-width: 360px){
+
+  .hireNowParent {
+    width: 30px;
+    height: 25px;
+    margin: 5px;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    max-width: 185px;
+    height: auto;
+    top: 30.72px;
+    left: -2%;
+    gap: 0px;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 190px;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #BDBDBD;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .navbar-logo img {
+    margin-left: 10px;
+    width: 150px;
+    height: 18px;
+  }
+
+  .hireNowParent {
+    margin-right: 40px;
+    font-size: 15px;
+    width: fit-content;
+  }
+
+  .navbar-links.active .navbar-link {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 15.48px;
+    font-weight: 400;
+    line-height: 24.79px;
+    text-align: center;
+    color: #320063;
+    padding: 5px;
+    display: block;
+  }
+
+
+} 

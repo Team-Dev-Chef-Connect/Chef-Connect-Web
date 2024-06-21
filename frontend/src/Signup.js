@@ -70,11 +70,11 @@ function Signup() {
                         required
                     />
                     <button type="submit">Sign up</button>
-                    <p>You can also login with below options</p>
+                    {/* <p>You can also login with below options</p>
                     <button type="button" className="google-button">
                         <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google logo" />
                         Sign up with Google
-                    </button>
+                    </button> */}
                 </form>
                 <p>Already have an account? <Link to="/login" className="login-link">Login</Link></p>
             </div>
