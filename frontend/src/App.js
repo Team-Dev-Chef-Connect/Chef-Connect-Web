@@ -12,6 +12,7 @@ import OTPVerification from './OTP/OTPVerification';
 import EnterOTP from './OTP/EnterOTP';
 import ResendOTP from './OTP/ResendOTP';
 import OTPThanku from './OTP/OTPThanku';
+import Permanentchef from './pages/Permanentchef';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path='/enterotp' element={<EnterOTP />} />
           <Route path='/resendotp' element={<ResendOTP />} />
           <Route path='/thanks' element={<OTPThanku />} />
+          <Route path="/permanentchef" element={<Permanentchef />} />
         </Routes>
       </div>
     </Router>
