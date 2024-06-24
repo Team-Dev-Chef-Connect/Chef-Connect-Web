@@ -3,16 +3,17 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+require('dotenv').config(); // Include dotenv to load environment variables
 
 const app = express();
-const port = 5000; // You can change this if needed
+const port = process.env.PORT || 5000; // Use PORT from .env file or default to 5000
 
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-const mongoURI = 'mongodb+srv://martandmahajan:3ANlxPH6BRAvdENV@userdetails.xwdinvo.mongodb.net/?retryWrites=true&w=majority&appName=UserDetails';
+const mongoURI = process.env.MONGO_URI; // Use MONGO_URI from .env file
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
