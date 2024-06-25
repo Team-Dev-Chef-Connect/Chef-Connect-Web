@@ -64,6 +64,8 @@ import EnterOTP from './OTP/EnterOTP';
 import ResendOTP from './OTP/ResendOTP';
 import OTPThanku from './OTP/OTPThanku';
 import Permanentchef from './pages/Permanentchef';
+import PrivacyPolicy from './Footerpages/PrivacyPolicy';
+import Terms from './Footerpages/Terms';
 
 function App() {
   return (
@@ -95,6 +97,8 @@ function App() {
           <Route path="/resendotp" element={<ResendOTP />} />
           <Route path="/thanks" element={<OTPThanku />} />
           <Route path="/permanentchef" element={<Permanentchef />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
+          <Route path='/terms-of-service' element={<Terms />} />
         </Routes>
       </div>
     </Router>

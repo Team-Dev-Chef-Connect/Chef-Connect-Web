@@ -1,0 +1,17 @@
+.privacy-policy-head {
+    font-family: "Inter";
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading-privacy-policy {
+    width: 800px;
+    margin-top: 80px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: center;
+  }

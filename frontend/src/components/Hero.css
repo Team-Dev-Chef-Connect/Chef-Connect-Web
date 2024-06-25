@@ -91,18 +91,31 @@
   height: 480px;
   margin-left: 25px;
 }
-
 .chatwithuslogo {
-  position: absolute;
-  bottom: 80px;
-  right: 80px;
+  position: fixed;
+  bottom: 35px;
+  right: 70px;
   cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid none;
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(124.04deg, #621C66 41.24%, #C338CC 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatwithuslogo:hover {
+  background: linear-gradient(128.63deg, rgba(164, 148, 165, 0.5) 26.12%, #3F393F 81.75%);
 }
 
 .chat-with-us {
-  width: 80px;
-  height: 80px;
+  width: 41.09px;
+  height: 29.63px;
 }
+
+
 
 /*Media Queries for Responsiveness */
 @media (max-width: 1421px) and (min-width:1335px){
@@ -143,20 +156,8 @@
     height: 390px;
     margin-left:10px;
   }
-  
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 80px;
-    right: 70px;
-    cursor: pointer;
-  }
-  
-  .chat-with-us {
-    width: 80px;
-    height: 80px;
-  }
-  
 }
+
 @media (max-width: 1335px) and (min-width:1259px){
   .hero {
     padding: 100px;
@@ -195,18 +196,7 @@
     height: 390px;
     margin-left:-20px;
   }
-  
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 80px;
-    right: 65px;
-    cursor: pointer;
-  }
-  
-  .chat-with-us {
-    width: 80px;
-    height: 80px;
-  }
+
   
 }
 @media (max-width: 1259px) and (min-width:1194px){
@@ -247,19 +237,7 @@
     height: 390px;
     margin-left:-90px;
   }
-  
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 80px;
-    right: 65px;
-    cursor: pointer;
-  }
-  
-  .chat-with-us {
-    width: 80px;
-    height: 80px;
-  }
-  
+
 }
 @media (max-width: 1194px) and (min-width:1108px){
   .hero {
@@ -301,18 +279,6 @@
     margin-left:-120px;
   }
   
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 80px;
-    right: 65px;
-    cursor: pointer;
-  }
-  
-  .chat-with-us {
-    width: 80px;
-    height: 80px;
-  }
-  
 }
 @media (max-width: 1108px) and (min-width:995px){
   .hero {
@@ -349,23 +315,19 @@
   }
   
   .hero-image-chef {
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     margin-left:-130px;
   }
-  
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 80px;
-    right: 50px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
   }
-  
-  .chat-with-us {
-    width: 60px;
-    height: 60px;
+  .chat-with-us{
+    width: 35px;
+    height: 25px;
   }
-  
 }
 
 @media (max-width: 995px) and (min-width:905px){
@@ -408,17 +370,14 @@
     height: 250px;
     margin-left:-160px;
   }
-  
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:40px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
   }
-  
-  .chat-with-us {
-    width: 55px;
-    height: 55px;
+  .chat-with-us{
+    width: 35px;
+    height: 25px;
   }
   
 }
@@ -459,23 +418,20 @@
   }
   
   .hero-image-chef {
-    width: 230px;
-    height: 230px;
+    width: 260px;
+    height: 260px;
     margin-left:-220px;
   }
   
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:40px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
   }
-  
-  .chat-with-us {
-    width: 55px;
-    height: 55px;
+  .chat-with-us{
+    width: 35px;
+    height: 25px;
   }
-  
 }
 
 @media (max-width: 820px) and (min-width:782px){
@@ -515,23 +471,19 @@
   }
   
   .hero-image-chef {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-left:-330px;
   }
-  
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:40px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 65px;
+    height: 65px;
+    right: 40px;
   }
-  
-  .chat-with-us {
-    width: 55px;
-    height: 55px;
+  .chat-with-us{
+    width: 30px;
+    height: 20px;
   }
-  
 }
 
 @media (max-width: 782px) and (min-width:658px){
@@ -570,29 +522,26 @@
   }
   
   .hero-image-container {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     margin-left:300px;
   }
   
   .hero-image-chef {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
     margin-left:-330px;
   }
   
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:40px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 80px;
+    height: 80px;
+    right: 40px;
   }
-  
-  .chat-with-us {
-    width: 70px;
-    height: 70px;
+  .chat-with-us{
+    width: 40px;
+    height: 30px;
   }
-  
 }
 
 @media (max-width: 658px) and (min-width:520px){
@@ -632,24 +581,24 @@
   
   .hero-image-container {
     margin-left:320px;
+    width: 250px;
+    height: 250px;
   }
   
   .hero-image-chef {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     margin-left:-330px;
   }
   
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:40px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 80px;
+    height: 80px;
+    right: 40px;
   }
-  
-  .chat-with-us {
-    width: 70px;
-    height: 70px;
+  .chat-with-us{
+    width: 40px;
+    height: 30px;
   }
   
 }
@@ -700,19 +649,15 @@
     height: 230px;
     margin-left:-330px;
   }
-  
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:20px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
   }
-  
-  .chat-with-us {
-    width: 60px;
-    height: 60px;
+  .chat-with-us{
+    width: 35px;
+    height: 25px;
   }
-  
 }
 
 @media (max-width: 461px) and (min-width:365px){
@@ -762,16 +707,14 @@
     margin-left:-330px;
   }
   
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:20px;
-    cursor: pointer;
-  }
-  
-  .chat-with-us {
+  .chatwithuslogo{
     width: 60px;
     height: 60px;
+    right: 20px;
+  }
+  .chat-with-us{
+    width: 30px;
+    height: 20px;
   }
   
 }
@@ -823,16 +766,14 @@
     margin-left:-330px;
   }
   
-  .chatwithuslogo {
-    position: absolute;
-    bottom: 70px;
-    right:20px;
-    cursor: pointer;
+  .chatwithuslogo{
+    width: 60px;
+    height: 60px;
+    right: 10px;
   }
-  
-  .chat-with-us {
-    width: 40px;
-    height: 40px;
+  .chat-with-us{
+    width: 30px;
+    height: 20px;
   }
   
 }

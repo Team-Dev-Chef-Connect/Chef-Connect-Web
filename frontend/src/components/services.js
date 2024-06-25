@@ -1,11 +1,21 @@
-
+import Chat from '../OTP/Chat';
+import React, { useState } from 'react';
 import './services.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 import Left from '../assests/left.png';
 import Right from '../assests/right.png';
 
 const Services = () => {
 
+  const [isChatVisible, setIsChatVisible] = useState(false);
+
+  const handleChatClick = () => {
+    setIsChatVisible(!isChatVisible);
+  };
+
+  const handleChatClose = () => {
+    setIsChatVisible(false);
+  };
   const navigate = useNavigate(); 
 
   const handleBookNow = () => {
@@ -30,7 +40,8 @@ const Services = () => {
             <li>Prompt Service</li>
             <li>Bartenders, Waiters, etc.</li>
           </ul>
-          <button className="book-now" onClick={handleBookNow}>BOOK NOW</button>
+          {/* <button className="book-now" onClick={handleBookNow}>BOOK NOW</button> */}
+          <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
           <button className="know-more">KNOW MORE</button>
         </div>
 
@@ -44,7 +55,7 @@ const Services = () => {
             <li>Prompt Service</li>
             <li>Bartenders, Waiters, etc.</li>
           </ul>
-          <button className="book-now">BOOK NOW</button>
+          <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
           <button className="know-more">KNOW MORE</button>
         </div>
 
@@ -58,10 +69,11 @@ const Services = () => {
             <li>Prompt Service</li>
             <li>Bartenders, Waiters, etc.</li>
           </ul>
-          <button className="book-now" >BOOK NOW</button>
+          <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
           <button className="know-more">KNOW MORE</button>
         </div>
       </div>
+      {isChatVisible && <Chat onClose={handleChatClose} />}
     </div>
   );
 };
