@@ -18,9 +18,6 @@ const Services = () => {
   };
   const navigate = useNavigate(); 
 
-  const handleBookNow = () => {
-    navigate('/permanentchef'); 
-  };
 
   return (
     <div className="services">
@@ -40,7 +37,6 @@ const Services = () => {
             <li>Prompt Service</li>
             <li>Bartenders, Waiters, etc.</li>
           </ul>
-          {/* <button className="book-now" onClick={handleBookNow}>BOOK NOW</button> */}
           <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
           <button className="know-more">KNOW MORE</button>
         </div>
