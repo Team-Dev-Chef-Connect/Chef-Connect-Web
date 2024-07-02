@@ -20,8 +20,8 @@
   font-size: 45px;
   font-weight: 800;
   line-height: 60.51px;
-  width: 666px;
-  height: 183px;
+  width: 850px;
+  height: 80px;
   gap: 0px;
   opacity: 1;
   position: relative;
@@ -31,10 +31,11 @@
 
 .hero h4 {
   font-size: 28px;
+  text-align: left;
 }
 
 .hero-description {
-  width: 666px;
+  width: 850px;
   height: 23px;
   gap: 0px;
   opacity: 1;
@@ -134,14 +135,15 @@
   .hero h1 {
     font-size: 47px;
     line-height: 62px;
-    width: 650px;
-    height: 180px;
+    width: 880px;
+    height: 90px;
   }
   
   .hero-description {
     font-size: 18px;
     margin: 15px auto;
     margin-left: 18px;
+    width: 888px;
   }
   
   .booknowparent {
@@ -174,14 +176,15 @@
   .hero h1 {
     font-size: 45px;
     line-height: 62px;
-    width: 650px;
-    height: 180px;
+    width: 900px;
+    height: 90px;
   }
   
   .hero-description {
     font-size: 17px;
     margin: 15px auto;
     margin-left: 18px;
+    width: 900px;
   }
   
   .booknowparent {
@@ -215,14 +218,15 @@
   .hero h1 {
     font-size: 42px;
     line-height: 62px;
-    width: 650px;
-    height: 180px;
+    width: 800px;
+    height: 80px;
   }
   
   .hero-description {
     font-size: 15px;
     margin: 15px auto;
     margin-left: 19px;
+    width: 800px;
   }
   
   .booknowparent {
@@ -250,20 +254,24 @@
   }
   
   .herohead {
-    margin-left: -70px;
+    margin-left: -50px;
   }
   
   .hero h1 {
     font-size: 40px;
     line-height: 62px;
-    width: 600px;
-    height: 180px;
+    width: 770px;
+    height: 80px;
+  }
+
+  .hero h4 {
+    width: 770px;
   }
   
   .hero-description {
     font-size: 15px;
     margin: 15px auto;
-    margin-left: 70px;
+    margin-left: 5px;
   }
   
   .booknowparent {
@@ -297,14 +305,19 @@
   .hero h1 {
     font-size: 36px;
     line-height: 62px;
-    width: 550px;
-    height: 180px;
+    width: 780px;
+    height: 80px;
+  }
+
+  .hero h4 {
+    width: 650px;
+    margin-left: 50px;
   }
   
   .hero-description {
     font-size: 14px;
     margin: 15px auto;
-    margin-left:120px;
+    margin-left:50px;
   }
   
   .booknowparent {
@@ -348,14 +361,20 @@
   .hero h1 {
     font-size: 30px;
     line-height: 55px;
-    width: 480px;
-    height: 160px;
+    width: 680px;
+    height: 60px;
+    margin-left: 150px;
+  }
+
+  .hero h4 {
+    margin-left: 150px;
+    width: 680px;
   }
   
   .hero-description {
     font-size: 14px;
     margin: 10px auto;
-    margin-left:185px;
+    margin-left:150px;
   }
   
   .booknowparent {
@@ -400,14 +419,20 @@
   .hero h1 {
     font-size: 28px;
     line-height: 45px;
-    width: 450px;
-    height: 150px;
+    width: 500px;
+    height: 50px;
+    margin-left: 200px;
+  }
+
+  .hero h4 {
+    width: 500px;
+    margin-left: 200px;
   }
   
   .hero-description {
     font-size: 11px;
     margin: -10px auto;
-    margin-left: 215px;
+    margin-left: 200px;
   }
   
   .booknowparent {
@@ -450,16 +475,22 @@
   }
   
   .hero h1 {
-    font-size: 25px;
+    font-size: 35px;
     line-height: 45px;
     width: 400px;
-    height: 120px;
+    height: 50px;
+    margin-left: 250px;
+  }
+
+  .hero h4 {
+    margin-left: 250px;
+    width: 470px;
   }
   
   .hero-description {
     font-size: 10px;
     margin: 15px auto;
-    margin-left: 270px;
+    margin-left: 250px;
   }
   
   .booknowparent {
@@ -507,6 +538,7 @@
   .hero h1 {
     font-size: 43px;
     text-align: center;
+    margin-left: -110px;
   }
   
   .hero-description {
@@ -514,6 +546,7 @@
     margin-left: 60px;
     font-size: 18px;
     text-align: center;
+    margin-left: 65px;
   }
   
   .booknowparent {
@@ -624,7 +657,13 @@
     font-size: 28px;
     text-align: center;
     width: 400px;
+    height: 50px;
     line-height: 40px;
+  }
+
+  .hero h4 {
+    height: 100px;
+    margin-left: 40px;
   }
   
   .hero-description {
@@ -681,7 +720,14 @@
     font-size: 22px;
     text-align: center;
     width: 320px;
+    height: 30px;
     line-height: 40px;
+  }
+
+  .hero h4 {
+    height: 130px;
+    width: 400px;
+    margin-left: 65px;
   }
   
   .hero-description {
@@ -740,7 +786,14 @@
     font-size: 18px;
     text-align: center;
     width: 280px;
+    height: 20px;
     line-height: 30px;
+  }
+
+  .hero h4 {
+    height: 150px;
+    width: 400px;
+    margin-left: 85px;
   }
   
   .hero-description {
