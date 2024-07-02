@@ -32,38 +32,38 @@ const Services = () => {
           <p>Professional party chefs to elevate your party experience</p>
           <hr />
           <ul>
-            <li>Multi-Cuisine Professionals</li>
+            <li>One Day for Home & Corporate function</li>
             <li>Customisable Menu</li>
-            <li>Prompt Service</li>
-            <li>Bartenders, Waiters, etc.</li>
+            <li>Starting from ₹ 1999</li>
+            <li>Multicuisine Menu</li>
           </ul>
           <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
           <button className="know-more">KNOW MORE</button>
         </div>
 
         <div className="service-card highlighted">
-          <h3>Chef for Party</h3>
+          <h3>Chef for Permanent</h3>
           <p>Professional party chefs to elevate your party experience</p>
           <hr />
           <ul>
-            <li>Multi-Cuisine Professionals</li>
-            <li>Customisable Menu</li>
-            <li>Prompt Service</li>
-            <li>Bartenders, Waiters, etc.</li>
+            <li>Staff for Hotel, Restaurant & Cafe</li>
+            <li>3-Month Replacement</li>
+            <li>Verified Chef</li>
+            <li>Chef Assistant</li>
           </ul>
           <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
           <button className="know-more">KNOW MORE</button>
         </div>
 
         <div className="service-card">
-          <h3>Chef for Party</h3>
+          <h3>Chef for Home</h3>
           <p>Professional party chefs to elevate your party experience</p>
           <hr />
           <ul>
-            <li>Multi-Cuisine Professionals</li>
-            <li>Customisable Menu</li>
-            <li>Prompt Service</li>
-            <li>Bartenders, Waiters, etc.</li>
+            <li>Policy Verified Chef</li>
+            <li>Multicuisine Chef</li>
+            <li>3-Month Replacement</li>
+            <li>Chef on Demand</li>
           </ul>
           <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
           <button className="know-more">KNOW MORE</button>
