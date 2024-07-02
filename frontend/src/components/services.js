@@ -38,7 +38,6 @@ const Services = () => {
             <li>Multicuisine Menu</li>
           </ul>
           <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
-          <button className="know-more">KNOW MORE</button>
         </div>
 
         <div className="service-card highlighted">
@@ -52,7 +51,6 @@ const Services = () => {
             <li>Chef Assistant</li>
           </ul>
           <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
-          <button className="know-more">KNOW MORE</button>
         </div>
 
         <div className="service-card">
@@ -66,7 +64,6 @@ const Services = () => {
             <li>Chef on Demand</li>
           </ul>
           <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
-          <button className="know-more">KNOW MORE</button>
         </div>
       </div>
       {isChatVisible && <Chat onClose={handleChatClose} />}

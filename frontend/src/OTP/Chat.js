@@ -5,7 +5,7 @@ import Whatsapp from '../assests/whatsapp.png';
 import Call from '../assests/call.png';
 
 const Chat = ({ onClose }) => {
-  const whatsappNumber = '919799962369';
+  const whatsappNumber = '918107302002';
   const whatsappMessage = 'Hello, I would like to know more about your services.';
   const callNumber = '919799962369';
 
