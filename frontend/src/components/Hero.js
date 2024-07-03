@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="herohead">
         <h1>Hire a Chef</h1>
         <h4>Prepare Meals According To Your Culinary or Dietary Preference</h4>
-        <p className="hero-description">Bring a <span className="highlight">professional chef</span> to your kitchen. Find your <span className="highlight">Perfect Cook</span>.</p>
+        <p className="hero-description">We provide <span className="highlight"> all types of Chef</span>.</p>
         <div className="booknowparent">
           <div className="booknow" onClick={handleChatClick}>Book a Chef</div>
         </div>

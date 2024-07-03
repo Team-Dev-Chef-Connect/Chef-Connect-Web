@@ -17,7 +17,7 @@
 }
 
 .hero h1 {
-  font-size: 45px;
+  font-size: 65px;
   font-weight: 800;
   line-height: 60.51px;
   width: 850px;
@@ -30,7 +30,7 @@
 }
 
 .hero h4 {
-  font-size: 28px;
+  font-size: 38px;
   text-align: left;
 }
 
@@ -39,7 +39,7 @@
   height: 23px;
   gap: 0px;
   opacity: 1;
-  font-size: 19px;
+  font-size: 25px;
   font-weight: 500;
   line-height: 22.99px;
   text-align: left;

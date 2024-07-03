@@ -96,7 +96,7 @@
   margin-top: 40px;
   margin-left: 14px;
   margin-right: 10px;
-  font-size: 18.1px;
+  font-size: 21.1px;
   font-weight: 500;
   font-family: "Inter";
   line-height: 21.91px;
@@ -126,6 +126,10 @@
   line-height: 31.51px;
   font-family: "Inter";
   letter-spacing: 0.1rem;
+  margin-top: 60px;
+}
+
+.service-card .book-now3 {
   margin-top: 80px;
 }
 

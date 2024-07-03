@@ -55,7 +55,7 @@ const Services = () => {
 
         <div className="service-card">
           <h3>Chef for Home</h3>
-          <p>Professional chef / cook for your Home & kitchen needs.</p>
+          <p>Professional chef or cook for your Home & kitchen needs.</p>
           <hr />
           <ul>
             <li>Policy Verified Chef</li>
@@ -63,7 +63,7 @@ const Services = () => {
             <li>3-Month Replacement</li>
             <li>Chef on Demand</li>
           </ul>
-          <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
+          <button className="book-now book-now3" onClick={handleChatClick}>BOOK NOW</button>
         </div>
       </div>
       {isChatVisible && <Chat onClose={handleChatClose} />}
