@@ -29,7 +29,7 @@ const Services = () => {
       <div className="service-cards">
         <div className="service-card">
           <h3>Chef for Party</h3>
-          <p>Professional party chefs to elevate your party experience</p>
+          <p>Professional chef to elevate your party experience</p>
           <hr />
           <ul>
             <li>One Day for Home & Corporate function</li>
@@ -42,7 +42,7 @@ const Services = () => {
 
         <div className="service-card highlighted">
           <h3>Chef for Permanent</h3>
-          <p>Professional party chefs to elevate your party experience</p>
+          <p>Perfect chef to fulfill your hotel staff</p>
           <hr />
           <ul>
             <li>Staff for Hotel, Restaurant & Cafe</li>
@@ -55,7 +55,7 @@ const Services = () => {
 
         <div className="service-card">
           <h3>Chef for Home</h3>
-          <p>Professional party chefs to elevate your party experience</p>
+          <p>Professional chef / cook for your Home & kitchen needs.</p>
           <hr />
           <ul>
             <li>Policy Verified Chef</li>
