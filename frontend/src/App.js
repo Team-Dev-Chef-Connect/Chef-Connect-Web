@@ -65,6 +65,7 @@ import ResendOTP from './OTP/ResendOTP';
 import OTPThanku from './OTP/OTPThanku';
 import PrivacyPolicy from './Footerpages/PrivacyPolicy';
 import Terms from './Footerpages/Terms';
+import  servicesCard  from './components/servicesCard';
 
 function App() {
   return (
@@ -97,6 +98,7 @@ function App() {
           <Route path="/thanks" element={<OTPThanku />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
           <Route path='/terms-of-service' element={<Terms />} />
+          <Route path='/servicesCard' element={<servicesCard/>}/>
         </Routes>
       </div>
     </Router>
