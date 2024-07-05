@@ -60,10 +60,10 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className="footer-bottom-left">
-          <p>&copy; 2024 ChefConnect India Pvt Ltd.</p>
+          <p>&copy;Copyright 2024 Chef Connect India Pvt Ltd.</p>
         </div>
         <div className="footer-bottom-right">
-          <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/privacy-policy">Privacy Policy  </a>
           <a href="/terms-of-service">Terms of service</a>
         </div>
       </div>

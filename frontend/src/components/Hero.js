@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="herohead">
-        <h1>Hire a Chef</h1>
+        <h1>HIRE A CHEF</h1>
         <h4>Prepare Meals According To Your Culinary or Dietary Preference</h4>
         <p className="hero-description">We provide <span className="highlight"> all types of Chef</span>.</p>
         <div className="booknowparent">
