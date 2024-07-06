@@ -3,21 +3,24 @@ import './services.css';
 import { useNavigate} from 'react-router-dom';
 import Left from '../assests/left.png';
 import Right from '../assests/right.png';
-import servicesCard from './servicesCard';
+import Chat from '../OTP/Chat'
 
 const Services = () => {
-
-  const [isservicesCardVisible, setIsservicesCardVisible] = useState(false);
-
-  const handleservicesCardClick = () => {
-    setIsservicesCardVisible(!isservicesCardVisible);
-  };
-
-  const handleservicesCardClose = () => {
-    setIsservicesCardVisible(false);
-  };
+  const [showChat , setShowChat] = useState(false);
   const navigate = useNavigate(); 
 
+  const handleChatClick = () => {
+    setShowChat(true)
+  };
+
+  const handleChatClose = () => {
+    setShowChat(false);
+  };
+ 
+  const handleBoxClick = () => {
+        navigate('/permanent-chef');
+      
+ };
 
   return (
     <div className="services">
@@ -37,7 +40,7 @@ const Services = () => {
             <li>Starting from ₹ 1999</li>
             <li>Multicuisine Menu</li>
           </ul>
-          <button className="book-now" onClick={handleservicesCardClick}>BOOK NOW</button>
+          <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
         </div>
 
         <div className="service-card highlighted">
@@ -50,7 +53,7 @@ const Services = () => {
             <li>Verified Chef</li>
             <li>Chef Assistant</li>
           </ul>
-          <button className="book-now" onClick={handleservicesCardClick}>BOOK NOW</button>
+          <button className="book-now" onClick={handleBoxClick}>BOOK NOW</button>
         </div>
 
         <div className="service-card">
@@ -63,10 +66,10 @@ const Services = () => {
             <li>3-Month Replacement</li>
             <li>Chef on Demand</li>
           </ul>
-          <button className="book-now book-now3" onClick={handleservicesCardClick}>BOOK NOW</button>
+          <button className="book-now book-now3" onClick={handleChatClick}>BOOK NOW</button>
         </div>
       </div>
-        {isservicesCardVisible && <servicesCard onClose={handleservicesCardClose} />}
+        {showChat && <Chat onClose={handleChatClose} />}
     </div>
   );
 };

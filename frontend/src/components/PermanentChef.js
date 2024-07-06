@@ -4,7 +4,7 @@ import servicesCard2 from '../assests/servicesCard2.jpg';
 import servicesCard3 from '../assests/servicesCard3.jpg';
 import servicesCard4 from '../assests/servicesCard4.png';
 
-const servicesCard = ({ onClose }) => {
+const PermanentChef = ({ onClose }) => {
   return (
   <div>
       <div className='servicesCardContent'>
@@ -71,4 +71,4 @@ const servicesCard = ({ onClose }) => {
   )
 };
 
-export default servicesCard;
+export default PermanentChef;
