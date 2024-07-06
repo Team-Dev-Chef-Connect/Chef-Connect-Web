@@ -64,7 +64,7 @@
   border: none;
   color: white;
   cursor: pointer;
-  transition: background 0.3s, color 0.3s;
+  transition:  color 0.3s;
   font-size: 24px;
   font-weight: 600;
   line-height: 29.05px;
@@ -167,6 +167,7 @@
 @media (max-width: 1335px) and (min-width:1259px){
   .hero {
     padding: 100px;
+    margin-left: -20px;
   }
   
   .herohead {
@@ -178,6 +179,10 @@
     line-height: 62px;
     width: 900px;
     height: 90px;
+  }
+
+  .hero h4 {
+    width: 800px;
   }
   
   .hero-description {
@@ -201,7 +206,7 @@
   .hero-image-chef {
     width: 390px;
     height: 390px;
-    margin-left:-20px;
+    margin-left:-135px;
   }
 
   
@@ -258,7 +263,7 @@
   }
   
   .hero h1 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 62px;
     width: 770px;
     height: 80px;
@@ -269,7 +274,7 @@
   }
   
   .hero-description {
-    font-size: 15px;
+    font-size: 18px;
     margin: 15px auto;
     margin-left: 5px;
   }
@@ -288,7 +293,7 @@
   .hero-image-chef {
     width: 340px;
     height: 340px;
-    margin-left:-120px;
+    margin-left:-140px;
   }
   
 }
@@ -303,10 +308,10 @@
   }
   
   .hero h1 {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 62px;
     width: 780px;
-    height: 80px;
+    height: 60px;
   }
 
   .hero h4 {
@@ -315,7 +320,7 @@
   }
   
   .hero-description {
-    font-size: 14px;
+    font-size: 18px;
     margin: 15px auto;
     margin-left:50px;
   }
@@ -334,7 +339,7 @@
   .hero-image-chef {
     width: 320px;
     height: 320px;
-    margin-left:-130px;
+    margin-left:-200px;
   }
   .chatwithuslogo{
     width: 75px;
@@ -391,7 +396,7 @@
   .hero-image-chef {
     width: 250px;
     height: 250px;
-    margin-left:-160px;
+    margin-left:-230px;
   }
   .chatwithuslogo{
     width: 75px;
@@ -417,7 +422,7 @@
   }
   
   .hero h1 {
-    font-size: 28px;
+    font-size: 45px;
     line-height: 45px;
     width: 500px;
     height: 50px;
@@ -426,11 +431,11 @@
 
   .hero h4 {
     width: 500px;
-    margin-left: 200px;
+    margin-left: 180px;
   }
   
   .hero-description {
-    font-size: 11px;
+    font-size: 18px;
     margin: -10px auto;
     margin-left: 200px;
   }
@@ -439,7 +444,7 @@
     width: 150px;
     height: 20px;
     font-size: 15px;
-    margin-left: 220px;
+    margin-left: 200px;
   }
   
   .hero-image-container {
@@ -449,7 +454,7 @@
   .hero-image-chef {
     width: 260px;
     height: 260px;
-    margin-left:-220px;
+    margin-left:-380px;
   }
   
   .chatwithuslogo{
@@ -483,12 +488,14 @@
   }
 
   .hero h4 {
-    margin-left: 250px;
+    font-size: 30px;
+    margin-left: 220px;
     width: 470px;
+    height: 100px;
   }
   
   .hero-description {
-    font-size: 10px;
+    font-size: 15px;
     margin: 15px auto;
     margin-left: 250px;
   }
@@ -498,17 +505,17 @@
     height: 15px;
     font-size: 15px;
     margin-left: 270px;
-    margin-top: 8px;
+    margin-top: 25px;
   }
   
   .hero-image-container {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   
   .hero-image-chef {
     width: 250px;
     height: 250px;
-    margin-left:-330px;
+    margin-left:-500px;
   }
   .chatwithuslogo{
     width: 65px;
@@ -539,6 +546,11 @@
     font-size: 43px;
     text-align: center;
     margin-left: -110px;
+  }
+
+  .hero h4 {
+    text-align: center;
+    margin-left: 40px;
   }
   
   .hero-description {
@@ -598,6 +610,11 @@
     font-size: 34px;
     text-align: center;
     width: 500px;
+  }
+
+  .hero h4 {
+    margin-left: 5px;
+    text-align: center;
   }
   
   .hero-description {
@@ -662,8 +679,11 @@
   }
 
   .hero h4 {
+    width: 400px;
     height: 100px;
-    margin-left: 40px;
+    margin-left: 60px;
+    margin-bottom: 140px;
+    text-align: center;
   }
   
   .hero-description {
@@ -717,17 +737,20 @@
   }
   
   .hero h1 {
-    font-size: 22px;
+    font-size: 42px;
     text-align: center;
     width: 320px;
-    height: 30px;
+    height: 40px;
     line-height: 40px;
   }
 
   .hero h4 {
+    font-size: 30px;
     height: 130px;
-    width: 400px;
-    margin-left: 65px;
+    width: 320px;
+    margin-left: 95px;
+    margin-bottom: 100px;
+    text-align: center;
   }
   
   .hero-description {
@@ -783,17 +806,19 @@
   }
   
   .hero h1 {
-    font-size: 18px;
+    font-size: 38px;
     text-align: center;
     width: 280px;
-    height: 20px;
+    height: 30px;
     line-height: 30px;
   }
 
   .hero h4 {
+    font-size: 25px;
     height: 150px;
-    width: 400px;
-    margin-left: 85px;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 80px;
   }
   
   .hero-description {

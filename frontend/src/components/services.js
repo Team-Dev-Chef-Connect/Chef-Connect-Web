@@ -40,7 +40,7 @@ const Services = () => {
             <li>Starting from ₹ 1999</li>
             <li>Multicuisine Menu</li>
           </ul>
-          <button className="book-now" onClick={handleChatClick}>BOOK NOW</button>
+          <button className="book-now" onClick={handleBoxClick}>BOOK NOW</button>
         </div>
 
         <div className="service-card highlighted">
@@ -66,7 +66,7 @@ const Services = () => {
             <li>3-Month Replacement</li>
             <li>Chef on Demand</li>
           </ul>
-          <button className="book-now book-now3" onClick={handleChatClick}>BOOK NOW</button>
+          <button className="book-now book-now3" onClick={handleBoxClick}>BOOK NOW</button>
         </div>
       </div>
         {showChat && <Chat onClose={handleChatClose} />}
