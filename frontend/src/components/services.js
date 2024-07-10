@@ -3,7 +3,7 @@ import './services.css';
 import { useNavigate} from 'react-router-dom';
 import Left from '../assests/left.png';
 import Right from '../assests/right.png';
-import Chat from '../OTP/Chat'
+import Chat from '../OTP/Chat';
 
 const Services = () => {
   const [showChat , setShowChat] = useState(false);
@@ -44,7 +44,7 @@ const Services = () => {
         </div>
 
         <div className="service-card highlighted">
-          <h3>Chef for Permanent</h3>
+          <h3>Permanent Chef</h3>
           <p>Perfect chef to fulfill your hotel staff</p>
           <hr />
           <ul>

@@ -1,0 +1,158 @@
+.PermanentChef{
+    background-color: #5E328A;
+}
+
+.servicesCardContent h2 {
+    text-align: center;
+    width: 1250px;
+    height: 80px;
+    font-size: 33px;
+    margin-top: 70px;
+    margin-left: 130px;
+    color: #F4DE6C;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    padding: 10px;
+    border-radius: 25px;
+    width: 650px;
+    border: 1px solid white;
+    margin-left: 410px;
+    margin-bottom: 120px;
+}
+  
+.location {
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+  
+.icon {
+    margin-right: 5px;
+}
+  
+.location-text {
+    margin-right: 5px;
+}
+  
+.search-input {
+    flex-grow: 1;
+    background-color: #111111;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+  
+.search-input::placeholder {
+    color: #888888;
+}
+  
+.search-button {
+    background-color: #4e2a82;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.search-button:hover {
+    background-color: #5a3596;
+}
+
+.servicesCards {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 250px;
+    row-gap: 140px;
+    margin-left: 250px;
+}
+
+.servicesCards h4 {
+    width: 140px;
+    height: 30px;
+    color: #F6DE00;
+    border: 1px solid #F6DE00;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.servicesCards p{
+    color: white;
+    margin-left: 12px;
+    margin-top: -15px;
+}
+
+.servicesCard1{
+    width: 350px;
+    height: 410px;
+    margin: 10px;
+    background-color: #320063;
+    border-radius: 15px;
+}
+
+.servicesCard1 img {
+    height: 225px;
+    width: 330px;
+    margin: 11px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.servicesCard2{
+    width: 350px;
+    height: 410px;
+    margin: 10px;
+    background-color: #320063;
+    border-radius: 15px;
+}
+
+.servicesCard2 img {
+    height: 225px;
+    width: 330px;
+    margin: 11px;
+    border-radius: 15px;
+}
+
+.servicesCard3{
+    width: 350px;
+    height: 410px;
+    margin: 10px;
+    background-color: #320063;
+    border-radius: 15px;
+}
+
+.servicesCard3 img {
+    height: 225px;
+    width: 330px;
+    margin: 11px;
+    border-radius: 15px;
+}
+
+.servicesCard4{
+    width: 350px;
+    height: 410px;
+    margin: 10px;
+    background-color: #320063;
+    border-radius: 15px;
+}
+
+.servicesCard4 img {
+    height: 220px;
+    width: 327px;
+    margin: 11px;
+    border-radius: 15px;
+}
