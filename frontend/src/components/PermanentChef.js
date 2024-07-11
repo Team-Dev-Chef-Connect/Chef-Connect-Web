@@ -3,8 +3,9 @@ import servicesCard1 from '../assests/servicesCard1.jpg';
 import servicesCard2 from '../assests/servicesCard2.jpg';
 import servicesCard3 from '../assests/servicesCard3.jpg';
 import servicesCard4 from '../assests/servicesCard4.png';
-import { CiLocationOn } from "react-icons/ci";
 import './PermanentChef.css';
+import NewHero from './NewHero';
+import Footer from './Footer';
 
 const PermanentChef = ({ onClose }) => {
   return (
@@ -34,7 +35,7 @@ const PermanentChef = ({ onClose }) => {
         </h4>
         </div>
         <p>
-        The chefs have experience of cooking in a busy hotel kitchen. Our chef is famous for her delicious cooking.
+        The chefs have experience of cooking in a busy hotel kitchen. Our chef is famous for their delicious cooking.
         </p>
     </div>
 
@@ -75,8 +76,10 @@ const PermanentChef = ({ onClose }) => {
     </div>
 
       </div>
-    
-
+      <section id="gallery">
+        <NewHero />
+      </section>
+      <Footer/>
   </div>
   )
 };
