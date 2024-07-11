@@ -30,7 +30,7 @@ const PermanentChef = ({ onClose }) => {
         <img src= {servicesCard2} alt='Chefs'/>
         <div>
         <h4>
-            Chefs & Cooks
+          Chefs & Cooks
         </h4>
         </div>
         <p>

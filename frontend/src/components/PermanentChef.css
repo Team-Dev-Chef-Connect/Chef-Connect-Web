@@ -1,5 +1,5 @@
 .PermanentChef{
-    background-color: #5E328A;
+    background-color: #320063;
 }
 
 .servicesCardContent h2 {
@@ -17,9 +17,9 @@
     align-items: center;
     background-color: #111111;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
     width: 650px;
-    border: 1px solid white;
+    border: 2px solid white;
     margin-left: 410px;
     margin-bottom: 120px;
 }
@@ -88,6 +88,7 @@
     margin-left: 100px;
     margin-top: 5px;
     font-size: 20px;
+    padding-top: 4px;
 }
 
 .servicesCards p{
@@ -100,7 +101,7 @@
     width: 350px;
     height: 410px;
     margin: 10px;
-    background-color: #320063;
+    background-color: #1d0336;
     border-radius: 15px;
 }
 
@@ -116,7 +117,7 @@
     width: 350px;
     height: 410px;
     margin: 10px;
-    background-color: #320063;
+    background-color: #1d0336;
     border-radius: 15px;
 }
 
@@ -131,7 +132,7 @@
     width: 350px;
     height: 410px;
     margin: 10px;
-    background-color: #320063;
+    background-color: #1d0336;
     border-radius: 15px;
 }
 
@@ -146,7 +147,7 @@
     width: 350px;
     height: 410px;
     margin: 10px;
-    background-color: #320063;
+    background-color: #1d0336;
     border-radius: 15px;
 }
 
