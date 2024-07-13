@@ -267,15 +267,15 @@
 @media (max-width: 1078px) and (min-width: 957px) {
 
     .servicesCardContent {
-        margin-left: -260px;
+        margin-left: -240px;
     }
 
     .search-bar {
-        margin-left: 150px;
+        margin-left: 160px;
     }
 
     .servicesCards {
-        margin-left: 100px;
+        margin-left: 110px;
         gap: 50px;
     }
 }
@@ -324,7 +324,7 @@
 @media (max-width: 800px) and (min-width: 700px) {
 
     .servicesCardContent {
-        margin-left: -120px;
+        margin-left: -100px;
         margin-bottom: 50px;
     }
 
@@ -333,7 +333,7 @@
     }
 
     .search-bar {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .servicesCards {
@@ -374,12 +374,12 @@
     }
 
     .search-bar {
-        margin-left: 10px;
+        margin-left: 16px;
         width: 480px;
     }
 
     .servicesCards {
-        margin-left: 120px;
+        margin-left: 90px;
         gap: 50px;
     }
 }
@@ -424,7 +424,7 @@
     }
 
     .search-bar {
-        margin-left: 5px;
+        margin-left: 10px;
         width: 380px;
         margin-bottom: 50px;
     }
@@ -437,6 +437,68 @@
 
     .servicesCards {
         margin-left: 25px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 350px) {
+    .servicesCardContent {
+        margin-left: -135px;
+        margin-bottom: 60px;
+    }
+
+    .servicesCardContent h2 {
+        width: 420px;
+        font-size: 26px;
+    }
+
+    .search-bar {
+        margin-left: 7px;
+        width: 340px;
+        margin-bottom: 50px;
+    }
+
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -80px;
+    }
+
+    .servicesCards {
+        margin-left: -5px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 350px) and (min-width: 300px) {
+    .servicesCardContent {
+        margin-left: -135px;
+        margin-bottom: 60px;
+    }
+
+    .servicesCardContent h2 {
+        width: 420px;
+        font-size: 26px;
+    }
+
+    .search-bar {
+        margin-left: 7px;
+        width: 290px;
+        margin-bottom: 50px;
+    }
+
+    .search-input {
+        width: 50px;
+    }
+
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -140px;
+    }
+
+    .servicesCards {
+        margin-left: -5px;
         gap: 30px;
     }
 }
