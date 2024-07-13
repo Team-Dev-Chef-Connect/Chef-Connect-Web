@@ -66,6 +66,7 @@ import OTPThanku from './OTP/OTPThanku';
 import PrivacyPolicy from './Footerpages/PrivacyPolicy';
 import Terms from './Footerpages/Terms';
 import PermanentChef from './components/PermanentChef';
+import ReviewSlider from './components/ReviewSlider';
 
 function App() {
   return (
@@ -80,6 +81,9 @@ function App() {
               </section>
               <section id="services">
                 <Services />
+              </section>
+              <section>
+                <ReviewSlider/>
               </section>
               <section id="contact">
                 <Contact />
