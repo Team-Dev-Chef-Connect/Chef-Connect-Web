@@ -58,7 +58,7 @@ const Services = () => {
 
         <div className="service-card">
           <h3>Chef for Home</h3>
-          <p>Professional chef or cook for your Home & kitchen needs.</p>
+          <p>Professional chef/cook for your Home.</p>
           <hr />
           <ul>
             <li>Policy Verified Chef</li>

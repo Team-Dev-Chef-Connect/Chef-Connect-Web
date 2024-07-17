@@ -19,6 +19,9 @@ class Navbar extends Component {
         <div className="navbar-logo">
           <img src={logoImage} alt="ChefConnectIndia" /> 
         </div>
+        <div className='hinditext'>
+          Hum से जुड़े
+        </div>
         <div className={`navbar-links ${this.state.clicked ? 'active' : ''}`}>
           <a href="/" className="navbar-link">Home</a>
           <a href="#services" className="navbar-link">Our Services</a>

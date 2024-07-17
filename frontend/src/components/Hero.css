@@ -16,6 +16,14 @@
   margin-top: 70px;
 }
 
+.herohead svg {
+  width: 5vh;
+  height: 5vh;
+  margin-top: -200px;
+  margin-left: 450px;
+  margin-bottom: 40px;
+}
+
 .hero h1 {
   font-size: 65px;
   font-weight: 800;
@@ -96,6 +104,7 @@
   height: 480px;
   margin-left: 25px;
 }
+
 .chatwithuslogo {
   position: fixed;
   bottom: 35px;
@@ -105,19 +114,19 @@
   border: 1px solid none;
   width: 90px;
   height: 90px;
-  background: linear-gradient(124.04deg, #621C66 41.24%, #C338CC 100%);
+  background: linear-gradient(to bottom, #A494A5 50%, #3F393F 100%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .chatwithuslogo:hover {
-  background: linear-gradient(128.63deg, rgba(164, 148, 165, 0.5) 26.12%, #3F393F 81.75%);
+  background: #E0E0F2;
 }
 
 .chat-with-us {
-  width: 41.09px;
-  height: 29.63px;
+  width: 39px;
+  height: 38px;
 }
 
 

@@ -38,6 +38,14 @@
   color: #fff;
 }
 
+.hinditext {
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  margin-left: 80px;
+  text-align: center;
+}
+
 .hireNowParent {
   margin-right: 100px;
   width: 158px;
