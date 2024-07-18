@@ -1,5 +1,5 @@
-// src/Dropdown.js
 import React, { useState } from 'react';
+import './Dropdown.css';
 
 const Dropdown = ({ options, onSelect }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,11 +23,7 @@ const Dropdown = ({ options, onSelect }) => {
       {isOpen && (
         <ul className="dropdown-menu">
           {options.map((option) => (
-            <li
-              key={option.value}
-              onClick={() => handleOptionClick(option)}
-              className="dropdown-option"
-            >
+            <li key={option.value} onClick={() => handleOptionClick(option)} className="dropdown-option">
               {option.label}
             </li>
           ))}

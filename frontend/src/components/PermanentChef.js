@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate} from 'react-router-dom';
 import servicesCard1 from '../assests/servicesCard1.jpg';
 import servicesCard2 from '../assests/servicesCard2.jpg';
 import servicesCard3 from '../assests/servicesCard3.jpg';
@@ -8,6 +9,13 @@ import NewHero from './NewHero';
 import Footer from './Footer';
 
 const PermanentChef = ({ onClose }) => {
+
+  const navigate = useNavigate();
+
+  const detailsclick = () => {
+    navigate('/chef-details');
+  };
+
   return (
   <div className='PermanetChef'>
       <div className='servicesCardContent'>
@@ -21,7 +29,7 @@ const PermanentChef = ({ onClose }) => {
       <div className='servicesCard1'>
         <img src= {servicesCard2} alt='Chefs'/>
         <div>
-        <button>
+        <button onClick={detailsclick}>
           Chefs & Cooks
         </button>
         </div>
