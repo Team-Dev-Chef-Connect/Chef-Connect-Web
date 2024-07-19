@@ -17,9 +17,9 @@
 }
 
 .herohead svg {
-  width: 5vh;
-  height: 5vh;
-  margin-top: -200px;
+  width: 6vh;
+  height: 6vh;
+  margin-top: -65px;
   margin-left: 450px;
   margin-bottom: 40px;
 }
@@ -114,22 +114,20 @@
   border: 1px solid none;
   width: 90px;
   height: 90px;
-  background: linear-gradient(to bottom, #A494A5 50%, #3F393F 100%);
+  background: #d6d6da;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .chatwithuslogo:hover {
-  background: #E0E0F2;
+  background: linear-gradient(to bottom, #A494A5 50%, #3F393F 100%);
 }
 
 .chat-with-us {
   width: 39px;
   height: 38px;
 }
-
-
 
 /*Media Queries for Responsiveness */
 @media (max-width: 1421px) and (min-width:1335px){
@@ -175,12 +173,18 @@
 
 @media (max-width: 1335px) and (min-width:1259px){
   .hero {
-    padding: 100px;
+    padding: 80px;
     margin-left: -20px;
   }
   
   .herohead {
     margin-left: -20px;
+  }
+
+  .herohead svg {
+    margin-top: -100px;
+    margin-left: 250px;
+    margin-bottom: 70px;
   }
   
   .hero h1 {
@@ -222,11 +226,17 @@
 }
 @media (max-width: 1259px) and (min-width:1194px){
   .hero {
-    padding: 100px;
+    padding: 90px;
   }
   
   .herohead {
     margin-left: -20px;
+  }
+
+  .herohead svg {
+    margin-top: -120px;
+    margin-left: 250px;
+    margin-bottom: 90px;
   }
   
   .hero h1 {
@@ -269,6 +279,12 @@
   
   .herohead {
     margin-left: -50px;
+  }
+
+  .herohead svg {
+    margin-top: -100px;
+    margin-left: 250px;
+    margin-bottom: 90px;
   }
   
   .hero h1 {
@@ -314,6 +330,12 @@
   
   .herohead {
     margin-left: -130px;
+  }
+
+  .herohead svg {
+    margin-top: -100px;
+    margin-left: 250px;
+    margin-bottom: 70px;
   }
   
   .hero h1 {
@@ -370,6 +392,12 @@
   
   .herohead {
     margin-left: -220px;
+  }
+
+  .herohead svg {
+    margin-top: -80px;
+    margin-left: 250px;
+    margin-bottom: 60px;
   }
   
   .hero h1 {
@@ -429,6 +457,12 @@
   .herohead {
     margin-left: -250px;
   }
+
+  .herohead svg {
+    margin-top: -70px;
+    margin-left: 250px;
+    margin-bottom: 60px;
+  }
   
   .hero h1 {
     font-size: 45px;
@@ -486,6 +520,12 @@
   
   .herohead {
     margin-left: -305px;
+  }
+
+  .herohead svg {
+    margin-top: -80px;
+    margin-left: 250px;
+    margin-bottom: 60px;
   }
   
   .hero h1 {
@@ -549,6 +589,12 @@
     margin-left: -50px;
     max-width:600px;
     margin-top: 50px;
+  }
+
+  .herohead svg {
+    margin-top: -90px;
+    margin-left: 10px;
+    margin-bottom: 50px;
   }
   
   .hero h1 {
@@ -614,6 +660,12 @@
     margin-left: 0px;
     margin-top: 40px;
   }
+
+  .herohead svg {
+    margin-top: -90px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
   
   .hero h1 {
     font-size: 34px;
@@ -677,6 +729,12 @@
   .herohead {
     margin-left: 0px;
     margin-top: 40px;
+  }
+
+  .herohead svg {
+    margin-top: -90px;
+    margin-left: 10px;
+    margin-bottom: 50px;
   }
   
   .hero h1 {
@@ -743,6 +801,12 @@
   .herohead {
     margin-left: 0px;
     margin-top: 10px;
+  }
+
+  .herohead svg {
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
   }
   
   .hero h1 {
@@ -812,6 +876,12 @@
   .herohead {
     margin-left: 0px;
     margin-top: 1px;
+  }
+
+  .herohead svg {
+    margin-top: -90px;
+    margin-left: 10px;
+    margin-bottom: 50px;
   }
   
   .hero h1 {

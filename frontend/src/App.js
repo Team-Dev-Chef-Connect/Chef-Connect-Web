@@ -67,7 +67,7 @@ import PrivacyPolicy from './Footerpages/PrivacyPolicy';
 import Terms from './Footerpages/Terms';
 import PermanentChef from './components/PermanentChef';
 import ReviewSlider from './components/ReviewSlider';
-import Chefdetails  from './components/Chefdetails';
+import Chefdetails  from './components/chefdetails';
 
 function App() {
   return (

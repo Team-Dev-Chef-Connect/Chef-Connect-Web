@@ -1,10 +1,9 @@
-.h2 {
+.heading {
     text-align: center;
-    width: 65.10vw;
-    height: 8vh;
+    width: 60vw;
+    height: 50px;
     font-size: 33px;
-    margin-top: 70px;
-    margin-left: 130px;
+    margin: 30px auto;
     color: #F4DE6C;
 }
 
@@ -14,10 +13,11 @@
     background-color: #111111;
     padding: 10px;
     border-radius: 30px;
-    width: 33.85vw;
+    width: 45vw;
     border: 2px solid white;
-    margin-left: 410px;
+    margin-left: 400px;
     margin-bottom: 80px;
+    margin-top: 15px;
 }
   
 .location {
@@ -67,12 +67,394 @@
     background-color: #5a3596;
 }
 
-.details-card-1 {
+.details-card {
     display: flex;
     flex-direction: row;
+    width: 33vw;
+    height: 40vh;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: 2px solid black;
+    background-color: #231036;
+    border-radius: 4%;
 }
 
 .details-text {
     display: flex;
     flex-direction: column;
-} 
+    color: white;
+    width: 12vw;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.chef-name {
+    color: #F4DE6C;
+    font-size: 20px;
+}
+
+.chefpic {
+    width: 15vw;
+    height: 30vh;
+    border-radius: 18%;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-right: -20px;
+}
+
+.details-card1 {
+    margin-left: 100px;
+}
+
+.details-card1 p {
+    margin-top: -1px;
+}
+
+.details-card2 {
+    margin-left: 900px;
+}
+
+
+@media (max-width: 1406px) and (min-width: 1336px) {
+
+    .heading {
+        margin-left: -80px;
+    }
+
+    .search-bar {
+        margin-left: 330px;
+    }
+
+    .servicesCards {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 1336px) and (min-width: 1290px) {
+
+    .heading {
+        margin-left: -100px;
+    }
+
+    .search-bar {
+        margin-left: 320px;
+    }
+
+    .servicesCards {
+        margin-left: 170px;
+    }
+
+}
+
+@media (max-width: 1290px) and (min-width: 1225px) {
+
+    .heading {
+        width: 80vw;
+        margin-left: 12vw;
+    }
+
+    .search-bar {
+        margin-left: 320px;
+    }
+
+    .servicesCards {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1225px) and (min-width: 1168px) {
+
+    .heading {
+        width: 80vw;
+    }
+
+    .search-bar {
+        margin-left: 280px;
+    }
+
+    .servicesCards {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 1168px) and (min-width: 1138px) {
+
+    .heading {
+        width: 80vw;
+    }
+
+    .search-bar {
+        margin-left: 280px;
+    }
+
+    .servicesCards {
+        margin-left: 90px;
+    }
+     
+}
+
+@media (max-width: 1138px) and (min-width: 1109px) {
+
+    .heading {
+        width: 85vw;
+    }
+
+    .search-bar {
+        margin-left: 200px;
+    }
+
+    .servicesCards {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 1109px) and (min-width: 1078px) {
+
+    .heading {
+        width: 85vw;
+    }
+
+    .search-bar {
+        margin-left: 200px;
+    }
+
+    .servicesCards {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1078px) and (min-width: 957px) {
+
+    .heading {
+        width: 95vw;
+    }
+
+    .search-bar {
+        margin-left: 160px;
+    }
+
+    .servicesCards {
+        margin-left: 110px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 957px) and (min-width: 857px) {
+
+    .heading {
+        width: 96vw;
+    }
+
+    .search-bar {
+        margin-left: 120px;
+    }
+
+    .servicesCards {
+        margin-left: 50px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 857px) and (min-width: 800px) {
+
+    .servicesCardContent {
+        margin-left: -110px;
+        margin-bottom: 50px;
+    }
+
+    .servicesCardContent h2 {
+        width: 800px;
+    }
+
+    .search-bar {
+        margin-left: 80px;
+    }
+
+    .servicesCards {
+        margin-left: 20px;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 700px) {
+
+    .servicesCardContent {
+        margin-left: -100px;
+        margin-bottom: 50px;
+    }
+
+    .servicesCardContent h2 {
+        width: 700px;
+    }
+
+    .search-bar {
+        margin-left: 30px;
+    }
+
+    .servicesCards {
+        margin-left: 180px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 600px) {
+    .servicesCardContent {
+        margin-left: -120px;
+        margin-bottom: 50px;
+    }
+
+    .servicesCardContent h2 {
+        width: 640px;
+    }
+
+    .search-bar {
+        margin-left: 10px;
+        width: 570px;
+    }
+
+    .servicesCards {
+        margin-left: 150px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 500px) {
+    .servicesCardContent {
+        margin-left: -180px;
+        margin-bottom: 50px;
+    }
+
+    .servicesCardContent h2 {
+        width: 640px;
+    }
+
+    .search-bar {
+        margin-left: 16px;
+        width: 480px;
+    }
+
+    .servicesCards {
+        margin-left: 90px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 450px) {
+    .servicesCardContent {
+        margin-left: -110px;
+        margin-bottom: 50px;
+    }
+
+    .servicesCardContent h2 {
+        width: 440px;
+        font-size: 26px;
+    }
+
+    .search-bar {
+        margin-left: 10px;
+        width: 420px;
+        margin-bottom: 50px;
+    }
+
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+    }
+
+    .servicesCards {
+        margin-left: 60px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 450px) and (min-width: 400px) {
+    .servicesCardContent {
+        margin-left: -125px;
+        margin-bottom: 50px;
+    }
+
+    .servicesCardContent h2 {
+        width: 440px;
+        font-size: 26px;
+    }
+
+    .search-bar {
+        margin-left: 10px;
+        width: 380px;
+        margin-bottom: 50px;
+    }
+
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -40px;
+    }
+
+    .servicesCards {
+        margin-left: 25px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 350px) {
+    .servicesCardContent {
+        margin-left: -135px;
+        margin-bottom: 60px;
+    }
+
+    .servicesCardContent h2 {
+        width: 420px;
+        font-size: 26px;
+    }
+
+    .search-bar {
+        margin-left: 7px;
+        width: 340px;
+        margin-bottom: 50px;
+    }
+
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -80px;
+    }
+
+    .servicesCards {
+        margin-left: -5px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 350px) and (min-width: 300px) {
+    .servicesCardContent {
+        margin-left: -135px;
+        margin-bottom: 60px;
+    }
+
+    .servicesCardContent h2 {
+        width: 420px;
+        font-size: 26px;
+    }
+
+    .search-bar {
+        margin-left: 7px;
+        width: 290px;
+        margin-bottom: 50px;
+    }
+
+    .search-input {
+        width: 50px;
+    }
+
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -140px;
+    }
+
+    .servicesCards {
+        margin-left: -5px;
+        gap: 30px;
+    }
+}
