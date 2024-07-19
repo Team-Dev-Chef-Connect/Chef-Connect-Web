@@ -67,7 +67,7 @@ import PrivacyPolicy from './Footerpages/PrivacyPolicy';
 import Terms from './Footerpages/Terms';
 import PermanentChef from './components/PermanentChef';
 import ReviewSlider from './components/ReviewSlider';
-import { chefdetails } from './components/chefdetails';
+import Chefdetails  from './components/Chefdetails';
 
 function App() {
   return (
@@ -104,7 +104,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
           <Route path='/terms-of-service' element={<Terms />} />
           <Route path='/permanent-chef' element={<PermanentChef />}/>
-          <Route path='/details-click' element={<chefdetails />}/>
+          <Route path='/details-click' element={<Chefdetails/>}/>
         </Routes>
       </div>
     </Router>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate} from 'react-router-dom';
 import servicesCard1 from '../assests/servicesCard1.jpg';
 import servicesCard2 from '../assests/servicesCard2.jpg';
@@ -13,7 +13,7 @@ const PermanentChef = ({ onClose }) => {
   const navigate = useNavigate();
 
   const detailsclick = () => {
-    navigate('/chef-details');
+    navigate('/details-click');
   };
 
   return (

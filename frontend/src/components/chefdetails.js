@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Dropdown from './Dropdown';
 import './chefdetails.css'
 
-export const chefdetails = (onClose) => {
+
+const  Chefdetails = (onClose) => {
   return (
     <div>
         <h2>
@@ -35,3 +36,5 @@ export const chefdetails = (onClose) => {
     </div>
   )
 };
+
+export default Chefdetails;
