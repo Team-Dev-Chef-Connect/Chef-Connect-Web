@@ -13,7 +13,7 @@
     background-color: #111111;
     padding: 10px;
     border-radius: 30px;
-    width: 45vw;
+    width: 52vw;
     border: 2px solid white;
     margin-left: 400px;
     margin-bottom: 80px;
@@ -70,8 +70,8 @@
 .details-card {
     display: flex;
     flex-direction: row;
-    width: 33vw;
-    height: 40vh;
+    width: 38vw;
+    height: 42vh;
     justify-content: center;
     margin-top: 5px;
     margin-left: 20px;
@@ -84,22 +84,23 @@
     display: flex;
     flex-direction: column;
     color: white;
-    width: 12vw;
-    font-size: 14px;
-    margin-left: 25px;
+    width: 13vw;
+    font-size: 15px;
+    margin-left: 55px;
 }
 
 .chef-name {
     color: #F4DE6C;
-    font-size: 20px;
+    font-size: 21px;
+    width: 45vw;
 }
 
 .chefpic {
-    width: 15vw;
-    height: 30vh;
+    width: 16vw;
+    height: 22vh;
     border-radius: 18%;
-    margin-left: 25px;
-    margin-top: 50px;
+    margin-left: 28px;
+    margin-top: 80px;
     margin-right: -20px;
 }
 
@@ -126,8 +127,21 @@
         margin-left: 330px;
     }
 
-    .servicesCards {
-        margin-left: 180px;
+    .details-card {
+        width: 35vw;
+        height: 42vh;
+    }
+
+    .details-card1 {
+        margin-left: 50px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 740px;
     }
 }
 
@@ -141,8 +155,21 @@
         margin-left: 320px;
     }
 
-    .servicesCards {
-        margin-left: 170px;
+    .details-card {
+        width: 35vw;
+        height: 42vh;
+    }
+
+    .details-card1 {
+        margin-left: 50px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 740px;
     }
 
 }
@@ -158,8 +185,25 @@
         margin-left: 320px;
     }
 
-    .servicesCards {
-        margin-left: 150px;
+    .details-card {
+        width: 36vw;
+        height: 44vh;
+    }
+
+    .chefpic {
+        margin-left: 15px;
+    }
+
+    .details-card1 {
+        margin-left: 50px;
+    }
+    
+    .details-card1 p {
+        margin-top: -4px;
+    }
+    
+    .details-card2 {
+        margin-left: 740px;
     }
 }
 
@@ -167,14 +211,29 @@
 
     .heading {
         width: 80vw;
+        margin-left: 10vw;
     }
 
     .search-bar {
-        margin-left: 280px;
+        margin-left: 300px;
     }
 
-    .servicesCards {
-        margin-left: 120px;
+    .details-card {
+        width: 37vw;
+        height: 44vh;
+    }
+
+    .details-card1 {
+        margin-left: 50px;
+    }
+    
+    .details-card1 p {
+        margin-top: -3px;
+        font-size: 14px;
+    }
+    
+    .details-card2 {
+        margin-left: 700px;
     }
 }
 
@@ -182,14 +241,29 @@
 
     .heading {
         width: 80vw;
+        margin-left: 10vw;
     }
 
     .search-bar {
         margin-left: 280px;
     }
 
-    .servicesCards {
-        margin-left: 90px;
+    .details-card {
+        width: 38vw;
+        height: 45vh;
+    }
+
+    .details-card1 {
+        margin-left: 50px;
+    }
+    
+    .details-card1 p {
+        margin-top: -1px;
+        font-size: 14px;
+    }
+    
+    .details-card2 {
+        margin-left: 670px;
     }
      
 }
@@ -198,14 +272,29 @@
 
     .heading {
         width: 85vw;
+        margin-left: 6vw;
     }
 
     .search-bar {
-        margin-left: 200px;
+        margin-left: 250px;
     }
 
-    .servicesCards {
-        margin-left: 70px;
+    .details-card {
+        width: 38vw;
+        height: 45vh;
+    }
+
+    .details-card1 {
+        margin-left: 50px;
+    }
+    
+    .details-card1 p {
+        margin-top: -1px;
+        font-size: 14px;
+    }
+    
+    .details-card2 {
+        margin-left: 630px;
     }
 }
 
@@ -213,205 +302,327 @@
 
     .heading {
         width: 85vw;
+        margin-left: 6vw;
     }
 
     .search-bar {
-        margin-left: 200px;
+        margin-left: 250px;
     }
 
-    .servicesCards {
+    .details-card {
+        width: 40vw;
+        height: 45vh;
+    }
+
+    .details-card1 {
         margin-left: 50px;
+    }
+    
+    .details-card1 p {
+        margin-top: -1px;
+        font-size: 14px;
+    }
+    
+    .details-card2 {
+        margin-left: 610px;
     }
 }
 
 @media (max-width: 1078px) and (min-width: 957px) {
 
     .heading {
-        width: 95vw;
+        width: 94vw;
     }
 
     .search-bar {
-        margin-left: 160px;
+        margin-left: 240px;
     }
 
-    .servicesCards {
-        margin-left: 110px;
-        gap: 50px;
+    .details-card {
+        width: 42vw;
+        height: 45vh;
+    }
+
+    .details-card1 {
+        margin-left: 40px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+        font-size: 13.4px;
+    }
+    
+    .details-card2 {
+        margin-left: 530px;
     }
 }
 
 @media (max-width: 957px) and (min-width: 857px) {
 
     .heading {
-        width: 96vw;
+        width: 99vw;
+        margin-bottom: 40px;
     }
 
     .search-bar {
-        margin-left: 120px;
+        margin-left: 180px;
     }
 
-    .servicesCards {
-        margin-left: 50px;
-        gap: 50px;
+    .search-button {
+        width: 85px;
+        font-size: 15px;
+        margin-left: -45px;
+    }
+
+    .details-card {
+        width: 40vw;
+        height: 45vh;
+    }
+
+    .details-card p {
+        font-size: 13px;
+    }
+
+    .details-card1 {
+        margin-left: 30px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 480px;
+        height: 42vh;
     }
 }
 
 @media (max-width: 857px) and (min-width: 800px) {
 
-    .servicesCardContent {
-        margin-left: -110px;
+    .heading {
+        width: 98vw;
         margin-bottom: 50px;
     }
 
-    .servicesCardContent h2 {
-        width: 800px;
-    }
-
     .search-bar {
-        margin-left: 80px;
+        margin-left: 170px;
     }
 
-    .servicesCards {
-        margin-left: 20px;
-        gap: 40px;
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -45px;
+    }
+
+    .details-card {
+        width: 42vw;
+        height: 45vh;
+    }
+
+    .details-card p {
+        font-size: 12.1px;
+    }
+
+    .details-card1 {
+        margin-left: 30px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 430px;
+        height: 40vh;
     }
 }
 
 @media (max-width: 800px) and (min-width: 700px) {
 
-    .servicesCardContent {
-        margin-left: -100px;
-        margin-bottom: 50px;
-    }
-
-    .servicesCardContent h2 {
-        width: 700px;
+    .heading {
+        width: 95vw;
+        margin-bottom: 60px;
     }
 
     .search-bar {
-        margin-left: 30px;
+        margin-left: 120px;
+        width: 60vw;
     }
 
-    .servicesCards {
-        margin-left: 180px;
-        gap: 50px;
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -45px;
+    }
+
+    .details-card {
+        width: 46vw;
+        height: 45vh;
+    }
+
+    .details-card p {
+        font-size: 12.1px;
+        width: 22vw;
+        margin-left: -50px;
+    }
+
+    .details-card1 {
+        margin-left: 30px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 360px;
+        height: 40vh;
     }
 }
 
 @media (max-width: 700px) and (min-width: 600px) {
-    .servicesCardContent {
-        margin-left: -120px;
+    .heading {
+        width: 99vw;
         margin-bottom: 50px;
     }
 
-    .servicesCardContent h2 {
-        width: 640px;
-    }
-
     .search-bar {
-        margin-left: 10px;
-        width: 570px;
+        width: 68vw;
+        margin-left: 100px;
     }
 
-    .servicesCards {
-        margin-left: 150px;
-        gap: 50px;
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -70px;
+    }
+
+    .details-card {
+        width: 52vw;
+        height: 43vh;
+    }
+
+    .details-card p {
+        font-size: 12px;
+        width: 22vw;
+        margin-left: -50px;
+    }
+
+    .chefpic {
+        margin-left: 25px;
+    }
+
+    .details-card1 {
+        margin-left: 20px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 290px;
+        height: 40vh;
     }
 }
 
 @media (max-width: 600px) and (min-width: 500px) {
-    .servicesCardContent {
-        margin-left: -180px;
-        margin-bottom: 50px;
-    }
-
-    .servicesCardContent h2 {
-        width: 640px;
+    .heading {
+        width: 98vw;
+        margin-bottom: 80px;
     }
 
     .search-bar {
-        margin-left: 16px;
-        width: 480px;
+        margin-left: 60px;
+        width: 68vw;
     }
 
-    .servicesCards {
-        margin-left: 90px;
-        gap: 50px;
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -77px;
+    }
+
+    .details-card {
+        width: 57vw;
+        height: 45vh;
+    }
+
+    .details-card p {
+        font-size: 11px;
+        width: 22vw;
+        margin-left: -60px;
+    }
+
+    .chefpic {
+        margin-left: 30px;
+    }
+
+    .details-card1 {
+        margin-left: 20px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 190px;
+        height: 40vh;
     }
 }
 
 @media (max-width: 500px) and (min-width: 450px) {
-    .servicesCardContent {
-        margin-left: -110px;
-        margin-bottom: 50px;
-    }
-
-    .servicesCardContent h2 {
-        width: 440px;
-        font-size: 26px;
+    .heading {
+        width: 98vw;
+        margin-bottom: 80px;
     }
 
     .search-bar {
-        margin-left: 10px;
-        width: 420px;
-        margin-bottom: 50px;
+        margin-left: 32px;
+        width: 80vw;
     }
 
     .search-button {
         width: 80px;
         font-size: 15px;
+        margin-left: -85px;
     }
 
-    .servicesCards {
-        margin-left: 60px;
-        gap: 30px;
+    .details-card {
+        width: 62vw;
+        height: 40vh;
+    }
+
+    .chefpic {
+        margin-left: 40px;
+    }
+
+    .details-card p {
+        font-size: 10px;
+        width: 28vw;
+        margin-left: -60px;
+    }
+
+    .details-card1 {
+        margin-left: 20px;
+    }
+    
+    .details-card2 {
+        margin-left: 150px;
+        height: 40vh;
     }
 }
 
 @media (max-width: 450px) and (min-width: 400px) {
-    .servicesCardContent {
-        margin-left: -125px;
-        margin-bottom: 50px;
-    }
-
-    .servicesCardContent h2 {
-        width: 440px;
-        font-size: 26px;
+    .heading {
+        width: 98vw;
+        margin-bottom: 80px;
     }
 
     .search-bar {
-        margin-left: 10px;
-        width: 380px;
-        margin-bottom: 50px;
-    }
-
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -40px;
-    }
-
-    .servicesCards {
-        margin-left: 25px;
-        gap: 30px;
-    }
-}
-
-@media (max-width: 400px) and (min-width: 350px) {
-    .servicesCardContent {
-        margin-left: -135px;
-        margin-bottom: 60px;
-    }
-
-    .servicesCardContent h2 {
-        width: 420px;
-        font-size: 26px;
-    }
-
-    .search-bar {
-        margin-left: 7px;
-        width: 340px;
-        margin-bottom: 50px;
+        margin-left: 15px;
+        width: 85vw;
     }
 
     .search-button {
@@ -420,31 +631,96 @@
         margin-left: -80px;
     }
 
-    .servicesCards {
-        margin-left: -5px;
-        gap: 30px;
+    .details-card {
+        width: 68vw;
+        height: 40vh;
+    }
+
+    .chefpic {
+        margin-left: 50px;
+    }
+
+    .details-card p {
+        font-size: 10px;
+        width: 30vw;
+        margin-left: -60px;
+    }
+
+    .details-card1 {
+        margin-left: 20px;
+    }
+    
+    .details-card1 p {
+        margin-top: -2px;
+    }
+    
+    .details-card2 {
+        margin-left: 100px;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 350px) {
+    .heading {
+        width: 98.9vw;
+        margin-bottom: 120px;
+    }
+
+    .search-bar {
+        margin-left: -1px;
+        width: 88vw;
+    }
+
+    .search-button {
+        width: 78px;
+        font-size: 15px;
+        margin-left: -120px;
+    }
+
+    .details-card {
+        width: 85vw;
+        height: 40vh;
+    }
+
+    .chefpic {
+        margin-left: 55px;
+    }
+
+    .details-card p {
+        font-size: 10.5px;
+        width: 42vw;
+        margin-left: -65px;
+    }
+
+    .details-card1 {
+        margin-left: 10px;
+    }
+    
+    .details-card1 p {
+        margin-top: -8px;
+    }
+    
+    .details-card2 {
+        margin-left: 25px;
+        height: 40vh;
     }
 }
 
 @media (max-width: 350px) and (min-width: 300px) {
-    .servicesCardContent {
-        margin-left: -135px;
-        margin-bottom: 60px;
-    }
-
-    .servicesCardContent h2 {
-        width: 420px;
-        font-size: 26px;
+    .heading {
+        width: 98vw;
+        margin-bottom: 130px;
     }
 
     .search-bar {
-        margin-left: 7px;
-        width: 290px;
-        margin-bottom: 50px;
+        margin-left: 15px;
+        width: 84vw;
     }
 
-    .search-input {
-        width: 50px;
+    .search-button {
+        width: 80px;
+        font-size: 15px;
+        margin-left: -90px;
     }
 
     .search-button {
@@ -453,8 +729,31 @@
         margin-left: -140px;
     }
 
-    .servicesCards {
-        margin-left: -5px;
-        gap: 30px;
+    .details-card {
+        width: 83vw;
+        height: 40vh;
+    }
+
+    .chefpic {
+        margin-left: 72px;
+    }
+
+    .details-card p {
+        font-size: 10.5px;
+        width: 48vw;
+        margin-left: -55px;
+    }
+
+    .details-card1 {
+        margin-left: 10px;
+    }
+    
+    .details-card1 p {
+        margin-top: -8px;
+    }
+    
+    .details-card2 {
+        margin-left: 20px;
+        height: 40vh;
     }
 }
