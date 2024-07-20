@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import chefImage from '../assests/newchef1.png';
 import './Hero.css';
-import whatsappgreen from '../assests/whatsapp-green.png';
+import whatsapp from '../assests/whatsapp.png';
 import Chat from '../OTP/Chat';
 
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
         <img src={chefImage} alt="Chef" className="hero-image-chef" />
       </div>
       <div className="chatwithuslogo" onClick={handleChatClick}>
-        <img src={whatsappgreen} alt="CHAT" className="chat-with-us" />
+        <img src={whatsapp} alt="CHAT" className="chat-with-us" />
       </div>
       {isChatVisible && <Chat onClose={handleChatClose} />}
     </div>
