@@ -20,6 +20,7 @@
 
 .review-card h3 {
   margin-top: 0;
+  text-align: center;
 }
 
 .review-card p {
@@ -31,4 +32,5 @@
 .stars {
   color: #ffc107;
   margin: 10px 0;
+  text-align: center;
 }

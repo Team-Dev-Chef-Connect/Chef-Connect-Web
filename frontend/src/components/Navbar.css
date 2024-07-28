@@ -238,35 +238,6 @@
   } 
 }
 
-/* Medium devices (small laptops, 897px to 963px) */
-@media (max-width: 963px) and (min-width: 897px) {
-  .navbar{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(32, 0, 36, 1) 100%);
-    display: flex;
-  }
-  .navbar-logo img {
-    width: auto;
-    height: auto;
-    margin-left: 30px;
-  }
-  .navbar-links {
-    gap: 0.9rem;
-    margin-left: 70px;
-  }
-  .navbar-link{
-    font-size: 19px;
-  }
-  .hireNowParent {
-    width: 150px;
-    height: 35px;
-    padding: 1px;
-    margin-left: 8px;
-    margin-right: 10px;
-    font-size: 18px;
-  } 
-}
-
-
 /* Medium devices (small laptops, 887px to 963px) */
 @media (max-width: 963px) and (min-width: 887px) {
   .navbar{
@@ -286,13 +257,17 @@
     font-size: 19px;
   }
   .hireNowParent {
-    width: 110px;
-    height: 35px;
-    padding: 4px;
-    margin-left: 8px;
+    width: 150px;
+    height: 25px;
+    padding: 15px;
+    margin-left: 14px;
     margin-right: 1px;
-    font-size: 16px;
-  } 
+    font-size: 17px;
+  }
+
+  .hireNow {
+    width: 50px;
+  }
 }
 
 /* Medium devices (small laptops, 963px to 1022px) */
@@ -320,7 +295,11 @@
     margin-left: 8px;
     margin-right: 5px;
     font-size: 15px;
-  } 
+  }
+
+  .hireNow {
+    width: 50px;
+  }
 }
 
 
@@ -349,8 +328,12 @@
     padding: 8px;
     margin-left: 8px;
     margin-right: 8px;
-    font-size: 19px;
-  } 
+    font-size: 17px;
+  }
+  
+  .hireNow {
+    width: 50px;
+  }
 }
 
 
@@ -673,7 +656,12 @@
   }
 
   .hireNowParent {
-    margin-right: 60px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+
+  .hireNow {
+    width: 50px;
   }
 
   .navbar-links.active .navbar-link {
@@ -815,7 +803,7 @@
   }
 
   .hireNowParent {
-    margin-right: 40px;
+    margin-right: 25px;
     font-size: 15px;
   }
 

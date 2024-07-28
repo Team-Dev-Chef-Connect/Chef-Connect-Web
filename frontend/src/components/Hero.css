@@ -108,12 +108,12 @@
 .chatwithuslogo {
   position: fixed;
   bottom: 35px;
-  right: 70px;
+  right: 40px;
   cursor: pointer;
   border-radius: 50%;
   border: 1px solid none;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   background: #d6d6da;
   display: flex;
   justify-content: center;
@@ -125,8 +125,8 @@
 }
 
 .chat-with-us {
-  width: 39px;
-  height: 38px;
+  width: 40px;
+  height: 41px;
 }
 
 /*Media Queries for Responsiveness */
@@ -168,6 +168,16 @@
     width: 390px;
     height: 390px;
     margin-left:10px;
+  }
+
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
+  }
+  .chat-with-us{
+    width: 35px;
+    height: 35px;
   }
 }
 
@@ -222,6 +232,16 @@
     margin-left:-135px;
   }
 
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
+  }
+  .chat-with-us{
+    width: 35px;
+    height: 35px;
+  }
+
   
 }
 @media (max-width: 1259px) and (min-width:1194px){
@@ -268,6 +288,16 @@
     width: 390px;
     height: 390px;
     margin-left:-90px;
+  }
+
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
+  }
+  .chat-with-us{
+    width: 35px;
+    height: 35px;
   }
 
 }
@@ -319,6 +349,16 @@
     width: 340px;
     height: 340px;
     margin-left:-140px;
+  }
+
+  .chatwithuslogo{
+    width: 75px;
+    height: 75px;
+    right: 40px;
+  }
+  .chat-with-us{
+    width: 35px;
+    height: 33px;
   }
   
 }
@@ -378,8 +418,8 @@
     right: 40px;
   }
   .chat-with-us{
-    width: 35px;
-    height: 25px;
+    width: 37px;
+    height: 35px;
   }
 }
 
@@ -441,8 +481,8 @@
     right: 40px;
   }
   .chat-with-us{
-    width: 35px;
-    height: 25px;
+    width: 36px;
+    height: 35px;
   }
   
 }
@@ -506,8 +546,8 @@
     right: 40px;
   }
   .chat-with-us{
-    width: 35px;
-    height: 25px;
+    width: 36px;
+    height: 35px;
   }
 }
 
@@ -567,13 +607,13 @@
     margin-left:-500px;
   }
   .chatwithuslogo{
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 72px;
     right: 40px;
   }
   .chat-with-us{
-    width: 30px;
-    height: 28px;
+    width: 35px;
+    height: 35px;
   }
 }
 
@@ -644,7 +684,7 @@
   }
   .chat-with-us{
     width: 40px;
-    height: 30px;
+    height: 37px;
   }
 }
 
@@ -713,7 +753,7 @@
   }
   .chat-with-us{
     width: 40px;
-    height: 30px;
+    height: 38px;
   }
   
 }
@@ -785,8 +825,8 @@
     right: 40px;
   }
   .chat-with-us{
-    width: 35px;
-    height: 32px;
+    width: 37px;
+    height: 36px;
   }
 }
 

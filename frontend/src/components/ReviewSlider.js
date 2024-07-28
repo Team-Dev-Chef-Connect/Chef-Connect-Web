@@ -15,7 +15,7 @@ const reviews = [
   {
     name: 'Anita Singh',
     text: `I recently used Chef Connect India for a dinner party, and I couldn't be more impressed. The chef was punctual, courteous, and prepared a mouth-watering meal that all my guests loved. The whole process was smooth and hassle-free. Will definitely use their service again.`,
-    stars: '⭐⭐⭐⭐⭐'
+    stars: '⭐⭐⭐⭐'
   },
   {
     name: 'Rohit Mehra',
