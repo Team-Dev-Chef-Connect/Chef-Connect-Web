@@ -83,3 +83,72 @@ app.post('/register', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+
+
+// Chef Details
+app.post('/chefdetails', async (req, res) => {
+    const { name, mobile } = req.body;
+
+    try {
+        const user = await User.findOne({ mobile });
+
+        if (!user) {
+            return res.status(400).json({ 
+                message: 'User not found' 
+            });
+        }
+
+        const isMatch = await bcrypt.compare(mobile, user.mobile);
+
+        if (!isMatch) {
+            return res.status(400).json({ 
+                message: 'Invalid credentials' 
+            });
+        }
+
+        res.json({ 
+            message: 'Chef Registered successful',
+        });
+
+    } 
+    catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ 
+            message: 'Internal server error' 
+        });
+    }
+});
+
+// Hotel Details
+app.post('/hoteldetails', async (req, res) => {
+    const { name, mobile } = req.body;
+
+    try {
+        const user = await User.findOne({ mobile });
+
+        if (!user) {
+            return res.status(400).json({ 
+                message: 'Hotel details does not match', 
+            });
+        }
+
+        const isMatch = await bcrypt.compare(mobile, user.mobile);
+
+        if (!isMatch) {
+            return res.status(400).json({ 
+                message: 'Invalid Hotels details' 
+            });
+        }
+
+        res.json({ 
+            message: 'Hotel Registered successful',
+        });
+
+    } 
+    catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ 
+            message: 'Internal server error' 
+        });
+    }
+});

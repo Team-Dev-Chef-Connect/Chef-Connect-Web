@@ -9,6 +9,10 @@ class Navbar extends Component {
     window.location.href = '/signup';
   };
 
+  handlechefdetails = () => {
+    window.location.href = '/forchef';
+  };
+
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
@@ -19,7 +23,7 @@ class Navbar extends Component {
         <div className="navbar-logo">
           <img src={logoImage} alt="ChefConnectIndia" /> 
         </div>
-        <div className='hinditext'>
+        <div className='hinditext' onClick={this.handlechefdetails}>
           Hum से जुड़े
         </div>
         <div className={`navbar-links ${this.state.clicked ? 'active' : ''}`}>

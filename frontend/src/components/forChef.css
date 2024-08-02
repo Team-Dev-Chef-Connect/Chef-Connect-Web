@@ -1,0 +1,199 @@
+.signup {
+    width: 420px;
+    height: 380px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 0px;
+    opacity: 90%;
+    background: linear-gradient(209.64deg, rgba(111, 100, 123, 0.9) 10.43%, rgba(19, 17, 21, 0.9) 86.4%);
+    box-shadow: 0px 5px 15px 0px #00000059;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Inter";
+}
+
+.signup h1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Inter";
+    font-weight: 700;line-height: 37.5px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    opacity: 90%;
+}
+
+.signup input {
+    width: 340px;
+    height: 41px;
+    padding: 13px 16px;
+    gap: 0px;
+    border: 1px solid #C0C0C0;
+    opacity: 1;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.signup button,
+.signup .google-button {
+    width: 331px;
+    height: 35px;
+    padding: 10px 0px;
+    gap: 0px;
+    opacity: 1;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 8px 0px #0000003D;
+}
+
+.signup button {
+    background: linear-gradient(90deg, #B927CF 0%, #5E1469 100%);
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+.signup button:hover,
+.signup .google-button:hover {
+    opacity: 0.7;
+}
+
+.signup .google-button {
+    background: white;
+    border: 1px solid #C0C0C0;
+    border-radius: 50px;
+    color: black;
+}
+
+.signup .google-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.signup .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.signup .close-icon:hover {
+    opacity: 0.8;
+}
+
+.signup p {
+    text-align: center;
+    color: white;
+}
+
+.signup .login-link a {
+    color: white;
+    text-decoration: underline;
+}
+
+.signup .login-link a:hover {
+    text-decoration: none;
+}
+.signup .login-link {
+    color: rgb(239, 185, 239);
+}
+
+
+@media (max-width: 630px) and (min-width:530px) {
+    .signup {
+        width: 440px;
+        height: 350px;
+        top: 50%;
+    }
+    
+    .signup input {
+        width: 330px;
+        height: 37px;
+    }
+    
+}
+
+
+@media (max-width: 530px) and (min-width:500px) {
+    .signup {
+        width: 400px;
+        height: 340px;
+        top: 45%;
+    }
+    
+    .signup input {
+        width: 320px;
+        height: 37px;
+    }
+    
+}
+@media (max-width: 500px) and (min-width:430px) {
+    .signup {
+        width: 370px;
+        height: 320px;
+        top: 46%;
+    }
+    
+    .signup input {
+        width: 310px;
+        height: 37px;
+    }
+    .signup h1 {
+        margin-top: 5px;
+    }
+    .signup button ,.signup .google-button {
+    width: 300px;
+}
+}
+
+@media (max-width: 430px) and (min-width:405px) {
+    .signup {
+        width: 350px;
+        height: 310px;
+        top: 46%;
+    }
+    
+    .signup input {
+        width: 310px;
+        height: 37px;
+    }
+    .signup h1 {
+        margin-top: 5px;
+    }
+    .signup button ,.signup .google-button {
+    width: 300px;
+}
+}
+
+@media (max-width: 405px) {
+    .signup {
+        width: 320px;
+        height: 320px;
+        top: 46%;
+    }
+    
+    .signup input {
+        width: 290px;
+        height: 37px;
+    }
+    .signup h1 {
+        margin-top: 5px;
+    }
+    .signup button ,.signup .google-button {
+    width: 290px;
+}
+}
