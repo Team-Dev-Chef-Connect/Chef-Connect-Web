@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './forhotels.css';
 
-function forhotels() {
+function Forhotels() {
     const [isVisible, setIsVisible] = useState(true);
     const [name, setName] = useState('');
     const [mobile, setMobile] = useState('');
@@ -44,8 +45,8 @@ function forhotels() {
         isVisible && (
             <div className="signup">
                 <div className="close-icon" onClick={handleClose}>×</div>
-                <div>
-                    <h3> <Link to="/chefdetails" className = "cheflink" > For Chef </Link> </h3>
+                <div className='bothlinks'>
+                    <h3> <Link to="/forchef" className = "cheflink" > For Chef </Link> </h3>
                     <h3> <Link to="/hoteldetails" className = "hotellink" > For Hotel </Link> </h3>
                 </div>
                 <form onSubmit={handlehotelsdetails}>
@@ -65,4 +66,4 @@ function forhotels() {
     );
 }
 
-export default forChef;
+export default Forhotels;
