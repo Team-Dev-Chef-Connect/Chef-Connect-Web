@@ -1,5 +1,5 @@
-import React from 'react';
-import Dropdown from './Dropdown';
+import React, { useState } from 'react';
+import { citydata } from '../data/city';
 import './chefdetails.css';
 import chefpic from '../assests/chefpic.jpeg';
 import NewHero from './NewHero';
@@ -7,6 +7,16 @@ import Footer from './Footer';
 
 
 const  Chefdetails = (onClose) => {
+
+  const [currentcity, setcurrentcity] = useState(citydata[0].tag);
+  const [chefs, setchefs] = useState(citydata[0].chefs);
+
+  const citydetails = (value) => {
+    setcurrentcity(value);
+    const result = citydata.filter((chef) => chef.tag === value);
+    setchefs(result[0].chefs);
+  }
+
   return (
     <div>
         <h2 className='heading'>
