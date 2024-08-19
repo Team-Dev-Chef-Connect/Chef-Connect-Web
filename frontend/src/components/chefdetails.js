@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { citydata } from '../data/city';
+import { useNavigate} from 'react-router-dom';
+import { Citydata } from '../data/city';
 import './chefdetails.css';
 import chefpic from '../assests/chefpic.jpeg';
 import NewHero from './NewHero';
@@ -8,14 +9,11 @@ import Footer from './Footer';
 
 const  Chefdetails = (onClose) => {
 
-  const [currentcity, setcurrentcity] = useState(citydata[0].tag);
-  const [chefs, setchefs] = useState(citydata[0].chefs);
+  const navigate = useNavigate();
 
-  const citydetails = (value) => {
-    setcurrentcity(value);
-    const result = citydata.filter((chef) => chef.tag === value);
-    setchefs(result[0].chefs);
-  }
+  const chefnumberclick = () => {
+    navigate('/numberclick');
+  };
 
   return (
     <div>
@@ -29,7 +27,7 @@ const  Chefdetails = (onClose) => {
           <span className="location-text">Mumbai</span>
         </div>
        <input type="text" placeholder="Add more..." className="search-input" />
-       <button className="search-button">Search</button>
+       <button className="search-button" onClick={chefnumberclick}>Search</button>
        </div>
       
        <div className='details-card details-card1'>

@@ -1,5 +1,8 @@
-export const citydata = [
-    {
+import React, {useState} from 'react';
+
+const cityname = [
+
+    { 
         tag: 'Jaipur',
         chefs: [
             {
@@ -224,4 +227,30 @@ export const citydata = [
             },
         ]
     }
+    
 ]
+
+const Citydata = () => {
+
+    const [currentcity, setcurrentcity] = useState();
+    const [chefs, setchefs] = useState();
+
+    const citydetails = (value) => {
+    setcurrentcity(value);
+    const result = cityname.filter((chef) => chef.tag === value);
+    setchefs(result[0].chefs);
+    }
+
+    return (
+        <div className="citycard">
+          {cityname.map((city, tag) => (
+            <div className="chefcard" key={tag}>
+              <h3>{chefs.name}</h3>
+              <p>{chefs.phone_number}</p>
+            </div>
+          ))}
+        </div>
+    ); 
+}
+
+export default Citydata;

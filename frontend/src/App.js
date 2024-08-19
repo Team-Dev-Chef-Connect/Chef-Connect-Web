@@ -70,6 +70,7 @@ import ReviewSlider from './components/ReviewSlider';
 import Chefdetails  from './components/chefdetails';
 import ForChef from './components/forChef';
 import Forhotels from './components/forhotels';
+import  Citydata  from './data/city';
 
 function App() {
   return (
@@ -109,6 +110,7 @@ function App() {
           <Route path='/terms-of-service' element={<Terms />} />
           <Route path='/permanent-chef' element={<PermanentChef />}/>
           <Route path='/details-click' element={<Chefdetails/>}/>
+          <Route path='/chefnumberclick' element={<Citydata/>}/>
         </Routes>
       </div>
     </Router>
