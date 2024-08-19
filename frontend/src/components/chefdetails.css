@@ -1,777 +1,671 @@
 .heading {
-    text-align: center;
-    width: 60vw;
-    height: 50px;
-    font-size: 33px;
-    margin: 30px auto;
-    color: #F4DE6C;
+  text-align: center;
+  width: 60vw;
+  height: 50px;
+  font-size: 33px;
+  margin: 30px auto;
+  color: #f4de6c;
 }
 
 .search-bar {
-    display: flex;
-    align-items: center;
-    background-color: #111111;
-    padding: 10px;
-    border-radius: 30px;
-    width: 42vw;
-    border: 2px solid white;
-    margin-left: 400px;
-    margin-bottom: 80px;
-    margin-top: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #111111;
+  padding: 10px;
+  border-radius: 30px;
+  width: 42vw;
+  border: 2px solid white;
+  margin-left: 400px;
+  margin-bottom: 80px;
+  margin-top: 15px;
 }
-  
+
 .location {
-    display: flex;
-    align-items: center;
-    background-color: #111111;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin-right: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #111111;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
 }
-  
+
 .icon {
-    margin-right: 5px;
+  margin-right: 5px;
 }
-  
+
 .location-text {
-    margin-right: 5px;
+  margin-right: 5px;
 }
-  
+
 .search-input {
-    flex-grow: 1;
-    background-color: #111111;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    outline: none;
-    margin-right: 10px;
-    font-size: 16px;
+  flex-grow: 1;
+  background-color: #111111;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  outline: none;
+  margin-right: 10px;
+  font-size: 16px;
 }
-  
+
 .search-input::placeholder {
-    color: #888888;
+  color: #888888;
 }
-  
+
 .search-button {
-    background-color: #4e2a82;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
+  background-color: #4e2a82;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
 }
-  
+
 .search-button:hover {
-    background-color: #5a3596;
+  background-color: #5a3596;
+}
+
+.detail-cards{
+    display: flex;
+    flex-direction: column wrap;
 }
 
 .details-card {
-    display: flex;
-    flex-direction: row;
-    width: 32vw;
-    height: 41vh;
-    justify-content: center;
-    margin-top: 5px;
-    margin-left: 20px;
-    border: 2px solid black;
-    background-color: #231036;
-    border-radius: 4%;
+  display: flex;
+  flex-direction: row;
+  width: 17.4vw;
+  height: 20vh;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 15px;
+  border: 2px solid black;
+  background-color: #231036;
+  border-radius: 5%;
 }
 
 .details-text {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    width: 14vw;
-    font-size: 15px;
-    margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 12vw;
+  font-size: 15px;
+  margin-left: 35px;
 }
 
 .chef-name {
-    color: #F4DE6C;
-    font-size: 21px;
-    width: 45vw;
+  color: #f4de6c;
+  text-align: center;
+  font-size: 21px;
+  width: 13vw;
+  margin-left: -25px;
 }
 
-.chefpic {
-    width: 11vw;
-    height: 22vh;
-    border-radius: 18%;
-    margin-left: 28px;
-    margin-top: 80px;
-    margin-right: -30px;
+.chef-number {
+  font-size: 17px;
+  text-align: center;
 }
-
-.details-card1 {
-    margin-left: 100px;
-}
-
-.details-card1 p {
-    margin-top: -0.2px;
-}
-
-.details-card2 {
-    margin-left: 900px;
-}
-
 
 @media (max-width: 1406px) and (min-width: 1336px) {
+  .heading {
+    margin-left: -80px;
+  }
 
-    .heading {
-        margin-left: -80px;
-    }
+  .search-bar {
+    margin-left: 330px;
+  }
 
-    .search-bar {
-        margin-left: 330px;
-    }
+  .details-card {
+    width: 18vw;
+    height: 20vh;
+  }
 
-    .details-card {
-        width: 35vw;
-        height: 42vh;
-    }
+  .details-card1 {
+    margin-left: 50px;
+  }
 
-    .details-card1 {
-        margin-left: 50px;
-    }
-    
-    .details-card1 p {
-        margin-top: -2px;
-    }
-    
-    .details-card2 {
-        margin-left: 740px;
-    }
+  .details-card1 p {
+    margin-top: -2px;
+  }
+
+  .details-card2 {
+    margin-left: 740px;
+  }
 }
 
 @media (max-width: 1336px) and (min-width: 1290px) {
+  .heading {
+    margin-left: -100px;
+  }
 
-    .heading {
-        margin-left: -100px;
-    }
+  .search-bar {
+    margin-left: 320px;
+  }
 
-    .search-bar {
-        margin-left: 320px;
-    }
+  .details-card {
+    width: 18vw;
+    height: 20vh;
+  }
 
-    .details-card {
-        width: 35vw;
-        height: 42vh;
-    }
+  .details-card1 {
+    margin-left: 50px;
+  }
 
-    .details-card1 {
-        margin-left: 50px;
-    }
-    
-    .details-card1 p {
-        margin-top: -2px;
-    }
-    
-    .details-card2 {
-        margin-left: 740px;
-    }
+  .details-card1 p {
+    margin-top: -2px;
+  }
 
+  .details-card2 {
+    margin-left: 740px;
+  }
 }
 
 @media (max-width: 1290px) and (min-width: 1225px) {
+  .heading {
+    width: 80vw;
+    margin-left: 12vw;
+  }
 
-    .heading {
-        width: 80vw;
-        margin-left: 12vw;
-    }
+  .search-bar {
+    margin-left: 320px;
+  }
 
-    .search-bar {
-        margin-left: 320px;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .details-card {
-        width: 35vw;
-        height: 42vh;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .chefpic {
-        margin-left: 15px;
-        margin-right: -50px;
-    }
-
-    .details-card1 {
-        margin-left: 50px;
-    }
-    
-    .details-card p {
-        margin-left: -65px;
-    }
-    
-    .details-card2 {
-        margin-left: 740px;
-    }
+  .details-card p {
+    margin-left: -50px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 1225px) and (min-width: 1168px) {
+  .heading {
+    width: 80vw;
+    margin-left: 10vw;
+  }
 
-    .heading {
-        width: 80vw;
-        margin-left: 10vw;
-    }
+  .search-bar {
+    margin-left: 300px;
+  }
 
-    .search-bar {
-        margin-left: 300px;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .details-card {
-        width: 37vw;
-        height: 42vh;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .details-card1 {
-        margin-left: 50px;
-    }
-    
-    .details-card1 p {
-        margin-top: -3px;
-        font-size: 14px;
-    }
-    
-    .details-card2 {
-        margin-left: 700px;
-    }
+  .details-card p {
+    margin-left: -45px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 1168px) and (min-width: 1138px) {
+  .heading {
+    width: 80vw;
+    margin-left: 10vw;
+  }
 
-    .heading {
-        width: 80vw;
-        margin-left: 10vw;
-    }
+  .search-bar {
+    margin-left: 280px;
+  }
 
-    .search-bar {
-        margin-left: 280px;
-    }
+  .details-card {
+    width: 30vw;
+    height: 17vh;
+  }
 
-    .details-card {
-        width: 38vw;
-        height: 42vh;
-    }
+  .chef-name {
+    width: 17vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -46px;
+  }
 
-    .details-card1 {
-        margin-left: 50px;
-    }
-    
-    .details-card1 p {
-        margin-top: -1px;
-        font-size: 14px;
-    }
-    
-    .details-card2 {
-        margin-left: 670px;
-    }
-     
+  .details-card p {
+    margin-left: -45px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 1138px) and (min-width: 1109px) {
+  .heading {
+    width: 85vw;
+    margin-left: 6vw;
+  }
 
-    .heading {
-        width: 85vw;
-        margin-left: 6vw;
-    }
+  .search-bar {
+    margin-left: 250px;
+  }
 
-    .search-bar {
-        margin-left: 250px;
-    }
+  .details-card {
+    width: 35vw;
+    height: 17vh;
+  }
 
-    .details-card {
-        width: 38vw;
-        height: 42vh;
-    }
+  .chef-name {
+    width: 17vw;
+    height: 3.4vh;
+    font-size: 21px;
+    margin-left: -45px;
+  }
 
-    .details-card1 {
-        margin-left: 50px;
-    }
-    
-    .details-card1 p {
-        margin-top: -1px;
-        font-size: 14px;
-    }
-    
-    .details-card2 {
-        margin-left: 630px;
-    }
+  .details-card p {
+    margin-left: -57px;
+    width: 19vw;
+  }
 }
 
 @media (max-width: 1109px) and (min-width: 1078px) {
+  .heading {
+    width: 85vw;
+    margin-left: 6vw;
+  }
 
-    .heading {
-        width: 85vw;
-        margin-left: 6vw;
-    }
+  .search-bar {
+    margin-left: 250px;
+  }
 
-    .search-bar {
-        margin-left: 250px;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .details-card {
-        width: 40vw;
-        height: 41vh;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .details-card1 {
-        margin-left: 50px;
-    }
-    
-    .details-card p {
-        margin-left: -60px;
-        font-size: 14px;
-    }
-    
-    .details-card2 {
-        margin-left: 610px;
-    }
+  .details-card p {
+    margin-left: -50px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 1078px) and (min-width: 957px) {
+  .heading {
+    width: 94vw;
+  }
 
-    .heading {
-        width: 94vw;
-    }
+  .search-bar {
+    margin-left: 240px;
+  }
 
-    .search-bar {
-        margin-left: 240px;
-    }
+  .search-button {
+    margin-left: -50px;
+  }
 
-    .details-card {
-        width: 42vw;
-        height: 40vh;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .chefpic {
-        margin-right: -45px;
-        width: 14vw;
-        height: 20vh;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .details-card1 {
-        margin-left: 40px;
-    }
-    
-    .details-card p {
-        margin-left: -60px;
-        font-size: 13.4px;
-    }
-    
-    .details-card2 {
-        margin-left: 530px;
-    }
+  .details-card p {
+    margin-left: -50px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 957px) and (min-width: 857px) {
+  .heading {
+    width: 99vw;
+    margin-bottom: 40px;
+  }
 
-    .heading {
-        width: 99vw;
-        margin-bottom: 40px;
-    }
+  .search-bar {
+    margin-left: 210px;
+    height: 35px;
+  }
 
-    .search-bar {
-        margin-left: 180px;
-    }
+  .search-button {
+    width: 85px;
+    font-size: 15px;
+    margin-left: -50px;
+  }
 
-    .search-button {
-        width: 85px;
-        font-size: 15px;
-        margin-left: -45px;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .details-card {
-        width: 43vw;
-        height: 40vh;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .details-card p {
-        font-size: 13.4px;
-    }
-
-    .chefpic {
-        margin-right: -55px;
-        width: 14vw;
-        height: 20vh;
-    }
-
-    .details-card1 {
-        margin-left: 30px;
-    }
-    
-    .details-card p {
-        margin-left: -70px;
-    }
-    
-    .details-card2 {
-        margin-left: 450px;
-    }
+  .details-card p {
+    margin-left: -50px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 857px) and (min-width: 800px) {
+  .heading {
+    width: 98vw;
+    margin-bottom: 50px;
+  }
 
-    .heading {
-        width: 98vw;
-        margin-bottom: 50px;
-    }
+  .search-bar {
+    margin-left: 170px;
+  }
 
-    .search-bar {
-        margin-left: 170px;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -65px;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -45px;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .details-card {
-        width: 45vw;
-        height: 38vh;
-    }
+  .chef-name {
+    width: 16vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -33px;
+  }
 
-    .chefpic {
-        margin-right: -50px;
-        width: 14vw;
-        height: 20vh;
-    }
-
-    .details-card1 {
-        margin-left: 30px;
-    }
-    
-    .details-card p {
-        margin-left: -70px;
-        font-size: 13px;
-    }
-    
-    .details-card2 {
-        margin-left: 430px;
-    }
+  .details-card p {
+    margin-left: -32px;
+    width: 16vw;
+  }
 }
 
 @media (max-width: 800px) and (min-width: 700px) {
+  .heading {
+    width: 95vw;
+    margin-bottom: 60px;
+  }
 
-    .heading {
-        width: 95vw;
-        margin-bottom: 60px;
-    }
+  .search-bar {
+    margin-left: 120px;
+    width: 60vw;
+  }
 
-    .search-bar {
-        margin-left: 120px;
-        width: 60vw;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -45px;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -45px;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .details-card {
-        width: 47vw;
-        height: 37vh;
-    }
+  .chef-name {
+    width: 17vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .chefpic {
-        margin-right: -55px;
-        width: 14vw;
-        height: 20vh;
-    }
-
-    .details-card1 {
-        margin-left: 30px;
-    }
-    
-    .details-card p {
-        margin-left: -75px;
-        font-size: 12.4px;
-    }
-    
-    .details-card2 {
-        margin-left: 360px;
-    }
+  .details-card p {
+    margin-left: -32px;
+    width: 16vw;
+  }
 }
 
 @media (max-width: 700px) and (min-width: 600px) {
-    .heading {
-        width: 99vw;
-        margin-bottom: 50px;
-    }
+  .heading {
+    width: 99vw;
+    margin-bottom: 50px;
+  }
 
-    .search-bar {
-        width: 68vw;
-        margin-left: 100px;
-    }
+  .search-bar {
+    width: 68vw;
+    margin-left: 100px;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -70px;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -70px;
+  }
 
-    .details-card {
-        width: 50vw;
-        height: 37vh;
-    }
+  .details-card {
+    width: 30vw;
+    height: 21vh;
+    margin-left: 9px;
+  }
 
-    .chefpic {
-        margin-right: -50px;
-        width: 15vw;
-        height: 19vh;
-    }
+  .chef-name {
+    width: 18vw;
+    height: 3vh;
+    font-size: 20px;
+    margin-left: -36px;
+  }
 
-    .details-card1 {
-        margin-left: 30px;
-    }
-    
-    .details-card p {
-        margin-left: -70px;
-        font-size: 12px;
-    }
-    
-    .details-card2 {
-        margin-left: 280px;
-    }
+  .details-card p {
+    margin-left: -32px;
+    width: 16vw;
+  }
 }
 
 @media (max-width: 600px) and (min-width: 500px) {
-    .heading {
-        width: 98vw;
-        margin-bottom: 80px;
-    }
+  .heading {
+    width: 98vw;
+    margin-bottom: 80px;
+  }
 
-    .search-bar {
-        margin-left: 60px;
-        width: 68vw;
-    }
+  .search-bar {
+    margin-left: 60px;
+    width: 68vw;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -77px;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -77px;
+  }
 
-    .details-card {
-        width: 60vw;
-        height: 38vh;
-    }
+  .detail-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+  }
 
-    .chefpic {
-        margin-right: -80px;
-        width: 16vw;
-        height: 18vh;
-    }
+  .details-card {
+    width: 40vw;
+    height: 18vh;
+    margin-left: 5px;
+  }
 
-    .details-card1 {
-        margin-left: 30px;
-    }
-    
-    .details-card p {
-        margin-left: -105px;
-        font-size: 13px;
-    }
-    
-    .details-card2 {
-        margin-left: 180px;
-    }
+  .chef-name {
+    width: 32vw;
+    height: 3vh;
+    font-size: 20px;
+    margin-left: -80px;
+  }
+
+  .details-card p {
+    margin-left: -32px;
+    width: 20vw;
+  }
 }
 
 @media (max-width: 500px) and (min-width: 450px) {
-    .heading {
-        width: 98vw;
-        margin-bottom: 80px;
-    }
+  .heading {
+    width: 98vw;
+    margin-bottom: 80px;
+  }
 
-    .search-bar {
-        margin-left: 32px;
-        width: 80vw;
-    }
+  .search-bar {
+    margin-left: 32px;
+    width: 80vw;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -85px;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -85px;
+  }
 
-    .details-card {
-        width: 68vw;
-        height: 37vh;
-    }
+  .detail-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+  }
 
-    .chefpic {
-        margin-right: -80px;
-        width: 18vw;
-        height: 18vh;
-    }
+  .details-card {
+    width: 40vw;
+    height: 17vh;
+    margin-left: 15px;
+  }
 
-    .details-card p {
-        font-size: 12.2px;
-        width: 39vw;
-        margin-left: -105px;
-    }
+  .chef-name {
+    width: 35vw;
+    height: 1vh;
+    font-size: 18px;
+    margin-left: -72px;
+  }
 
-    .details-card1 {
-        margin-left: 20px;
-    }
-    
-    .details-card2 {
-        margin-left: 150px;
-    }
+  .details-card p {
+    margin-left: -50px;
+    margin-top: 20px;
+    width: 25vw;
+  }
 }
 
 @media (max-width: 450px) and (min-width: 400px) {
-    .heading {
-        width: 98vw;
-        margin-bottom: 80px;
-    }
+  .heading {
+    width: 98vw;
+    margin-bottom: 80px;
+  }
 
-    .search-bar {
-        margin-left: 15px;
-        width: 85vw;
-    }
+  .search-bar {
+    margin-left: 15px;
+    width: 85vw;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -80px;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -80px;
+  }
 
-    .details-card {
-        width: 80vw;
-        height: 31vh;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .chefpic {
-        margin-left: 72px;
-        margin-right: -65px;
-        height: 15vh;
-        width: 22vw;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .details-card p {
-        font-size: 11.5px;
-        width: 45vw;
-        margin-left: -88px;
-    }
-
-    .details-card1 {
-        margin-left: 10px;
-        margin-bottom: 20px;
-    }
-    
-    .details-card1 p {
-        margin-top: -5px;
-    }
-    
-    .details-card2 {
-        margin-left: 40px;
-    }
+  .details-card p {
+    margin-left: -50px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 400px) and (min-width: 350px) {
-    .heading {
-        width: 98.9vw;
-        margin-bottom: 120px;
-    }
+  .heading {
+    width: 98.9vw;
+    margin-bottom: 120px;
+  }
 
-    .search-bar {
-        margin-left: -1px;
-        width: 88vw;
-    }
+  .search-bar {
+    margin-left: -1px;
+    width: 88vw;
+  }
 
-    .search-button {
-        width: 78px;
-        font-size: 15px;
-        margin-left: -120px;
-    }
+  .search-button {
+    width: 78px;
+    font-size: 15px;
+    margin-left: -120px;
+  }
 
-    .details-card {
-        width: 88vw;
-        height: 32vh;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .chefpic {
-        margin-left: 72px;
-        margin-right: -58px;
-        height: 15vh;
-        width: 22vw;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .details-card p {
-        font-size: 11.5px;
-        width: 50vw;
-        margin-left: -85px;
-    }
-
-    .details-card1 {
-        margin-left: 10px;
-        margin-bottom: 20px;
-    }
-    
-    .details-card1 p {
-        margin-top: -5px;
-    }
-    
-    .details-card2 {
-        margin-left: 10px;
-        height: 32vh;
-    }
+  .details-card p {
+    margin-left: -50px;
+    width: 17vw;
+  }
 }
 
 @media (max-width: 350px) and (min-width: 300px) {
-    .heading {
-        width: 98vw;
-        margin-bottom: 130px;
-    }
+  .heading {
+    width: 98vw;
+    margin-bottom: 130px;
+  }
 
-    .search-bar {
-        margin-left: 15px;
-        width: 84vw;
-    }
+  .search-bar {
+    margin-left: 15px;
+    width: 84vw;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -90px;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -90px;
+  }
 
-    .search-button {
-        width: 80px;
-        font-size: 15px;
-        margin-left: -140px;
-    }
+  .search-button {
+    width: 80px;
+    font-size: 15px;
+    margin-left: -140px;
+  }
 
-    .details-card {
-        width: 88vw;
-        height: 32vh;
-    }
+  .details-card {
+    width: 30vw;
+    height: 18vh;
+  }
 
-    .chefpic {
-        margin-left: 72px;
-        margin-right: -55px;
-        height: 15vh;
-        width: 22vw;
-    }
+  .chef-name {
+    width: 15vw;
+    height: 3vh;
+    font-size: 21px;
+    margin-left: -35px;
+  }
 
-    .details-card p {
-        font-size: 10.5px;
-        width: 50vw;
-        margin-left: -68px;
-    }
-
-    .details-card1 {
-        margin-left: 10px;
-        margin-bottom: 20px;
-    }
-    
-    .details-card1 p {
-        margin-top: -5px;
-    }
-    
-    .details-card2 {
-        margin-left: 10px;
-        height: 32vh;
-    }
+  .details-card p {
+    margin-left: -50px;
+    width: 17vw;
+  }
 }
