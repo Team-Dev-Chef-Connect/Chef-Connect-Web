@@ -36,7 +36,7 @@ const Services = () => {
           <hr />
           <ul>
             <li>One Day for Home & Corporate function</li>
-            <li>Customisable Menu</li>
+            <li>Customizable Menu</li>
             <li>Starting from ₹ 1999</li>
             <li>Multicuisine Menu</li>
           </ul>
@@ -61,7 +61,7 @@ const Services = () => {
           <p>Professional chef/cook for your Home.</p>
           <hr />
           <ul>
-            <li>Policy Verified Chef</li>
+            <li>Verified Chef</li>
             <li>Multicuisine Chef</li>
             <li>3-Month Replacement</li>
             <li>Chef on Demand</li>

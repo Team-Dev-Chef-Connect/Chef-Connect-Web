@@ -1,8 +1,8 @@
 .review-slider {
   display: flex;
-  gap: 20px;
+  gap: 2px;
   overflow-x: auto;
-  padding: 20px;
+  padding: 22px;
   color: #fff;
   height: 40vh;
   align-items: center;
@@ -10,27 +10,8 @@
 }
 
 .review-card {
-  background-color: #333;
   border-radius: 10px;
-  padding: 20px;
   min-width: 300px;
   max-width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.review-card h3 {
-  margin-top: 0;
-  text-align: center;
-}
-
-.review-card p {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-left: 20px;
-}
-
-.stars {
-  color: #ffc107;
-  margin: 10px 0;
-  text-align: center;
 }
