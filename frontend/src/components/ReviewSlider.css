@@ -1,17 +1,15 @@
 .review-slider {
   display: flex;
-  gap: 2px;
+  gap: 42px;
   overflow-x: auto;
   padding: 22px;
   color: #fff;
-  height: 40vh;
+  height: 38vh;
   align-items: center;
-  margin-bottom: 70px;
 }
 
 .review-card {
   border-radius: 10px;
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 290px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
