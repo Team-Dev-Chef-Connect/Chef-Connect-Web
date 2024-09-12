@@ -68,8 +68,6 @@ import Terms from './Footerpages/Terms';
 import PermanentChef from './components/PermanentChef';
 import ReviewSlider from './components/ReviewSlider';
 import Chefdetails  from './components/chefdetails';
-import ForChef from './components/forChef';
-import Forhotels from './components/forhotels';
 import  Citydata  from './data/city';
 
 function App() {
@@ -99,8 +97,6 @@ function App() {
             </>
           } />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/forchef" element={<ForChef />} />
-          <Route path="/forhotels" element={<Forhotels />} />
           <Route path="/login" element={<Login />} />
           <Route path="/otpverify" element={<OTPVerification />} />
           <Route path="/enterotp" element={<EnterOTP />} />

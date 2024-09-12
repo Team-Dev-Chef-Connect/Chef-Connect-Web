@@ -4,9 +4,9 @@ import './signup.css';
 
 function Signup() {
     const [isVisible, setIsVisible] = useState(true);
-    const [name, setName] = useState('');
+    const [hoteldetails, sethoteldetails] = useState('');
     const [mobile, setMobile] = useState('');
-    const [password, setPassword] = useState('');
+    const [looking, setlooking] = useState('');
 
     const handleClose = () => {
         setIsVisible(false);
@@ -22,7 +22,7 @@ function Signup() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ name, mobile, password }),
+                body: JSON.stringify({ hoteldetails, mobile, looking }),
             });
 
             const data = await response.json();
@@ -43,14 +43,14 @@ function Signup() {
         isVisible && (
             <div className="signup">
                 <div className="close-icon" onClick={handleClose}>×</div>
-                <h1>Sign up</h1>
+                <h1>Hotel Details</h1>
                 <form onSubmit={handleSignup}>
                     <input
                         type="text"
-                        placeholder="Name"
-                        name="name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
+                        placeholder="आपका Hotel कहां है?"
+                        name="hoteldetails"
+                        value={hoteldetails}
+                        onChange={(e) => sethoteldetails(e.target.value)}
                         required
                     />
                     <input
@@ -62,21 +62,16 @@ function Signup() {
                         required
                     />
                     <input
-                        type="password"
-                        placeholder="Password"
-                        name="password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
+                        type="text"
+                        placeholder="आप क्या ढूंढ रहे है?"
+                        name="looking"
+                        value={looking}
+                        onChange={(e) => setlooking(e.target.value)}
                         required
                     />
-                    <button type="submit">Sign up</button>
-                    {/* <p>You can also login with below options</p>
-                    <button type="button" className="google-button">
-                        <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google logo" />
-                        Sign up with Google
-                    </button> */}
+                    <button type="submit">Submit</button>
                 </form>
-                <p>Already have an account? <Link to="/login" className="login-link">Login</Link></p>
+                <p>क्या आप एक शेफ हैं? <Link to="/login" className="login-link"> Chef Details </Link></p>
             </div>
         )
     );

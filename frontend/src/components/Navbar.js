@@ -23,9 +23,6 @@ class Navbar extends Component {
         <div className="navbar-logo">
           <img src={logoImage} alt="ChefConnectIndia" /> 
         </div>
-        <div className='hinditext' onClick={this.handlechefdetails}>
-          Hum से जुड़े
-        </div>
         <div className={`navbar-links ${this.state.clicked ? 'active' : ''}`}>
           <a href="/" className="navbar-link">Home</a>
           <a href="#services" className="navbar-link">Our Services</a>
@@ -33,7 +30,7 @@ class Navbar extends Component {
           <a href="#gallery" className="navbar-link">Gallery</a>
         </div>
         <div className='hireNowParent' onClick={this.handleSignup}>
-          <div className='hireNow'>Log In</div>
+          <div className='hireNow'>Hum से जुड़े</div>
         </div>
         <div className="navbar-toggle" onClick={this.handleClick}>
           {this.state.clicked ? '✕' : '☰'}

@@ -28,14 +28,14 @@ mongoose.connect(mongoURI, {
 const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
     mobile: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
+    place: { type: String, required: true },
 });
 
 const User = mongoose.model('User', userSchema);
 
 // Login Endpoint
 app.post('/login', async (req, res) => {
-    const { mobile, password } = req.body;
+    const { mobile, place } = req.body;
 
     try {
         const user = await User.findOne({ mobile });
@@ -44,7 +44,7 @@ app.post('/login', async (req, res) => {
             return res.status(400).json({ message: 'User not found' });
         }
 
-        const isMatch = await bcrypt.compare(password, user.password);
+        const isMatch = await compare(place, user.place);
 
         if (!isMatch) {
             return res.status(400).json({ message: 'Invalid credentials' });
@@ -59,7 +59,7 @@ app.post('/login', async (req, res) => {
 
 // Register Endpoint
 app.post('/register', async (req, res) => {
-    const { name, mobile, password } = req.body;
+    const { hoteldetails, mobile, looking } = req.body;
 
     try {
         let user = await User.findOne({ mobile });
@@ -68,8 +68,7 @@ app.post('/register', async (req, res) => {
             return res.status(400).json({ message: 'Mobile number already registered' });
         }
 
-        const hashedPassword = await bcrypt.hash(password, 10);
-        user = new User({ name, mobile, password: hashedPassword });
+        user = new User({ hoteldetails, mobile, looking});
         await user.save();
 
         res.json({ message: 'User registered successfully' });
@@ -82,73 +81,4 @@ app.post('/register', async (req, res) => {
 // Start Server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
-});
-
-
-// Chef Details
-app.post('/chefdetails', async (req, res) => {
-    const { name, mobile } = req.body;
-
-    try {
-        const user = await User.findOne({ mobile });
-
-        if (!user) {
-            return res.status(400).json({ 
-                message: 'User not found' 
-            });
-        }
-
-        const isMatch = await bcrypt.compare(mobile, user.mobile);
-
-        if (!isMatch) {
-            return res.status(400).json({ 
-                message: 'Invalid credentials' 
-            });
-        }
-
-        res.json({ 
-            message: 'Chef Registered successful',
-        });
-
-    } 
-    catch (error) {
-        console.error('Error:', error);
-        res.status(500).json({ 
-            message: 'Internal server error' 
-        });
-    }
-});
-
-// Hotel Details
-app.post('/hoteldetails', async (req, res) => {
-    const { name, mobile } = req.body;
-
-    try {
-        const user = await User.findOne({ mobile });
-
-        if (!user) {
-            return res.status(400).json({ 
-                message: 'Hotel details does not match', 
-            });
-        }
-
-        const isMatch = await bcrypt.compare(mobile, user.mobile);
-
-        if (!isMatch) {
-            return res.status(400).json({ 
-                message: 'Invalid Hotels details' 
-            });
-        }
-
-        res.json({ 
-            message: 'Hotel Registered successful',
-        });
-
-    } 
-    catch (error) {
-        console.error('Error:', error);
-        res.status(500).json({ 
-            message: 'Internal server error' 
-        });
-    }
 });

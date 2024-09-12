@@ -55,7 +55,7 @@ const Chefdetails = () => {
           <div key={index} className="details-card">
             <div className="details-text">
               <h3 className="chef-name">{chef.name}</h3>
-              <p className="chef-number">Phone Number: {chef.phone_number}</p>
+              <a className=""> View More {'>'} {chef.phone_number}</a>
             </div>
           </div>
         ))
