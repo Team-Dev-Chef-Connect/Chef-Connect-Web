@@ -100,7 +100,8 @@
 }
 
 .contact-card-button .contact-card-icon {
-  width: 24px;
+  width: 26px;
+  height: 23px;
 }
 
 .contact-card-arrow {
@@ -221,6 +222,7 @@ p {
   
   .contact-card-button .contact-card-icon {
     width: 20px;
+    height: 19px;
   }
   
   .contact-card-arrow {

@@ -28,6 +28,10 @@ const Chefdetails = () => {
     }
   };
 
+  const Viewmore = () => {
+    navigate('/View-more')
+  }
+
   return (
     <div>
       <h2 className="heading">Find your perfect hospitality Chef/Staff</h2>
@@ -55,7 +59,6 @@ const Chefdetails = () => {
           <div key={index} className="details-card">
             <div className="details-text">
               <h3 className="chef-name">{chef.name}</h3>
-              <a className=""> View More {'>'} {chef.phone_number}</a>
             </div>
           </div>
         ))
@@ -63,6 +66,10 @@ const Chefdetails = () => {
         <p>No chefs found for {searchCity}</p>
       )}
       </div>
+
+      <button className="view-more" onClick={Viewmore} >
+          View More
+      </button>
 
       
 

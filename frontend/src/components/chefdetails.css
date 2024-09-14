@@ -102,9 +102,26 @@
   margin-left: -25px;
 }
 
-.chef-number {
-  font-size: 17px;
-  text-align: center;
+.view-more {
+  width: 210px;
+  height: 45px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 82px;
+  opacity: 1;
+  background: linear-gradient(90deg, #320063, #5e328a 51.9%, #d324e3);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition:  color 0.3s;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  margin-top: 35px;
+  margin-left: 30vw;
 }
 
 @media (max-width: 1406px) and (min-width: 1336px) {

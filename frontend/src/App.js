@@ -69,6 +69,7 @@ import PermanentChef from './components/PermanentChef';
 import ReviewSlider from './components/ReviewSlider';
 import Chefdetails  from './components/chefdetails';
 import  Citydata  from './data/city';
+import Viewmore from './components/viewmore';
 
 function App() {
   return (
@@ -107,6 +108,7 @@ function App() {
           <Route path='/permanent-chef' element={<PermanentChef />}/>
           <Route path='/details-click' element={<Chefdetails/>}/>
           <Route path='/chefnumberclick' element={<Citydata/>}/>
+          <Route path='/View-more' element={<Viewmore/>} />
         </Routes>
       </div>
     </Router>
