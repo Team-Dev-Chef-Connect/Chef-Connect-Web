@@ -58,7 +58,7 @@ app.post('/login', async (req, res) => {
 });
 
 // Register Endpoint
-app.post('/register', async (req, res) => {
+app.post('/signup', async (req, res) => {
     const { hoteldetails, mobile, looking } = req.body;
 
     try {

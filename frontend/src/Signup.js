@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './signup.css';
 
 function Signup() {
@@ -17,7 +16,7 @@ function Signup() {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:5000/register', {
+            const response = await fetch('http://localhost:5000/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -29,7 +28,7 @@ function Signup() {
 
             if (response.ok) {
                 alert('Registration successful');
-                window.location.href = '/login';
+                window.location.href = '/';
             } else {
                 alert(data.message);
             }
