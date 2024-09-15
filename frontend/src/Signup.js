@@ -71,7 +71,6 @@ function Signup() {
                     />
                     <button type="submit">Submit</button>
                 </form>
-                <p>क्या आप एक शेफ हैं? <Link to="/login" className="login-link"> Chef Details </Link></p>
             </div>
         )
     );

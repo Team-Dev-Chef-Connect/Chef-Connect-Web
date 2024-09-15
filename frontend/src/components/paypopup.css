@@ -1,0 +1,78 @@
+/* paypopup.css */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-container {
+  background: linear-gradient(
+    145deg,
+    #240048,
+    #392454
+  ); /* Theme colors from your homepage */
+  border-radius: 15px;
+  padding: 20px;
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Popup shadow */
+  position: relative;
+}
+
+.qr-section {
+  margin: 20px 0;
+}
+
+.qr-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.scan-text {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #ff4040; /* Light red on hover */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  .popup-container {
+    width: 95%;
+    max-width: 300px;
+  }
+
+  .qr-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .scan-text {
+    font-size: 16px;
+  }
+}

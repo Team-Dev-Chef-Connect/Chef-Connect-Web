@@ -1,0 +1,60 @@
+.contact-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #1a1a3d;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #232353;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.highlighted-card {
+  border: 2px solid #4f4fa1;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.book-now {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: #e67e22;
+}
+
+.view-more-container {
+  margin-top: 20px;
+}
+
+.view-more {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.view-more:hover {
+  background-color: #2980b9;
+}
